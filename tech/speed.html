@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Scott Joplin, piano rolls, speed of playing">
+<META NAME="keywords" CONTENT="piano, roll, midi, speed, tempo, bpm">
+<TITLE>At What Speed Should a Piano Roll be Played?</TITLE>
+<link rel="shortcut icon" href="../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<header>
+<h2>MIDIMUSIC.ORG.UK<span> Computer Processed Music</span></h2>
+</header>
+<nav>
+<ul>
+<li><a href="../index.html">Index</a></li>
+<li><a href="../joplin/index.html">Scott Joplin Music</a></li>
+<li><a href="../wurlitzer/index.html">Wurlitzer Music</a></li>
+<li><a href="../tech/index.html">Technical Articles</a></li>
+<li><a href="../literature/index.html">Literature</a></li>
+<li><a href="../browsertest/index.html">Browser Test</a></li>
+<li><a href="../about/index.html">About MidiMusic</a></li>
+</ul>
+</nav>
+<article>
+<ol class="crumb">
+<li><a href="../index.html">Index</a></li>
+<li><a href="index.html">Technical Articles</a></li>
+<li>Piano Roll Speed</li>		
+</ol>
+<H2>At What Speed Should a Piano Roll be Played?</H2>
+<h4>Author: David Back, May 2012.</h4>
+<H3>Playing Piano Rolls</H3>
+
+At what speed should a piano roll be played? The obvious answer is the
+"roll speed" which is often printed on the roll. This is generally somewhere
+between 50 and 120, the units are (feet per minute) X 10, i.e. between
+5 and 12 feet per minute.
+<P>
+This is all very well when the roll is being played in a pianola which
+could be calibrated by making markings on the roll
+a known distance apart say 10 feet and measuring the time the roll
+takes to move from one mark to the other. In this case if the roll speed
+is 100 then the playing speed should be adjusted so that it takes 1 minute
+to cover this distance.
+<H3>Piano Rolls as Midi Files</H3>
+When the roll has been scanned and is presented as a midi
+file the roll speed can be safely ignored as a measurement of speed
+because the roll is no longer available and feet per minute
+means nothing to a midi file whose speed is judged by musical tempo in
+beats per minute.
+<P>
+What you should look out for is the roll tempo which, if it has been correctly
+calculated and inserted in the midi file, is the playing tempo to which the midi file
+should be set.
+<P>
+If the midi file does not contain accurate textual roll tempo information or if
+the playing tempo has been left at the midi default of 120 beats per minute
+then you are on your own with regard to playing tempo. You can put up
+with it as it is or use vanBasco's Karaoke Player which can be speed adjusted to
+whatever you think is right while the music is playing.
+<P>
+However a better way would be to find the musical score and
+check what the composer said. This is likely to be something like
+Andante, Allegro or Tempo di Marcia; but what do these mean?
+<P>
+Fortunately musicians have over the centuries agreed on a scale of speeds
+for these terms as indicated in the table.
+<P>
+<table id="browser">
+<caption><B>Musical Speeds</B></caption>
+<thead><tr><th>Musical Term</th><th>Beats per Minute</th></tr></thead>
+<tbody>
+<TR><TD>Larghissimo</TD><TD> less than 20</TD></TR>
+<TR><TD>Grave</TD><TD> 20-40</TD></TR>
+<TR><TD>Lento or Largo</TD><TD> 40-60</TD></TR>
+<TR><TD>Larghetto</TD><TD> 60-66</TD></TR>
+<TR><TD>Adagio</TD><TD> 66-76</TD></TR>
+<TR><TD>Adagietto</TD><TD> 70-80</TD></TR>
+<TR><TD>Andante Moderato</TD><TD> A bit slower than Andante</TD></TR>
+<TR><TD>Andante (Walking Pace)</TD><TD> 76-108</TD></TR>
+<TR><TD>Moderato</TD><TD> 108-120</TD></TR>
+<TR><TD>Allegretto</TD><TD> Less than Allegro</TD></TR>
+<TR><TD>Allegro Moderato</TD><TD> 112-124</TD></TR>
+<TR><TD>Allegro</TD><TD> 120-168</TD></TR>
+<TR><TD>Vivace (Lively and Fast)</TD><TD> 140</TD></TR>
+<TR><TD>Presto (Very Fast)</TD><TD> 168-200</TD></TR>
+<TR><TD>Prestissimo</TD><TD> Greater than 200</TD></TR>
+</tbody>
+</table>
+<P>
+Unfortunately the publishers of Scott Joplin's music used these terms only rarely
+in their published music but there are some clues:<BR>
+Eugenia is annotated Slow March 72bpm<BR>
+Sugar Cane and Pineapple Rag are annotated Slow March 100bpm<BR>
+Bink's Waltz is annotated Andante 144bpm which you see from the table is a musical contradiction.<BR>
+<H3>What is a Beat?</H3>
+Musically a beat is the duration of a quarter note or a crotchet so beats
+per minute is equal to the number of crotchet notes per minute.
+<P>
+These beats may be typically made up from mixtures of crotchets,
+quavers (half as long as a crotchet) or semiquavers (quarter as long as a crotchet)
+or rests. For simplicity I have omitted notes of other durations.
+<P>
+Most piano rolls which have been converted to midi files use the midi default
+time signature of 4/4 which means four crotchets per bar, the midi default key of
+C which has no sharps or flats and often the midi default of 120 beats per minute.
+This nonconformity to normal musical practice does not affect the music when the file
+is played at the correct speed.
+<H3>Conclusion</H3>
+You will gather from the above information that the speed a midi file should
+be played (especially midified piano rolls) is not necessarily the speed which is
+encoded in the file but should be adjusted (You can use Cakewalk or any other midi
+editor) to the roll tempo if it is known or to be within the general ranges above
+according to the annotations in the printed music. This speed is not critical to the
+enjoyment of the music provided it is adjusted within reasonable limits.
+<P>
+Note 1. Do not edit the master roll files. Edit a copy and change the file name so
+it is obvious it is not a master roll file.
+<P>
+Note 2. Some piano rolls, in particular Maple Leaf Rag Uni-Record 202705 have been wrongly
+converted to midi. All the note durations are out by a factor of two. This means
+roll tempo and the bpm displayed by Cakewalk are also out by the same factor. This
+does not affect the music when the file is played at the right speed. Do not be
+fooled by this type of error.
+<P>
+Note 3. I have noted during this research that some of the midi files which I have computer
+processed for this web site could perhaps be slightly speed adjusted and then re-processed.
+I will be looking into this in due course but have already noticed that the music does
+not always sound "right" when played at the speed annotated by the publishers.
+<P></p>
+</article>
+<footer>
+<p>
+Webmaster: David Back<BR>
+<a href="../index.html">Index</a>&nbsp;&nbsp;
+<a href="../joplin/index.html">Joplin</a>&nbsp;&nbsp;
+<a href="../wurlitzer/index.html">Wurlitzer</a>&nbsp;&nbsp;
+<a href="../tech/index.html">Technical</a>&nbsp;&nbsp;
+<a href="../literature/index.html">Literature</a>&nbsp;&nbsp;
+<a href="../browsertest/index.html">Browser Test</a>&nbsp;&nbsp;
+<a href="../about/index.html">About MidiMusic.org.uk</a>
+</p>
+</footer>
+</BODY>
+</HTML>
+
+
+
+
+
