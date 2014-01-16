@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+<META charset="utf-8">
+<META NAME="description" CONTENT="HTML5 Audio and Video Browser Tests">
+<META NAME="keywords" CONTENT="HTML5, Audio, Video, Browser, Test">
+<TITLE>HTML5 Audio and Video Browser Tests</TITLE>
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<style> iframe#player {float:left; width:720px; height:405px; border:none; max-width:100%;}
+#col1 {width:48%; float:left;} #col2{margin-left:1%; width:48%; float:left;}</style>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+list0=new Array("entglad","Entry of the Gladiators","Julius Fucik","98","130");
+list1=new Array("../wurlitzer/caliola1/yalevarsity","Yale Varsity Two Step","James Johnston","107","130");
+list2=new Array("../wurlitzer/caliola2/dockstader","Dockstader Rag","Music Cover","97","130");
+list3=new Array("robinsreturn","The Robin's Return","Music Cover","98","130");
+
+list4=new Array("entglad","Entry of the Gladiators","Julius Fucik","98","130");
+
+
+mlist=new Array(list0,list1,list2,list3,list4);
+vlist = new Array( "http://www.youtube.com/embed/8Pu3XSCH2L8?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/vJx1jry3Ev8?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/3ojt7e88g2I?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/eyGlNL9T9Gg?enablejsapi=1&autoplay=1");
+var amk="amark", vmk="vmark";
+nullpage="../selectav.html";
+</script>
+<script src="../avplay.js"></script>
+</head>
+<body>
+<header>
+<h2>MIDIMUSIC.ORG.UK<span> Computer Processed Music</span></h2>
+</header>
+<nav>
+<ul>
+<li><a href="../index.html">Index</a></li>
+<li><a href="../joplin/index.html">Scott Joplin Music</a></li>
+<li><a href="../wurlitzer/index.html">Wurlitzer Music</a></li>
+<li><a href="../tech/index.html">Technical Articles</a></li>
+<li><a href="../literature/index.html">Literature</a></li>
+<li><a href="../browsertest/index.html">Browser Test</a></li>
+<li><a href="../about/index.html">About MidiMusic</a></li>
+</ul>
+</nav>
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li>Browser Test</li>		
+</ol>
+</article>
+<article>
+<h2>HTML5 Audio and Video Browser Tests</h2>
+<h4>Reorganised and updated: February/March 2013 and May 2013.</h4>
+<h2>Index</h2>
+<ul>
+<li>1. <a href="#1.">Test your Browser's Audio & Video Capability</a></li></li>
+<li>2. <a href="#2.">Audio Capabilities</a>
+<ul>
+<li>2.1 <a href="#2.1">Some Available Browsers</a></li>
+</ul>
+</ul>
+<ul>
+<li>3. <a href="#3.">Video Capabilities</a>
+<ul>
+<li>3.1 <a href="#3.1">Browser Support for Native HTML5 Video</a></li>
+<li>3.2 <a href="#3.2">Browser Support for Flash Video</a></li>
+</ul>
+<li><a href="#appendix">Appendix.</a> Video formats for HTML5</li>
+</ul>
+<aside>
+<H2>Your browser and Screen</H2>
+<p><script>
+document.write("<strong>Browser code name:</strong> "+ navigator.appCodeName + "<p>");
+document.write("<strong>Browser name:</strong> "+ navigator.appName + "<p>");
+document.write("<strong>Browser version:</strong> "+ navigator.appVersion + "<p>");
+document.write("<strong>Browser platform:</strong> "+ navigator.platform + "<p>");
+document.write("<strong>Browser details:</strong> "+ navigator.userAgent + "<p>");
+document.write("<strong>Screen Width X Height:</strong> " + screen.width + " X " + screen.height + " pixels<p>");
+</script></p>
+</aside>
+<H3><a name="1."/>1. Test your Browser</H3>
+<strong>ALL audio and video on this site currently uses iframe with selectable content.</strong>
+This should work with any HTML5 capable browser.
+<p>
+When selected the audio/video should automatically play, automatically playing each following audio/video in sequence
+to the end of the last tune when play should stop. A red marker indicates which audio/video is selected.
+<p>
+If you press the <strong>"shuffle"</strong> button the music should play as above but in a random order.
+<p>
+If you press the <strong>"loop"</strong> button the music should play as above but should not stop at the end of the last tune.<br>
+It should continue either in sequence or random order depending on whether the "shuffle" button is pressed.
+<p>
+Some (usually mobile phone or tablet) browsers do not support "autoplay". If your browser is one of these you can either
+start the player manually or change to a browser which does support autoplay.
+<p>
+See sections <a href="#2.">2. Audio Capabilities</a> and <a href="#3.">3. Video Capabilities</a> below for more information.
+<p>
+<iframe id="player" name="player" type="text/html" src="../selectav.html" scrolling="no"></iframe>
+<script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady()
+{player = new YT.Player('player', {events: {'onReady': onPlayerReady,'onStateChange': onPlayerStateChange}});}
+function onPlayerReady(event){event.target.playVideo();}
+function onPlayerStateChange(event){
+if(event.data==0){newVsrc();}//video finished
+}
+</script>
+<ul class="control">
+<li><button id="b1" type="BUTTON" value="Shuffle" onclick="doshuffle()">Shuffle</button></li>
+<li><button id="b2" type="BUTTON" value="Loop" onclick="doloop()">Loop</button></li>
+</ul>
+</article>
+<article>
+<section id="col1">
+<H3>Play Audio</H3>
+<h4>Supported HTML5 Audio. If any of these play then all the music on this site should play.</h4>
+<ol>
+<li><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(0)"> Entry of the Gladiators.</a> Music by Julius Fucik</li>
+<li><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(1)"> Yale Varsity Two Step.</a> Music by James Johnston</li>
+<li><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(2)"> Dockstader Rag.</a> Music by Leslie C. Copeland</li>
+<li><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(3)"> The Robin's Return.</a> Rythmodik Roll 9773. Music by Leander Fisher, Played by Felix Gerdts</li>
+
+
+<style> #test {text-decoration:underline;}</style>
+<li><span id="test" onClick="initaudio(4)"><img class="amark" SRC="../marker.gif"> Entry of the Gladiators (test)</span></li>
+
+
+</ol>
+<h4>Diagnostic Audio. This Audio will play only if your browser supports the indicated format.</h4>
+When selected the audio should automatically play and then stop when finished.  A red marker indicates the selected audio.
+<ol>
+<li><img class="damark" SRC="../marker.gif" ALT=""><a target="player" href="mp3audio.html"> mp3.</a></li>
+<li><img class="damark" SRC="../marker.gif" ALT=""><a target="player" href="oggaudio.html"> ogg.</a></li>
+</ol>
+The music files on this site are currently in mp3 and ogg format. <B>Thus
+if mp3 or ogg play in your browser the music files will play in HTML5.</B>
+</section>
+<section id="col2">
+<H3>Play Video</H3>
+<h4>Supported Video. If any of these videos play then all the music videos on this site should play.</h4>
+<ol>
+<li><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(0)">Band Organ</a></li>
+<li><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(1)">Black and White Rag</a> Piano</li>
+<li><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(2)">Swanee River Boogie Woogie</a> Piano</li>
+<li><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(3)">Ding Dong Medley</a> Piano</li>
+</ol>
+<h4>Diagnostic Videos. These videos will play only if your browser supports the indicated format.</h4>
+When selected the video should automatically play and then stop when finished.  A red marker indicates the selected video.
+<ol>
+<li><img class="dvmark" SRC="../marker.gif" ALT=""><a href="webmvideo.html" target="player">WebM</a></li>
+<li><img class="dvmark" SRC="../marker.gif" ALT=""><a href="oggvideo.html" target="player">ogg</a></li>
+<li><img class="dvmark" SRC="../marker.gif" ALT=""><a href="mp4video.html" target="player">mp4</a></li>
+<li><img class="dvmark" SRC="../marker.gif" ALT=""><a href="flashvideo.html" target="player">Flash</a></li>
+</ol>
+</section>
+<section>
+<article>
+<h3><a name="2."/>2. Audio Capabilities</h3>
+<h3><a name="2.1"/>2.1 Some Available Browsers</h3>
+<p>
+In order to play audio in HTML5 you must use a recent HTML5 compatible browser which supports mp3 or ogg.
+</p>
+<TABLE ID="browser">
+<CAPTION><B>HTML5 Web Browser's audio Capabilities</B></CAPTION>
+<THEAD><tr><th>Audio format name</th><th>MP3</th><th>OGG</th><th>autoplay</th><th>next<br>tune</th><th>red<br>marker</th><th>notes</th></tr></THEAD>
+<TBODY>
+<tr><td>Windows Chrome</td><td>YES</td><td>YES</td><td>YES</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Windows Firefox</td><td>NO</td><td>YES</td><td>YES</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Windows Internet Explorer</td><td>YES</td><td>NO</td><td>YES</td><td>YES</td><td>YES</td><td>you must allow scripts</td></tr>
+<tr><td>Windows Safari</td><td>YES</td><td>NO</td><td>YES</td><td>YES</td><td>YES</td><td>quicktime essential</td></tr>
+<tr><td>Windows Opera</td><td>NO</td><td>YES</td><td>YES</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Linux Epiphany</td><td>YES</td><td>YES</td><td>YES</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Linux Ice Weasel</td><td>NO</td><td>TRIES</td><td>YES</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Android Samsung</td><td>YES</td><td>NO</td><td>YES</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Android Chrome</td><td>YES</td><td>YES</td><td>NO</td><td>NO</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Android Firefox</td><td>NO</td><td>YES</td><td>YES</td><td>NO</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Android Opera</td><td>YES</td><td>YES</td><td>YES</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Android Dolphin</td><td>YES</td><td>YES</td><td>NO</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>iOS Safari</td><td>YES</td><td>NO</td><td>NO</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+</TBODY>
+</TABLE>
+<P>
+<ol>
+<li>The latest version is assumed in the table. They are all free, if your's does not work try another.</li>
+<li>Always download and try the latest version before drawing conclusions.</li>
+<li>This is not a definitive list, your experience may differ.</li>
+<li>There is no audio format which will play in all browsers.</li>
+<li>Operation of 'autoplay', 'next tune' and 'red marker' are preferred but not essential for the audio player above.</li>
+</ol>
+<h3><a name="3."/>3. Video Capabilities</h3>
+<strong>ALL video on this site currently uses iframe with selectable video content.</strong>
+<p>
+<ul>
+<li>In this method the server tries to provide a video format the browser can play.</li>
+<li>This should work with any HTML5 capable browser if the server can provide an appropriate video format.</li>
+<li>The formats available are at the discretion of the service provider and are not predictable.</li>
+<li>If the browser cannot play any of the available formats there may be an error message or just a blank screen.</li>
+</ul>
+<h3><a name="3.1"/>3.1 Browser Support for Native HTML5 Video</h3>
+Any of these Native HTML5 formats may be used to display content in the iframe of above. The table indicates which formats may be available in the browsers shown.
+<p>
+<TABLE ID="browser">
+<CAPTION><B>HTML5 Web Browser's video Capabilities</B></CAPTION>
+<THEAD><tr><th>Video format name</th><th>WebM</th><th>ogg</th><th>mp4</th><th>notes</th></tr></THEAD>
+<TBODY>
+<tr><td>Windows Chrome</td><td>YES</td><td>YES</td><td>NO</td><td>&nbsp;</td></tr>
+<tr><td>Windows Firefox</td><td>YES</td><td>YES</td><td>NO</td><td>&nbsp;</td></tr>
+<tr><td>Windows Internet Explorer</td><td>NO</td><td>NO</td><td>YES</td><td>you must allow scripts</td></tr>
+<tr><td>Windows Safari</td><td>NO</td><td>NO</td><td>YES</td><td>quicktime essential</td></tr>
+<tr><td>Windows Opera</td><td>YES</td><td>YES</td><td>NO</td><td>&nbsp;</td></tr>
+<tr><td>Linux Epiphany</td><td>YES</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Linux Ice Weasel</td><td>NO</td><td>YES</td><td>NO</td><td>&nbsp;</td></tr>
+<tr><td>Android Samsung</td><td>YES</td><td>NO</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Android Chrome</td><td>YES</td><td>NO</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Android Firefox</td><td>NO</td><td>YES</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Android Opera</td><td>NO</td><td>NO</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>Android Dolphin</td><td>YES</td><td>NO</td><td>YES</td><td>&nbsp;</td></tr>
+<tr><td>iOS Safari</td><td>NO</td><td>NO</td><td>YES</td><td>&nbsp;</td></tr>
+</TBODY>
+</TABLE>
+<ol>
+<li>The latest version is assumed in the table. They are all free, if your's does not work try another.</li>
+<li>Always download and try the latest version before drawing conclusions.</li>
+<li>This is not a definitive list, your experience may differ.</li>
+<li>There is no native HTML5 video format which will play in all browsers.</li>
+</ol>
+<h3><a name="3.2"/>3.2 Browser Support for Flash video</h3>
+Flash video has been superceded by Native HTML5 Video but it is still in common use and may be used
+to display content in the iframe of above.
+<h2><a name="appendix"/>Appendix. Video formats for HTML5</h2>
+Digital Video comprises three components each of which has its own separately defined format.
+<ol>
+<li>A container format which holds the video and audio.</li>
+<li>The video format.</li>
+<li>The audio format.</li>
+</ol>
+For HTML5 there are three commonly used container formats, the names of which are used to name the formats.
+<p>
+<table id="browser">
+<caption><b>HTML5 Video Formats</b></caption>
+<thead><tr><th>format name</th><th>WebM</th><th>ogg</th><th>mp4</th></thead>
+<tbody>
+<tr><td>container format</td><td>webm</td><td>ogg</td><td>mp4</td></tr>
+<tr><td>video format</td><td>VP8</td><td>Theora</td><td>H264/AVC baseline</td></tr>
+<tr><td>audio format</td><td>Vorbis</td><td>Vorbis</td><td>AAC low complexity</td></tr>
+<tr><td>mime type</td><td>video/webm</td><td>video/ogg</td><td>video/mp4</td></tr>
+<tr><td>file extension</td><td>.webm</td><td>.ogg or .ogv</td><td>.mp4 or .m4v</td></tr>
+</tbody>
+</table>
+<p>
+The <strong>mime type</strong> tells the browser what format to expect so it can check whether it is playable.
+<p>
+<p>
+<!-- counter -->
+<script src="http://www.midimusic.org.uk/count/counter.php?page=browser"></script>
+</p>
+</article>
+<footer>
+<p>
+Webmaster: David Back<BR>
+<a href="../index.html">Index</a>&nbsp;&nbsp;
+<a href="../joplin/index.html">Joplin</a>&nbsp;&nbsp;
+<a href="../wurlitzer/index.html">Wurlitzer</a>&nbsp;&nbsp;
+<a href="../tech/index.html">Technical</a>&nbsp;&nbsp;
+<a href="../literature/index.html">Literature</a>&nbsp;&nbsp;
+<a href="../browsertest/index.html">Browser Test</a>&nbsp;&nbsp;
+<a href="../about/index.html">About MidiMusic.org.uk</a>
+</p>
+</footer>
+</BODY>
+</HTML>

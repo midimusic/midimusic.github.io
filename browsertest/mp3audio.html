@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<link rel="stylesheet" type="text/css" href="audiostyle.css">
+<style> #tleft img {width:105px; height:130px;} </style>
+<script>
+var n=parent.document.getElementsByClassName('damark').length;
+var i;
+for(i=0;i<n;i++){
+parent.document.getElementsByClassName('damark')[i].style.visibility='hidden';
+}
+parent.document.getElementsByClassName('damark')[0].style.visibility='visible';
+</script>
+</HEAD>
+<BODY>
+<article>
+<AUDIO controls autoplay>
+<source src="entglad.mp3" type="audio/mpeg"/>
+Your browser does not support this audio.
+</AUDIO>
+&nbsp;Playing: Entry of the Gladiators.
+</article>
+<figure id="tleft">
+<img src="mp3.jpg" ALT="mp3"><br>
+<figcaption><b>mp3</b></figcaption>
+</figure>
+</BODY>
+</HTML>

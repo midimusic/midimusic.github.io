@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+</HEAD>
+<BODY>
+<script>
+var n=parent.document.getElementsByClassName('dvmark').length;
+var i;
+for(i=0;i<n;i++){
+parent.document.getElementsByClassName('dvmark')[i].style.visibility='hidden';
+}
+parent.document.getElementsByClassName('dvmark')[0].style.visibility='visible';
+</script>
+<video width="384" height="288" controls autoplay>
+<source src="testvideo.webm" type="video/webm">
+</video> Plays WebM.
+</BODY>
+</HTML>

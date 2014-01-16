@@ -1,0 +1,7 @@
+body {color:black; background:moccasin; font-family:Verdana, Arial, sans-serif; max-width:960px;}
+article {float:left; width:60%;  font-weight:bold;}
+aside {float:left; width:20%;}
+figure {margin:0; padding:0;}
+audio {display:block;}
+#tleft,  #tmiddle {float:left;}
+#tmiddle {padding-left:5px;}

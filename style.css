@@ -1,0 +1,99 @@
+header, nav, footer, article, section, aside {display:block;}
+body {color:black; background:moccasin; font-family:Verdana, Arial, sans-serif; max-width:960px;}
+h1, h2 {text-align:center; color:mediumblue; text-shadow:2px 2px 2px white;}
+h3, h4 {color:mediumblue;}
+blockquote {text-align:center;}
+p.reditalic {color:red; font-weight:bold; font-style:italic;}
+p.largerblue {color:blue; font-size:1.2em;}
+p.small {font-size:.7em;}
+pre {overflow:hidden;}
+figure {margin:10px; padding:0;}
+
+/* HEADER */
+header {width:100%; height:60px; overflow:hidden; border-radius:30px; background:silver;}
+header span {display:inline; font-size:.7em;}
+
+header {background: -o-linear-gradient(90deg,#90ee90,#87ceeb);/* for opera */}
+header {background: -webkit-gradient(linear, left top, left bottom, from(#87ceeb), to(#90ee90));/* for webkit browsers */}
+header {background: -moz-linear-gradient(top,  #87ceeb,  #90ee90);/* for firefox 3.6+ */}
+header {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87ceeb', endColorstr='#90ee90');/* for IE */}
+header {background: linear-gradient( #87ceeb,  #90ee90); /*the standard*/}
+
+/*NAV*/
+nav {padding-top:4px; padding-left:50px;}
+nav ul {list-style:none; margin:0; padding:0;}
+nav ul li {font-size:.7em; font-weight:bold; background-color:white; margin:0; width:80px; height:30px; text-align:center; border:medium solid silver; float:left;}
+
+nav ul li > a {display:block; text-decoration:none; padding-top:3px; height:30px;}
+nav ul li:hover a {color:black;}
+nav ul li:hover {background-color:lightblue;}
+
+/*CRUMB NAV*/
+.crumb {margin:0 0 0 50px; padding:0; list-style:none;}
+.crumb li {display:inline; font-size:.75em; font-weight:bold; padding:5px 5px 0 0;}
+.crumb li a {color:cornflowerblue; padding-right:3px;}
+.crumb li:after {content:" > ";}
+.crumb li:last-child:after {content:"";}
+
+/* ARTICLE */
+article {float:left; width:100%;/** max-width:960px; **/}
+ol.links {list-style-image:url('redarrow.gif');}
+ol.comments {list-style:upper-roman;}
+
+/*ASIDE*/
+aside {float:right; width:40%; background-color:silver; padding-right:1em; padding-left:1em; margin-left:1em; border-radius:30px;}
+aside div {text-align:center;}
+
+table#browser {border-collapse:collapse; background-color:peachpuff;}
+table#browser th,td {border:thin solid; padding:4px;}
+
+table.joplin {border-collapse:collapse; background-color:peachpuff;}
+table.joplin th,td {border:thin solid; padding:4px;}
+table.joplin tr {vertical-align:top;}
+
+/*  #yvid {width:720px; height:405px; border:none; max-width:100%;} */
+/* iframe#yaud {float:left; width:720px; height:200px; border:none; max-width:100%; overflow:hidden;} */
+
+body.svideo {background:peachpuff;}
+h2.svideo {padding-top:90px; padding-left:100px; padding-right:100px;}
+h2.saudio {padding-top:30px; padding-left:100px; padding-right:100px;}
+img.amark, img.damark, img.vmark, img.dvmark {visibility:hidden; width:13px; height:11px}
+ul.control {list-style:none; float:left;}
+button {font-weight:bold; width:90px; background:white; border:medium solid mediumblue; margin:5px;}
+
+img#david {float:left; margin:5px; width:237px; height:193px;}
+img#vcss {width:88px; height:31px;}
+img#contact {width:199px; height:15px;}
+
+#w125 {float:left; margin:5px;}
+#rolls {text-align:center; margin:10px;}
+#container {float:left; width:100%;/** max-width:960px; **/}
+
+img#jpic {float:left; margin:5px; width:155px; height:201px;}
+#cleft, #cmiddle, #cright {float:left; width:25%; padding-left:8%; height:150px;}
+img#marshall {width:75px; height:89px;}
+img#hayden {width:75px; height:88px;}
+img#chauvin {width:75px; height:91px;}
+
+img#rollpic {float:left; margin:5px; width:150px; height:150px;}
+
+img#cmaple {width:145px; height:142px;}
+img#umaple {width:167px; height:145px;}
+img#mrswan {width:167px; height:145px;}
+
+#idx {float:left; width:40%;}
+#midx {width:100%; height:500px;}
+#book {float:left; width:60%;}
+#mbook {width:100%; height:500px;}
+#aesm {color:red;}
+
+img.organ {display:block; margin-left:auto; margin-right:auto;}
+img.rollscan {display:block; width:350px; height:268px;}
+
+video {border:1px solid black;} /**HTML5 video**/
+
+/* FOOTER */
+footer {clear: both; background-color:moccasin; border-top:1px solid black; border-bottom:1px solid black;}
+footer p {text-align:center; font-weight:bold; color:black; font-size:.7em;}
+
+/*end*/
