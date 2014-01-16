@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Emergencies: 4.2 Viruses</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Viruses</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Emergencies</H2>
+<H3>4.2 Viruses</H3>
+<blockquote><h4>
+If computers alone don't throw the average user into fits
+of paranoia, computer viruses will.  But as with other
+aspects of computing, this deep concern fails to prompt any
+attempt on the user's part to learn the facts.
+</h4></blockquote>
+<p><hr><p>
+About two years ago, I was asked to run a virus scan on one company's
+network of computers. I did and I found a simple harmless virus on each
+computer in the network. After I reported that to the company's officials,
+they gasped (literally), then thanked me, then asked me to leave despite
+my offers to remove the virus with the anti-virus program. The next day, I
+found out that they formatted every single hard drive of every computer,
+backing up only the most important data.
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "My hard disk has a virus!"
+<li><b>Tech Support:</b>  "How can you tell?"
+<li><b>Customer:</b>  "When I type 'DIR', it says 'VIRUS &lt;DIR&gt;' and
+ some date stuff."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Excuse me, there is an empty-folder virus on my disk."
+</ul>
+<p><hr><p>
+A user called to inform us that his laptop had a virus. When we asked
+why he though he had a virus, he promptly explained that he must have a
+virus as his system would no longer fit in the docking station. It was
+later determined that it had a faulty port on the back of the system.
+<p><hr><p>
+One day at school, I was lending a friend a couple of my CD games.  Then
+a girl came up and said, "I wouldn't do that if I were you.  You might
+get it back with a virus on it."
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "YOU GAVE ME A VIRUS!"
+<li><b>Tech Support</b>:  "I don't think I've got a virus."
+<li><b>Customer</b>:  "Go download <em>[a brand of virus checker]</em>, and you'll see."
+</ul><p>
+Sometime later I dutifully ran the checker.<p>
+<ul>
+<li><b>Tech Support</b>:  "Ok, I ran it.  No virus."
+<li><b>Customer</b>:  "You MUST have a virus.  You gave it to me.  It
+ was all over my system.  You must not have run the checker properly."
+ <em>(yell, rant, rave, repeat checks, etc)</em>
+<li><b>Tech Support</b>:  "How did I give it to you?"
+<li><b>Customer</b>:  "On those floppies with the latest revision of the
+ software you wrote."
+<li><b>Tech Support</b>:  "The ones you just returned?"
+<li><b>Customer</b>:  "Yeah."
+<li><b>Tech Support</b>:  "Just a sec...let me check those."  <em>(pause)</em>
+ "Well, I found a virus on the disks.  Ahem...seems you were about to
+ pass a virus on to ME."
+<li><b>Customer</b>:  "Ah...lemme get back to you."  <em>(click)</em>
+</ul>
+<p><hr><p>
+A mailing list that dispenses computer-related tips and tricks each day
+once sent out the following dubious virus prevention tip:<p>
+<blockquote>
+Virus Information of the Day: Lock your floppies
+<p>
+If you're using a diskette only to read information, why not lock it
+first? Just flip the "switch" up on the top-left corner on the back of
+the diskette. That way, you can prevent diskette-transferred viruses
+from being loaded onto your PC. If you need to access a diskette that
+you'll need to write to, scan it with your antivirus software.
+</blockquote>
+<p><hr><p>
+A friend of mine came around in a bit of a panic, saying
+that his dad's machine looked like it had a virus.  He asked if I had any
+anti-virus software I could lend him.  I gave him a self-extracting
+archive of a virus detection program on a floppy disk.  Foolishly, this
+archive was named <em>antvirus.exe</em>. A week later he came back,
+saying that his dad had looked at the disk and assumed that this
+was a virus, so he'd formatted the disk.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I need you to tell me what browser I am using. Is it
+ Netscape 2.0? The reason I need to know is that I have read that
+ Netscape 2.0 distributes a virus called Java."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "Yes, this is the land [sic] administrator for floor 27.
+ Can you tell me if we'll be getting the Michaelangelo virus here at the bank?"
+</ul>
+<p><hr><p>
+Back in the early 90s the programming staff in our office were still
+using dumb terminals to do mainframe programming. The department
+installed a dedicated PC to share files over a modem with other
+departments off site. People in the office began to use the machine for
+'unofficial' purposes such as playing games after hours. Management saw
+this and, afraid of someone introducing a virus, installed password
+protection software on the machine (which also prevented the machine
+from being booted from a floppy disk to bypass the security). 
+Shortly afterwards the machine began performing erratically and
+occasionally lost files. Our technical support group examined the
+machine and found a virus. Puzzled as to how a virus could have been
+introduced into a protected machine, they examined the various pieces of
+software in the office. It was found that the virus had come from the
+disk that had been used to install the password protection software onto
+the machine (in an attempt to protect the machine from viruses). 
+Unfortunately, the anti-virus software they had on hand needed to be
+loaded from a bootable floppy disk to prevent infection of the diskette.
+However, as previously mentioned, the security software had disabled the
+boot function of the floppy disk drive. They finally ended up
+reformatting the entire drive to get rid of the virus.
+<p><hr><p>
+While working on the helpdesk of a local community college, I came
+across a message on one of our tech support forums.  The author of this
+message was convinced that there was a virus in his BIOS, and he later
+started accusing us of sending him it.  He was convinced that our
+computers were sending the virus straight to his hard drive through the "modem
+subcarrier" (his words) between keystrokes while he was dialed in
+to his shell account.
+<p><hr><p>
+The computer security people at one large organization warned everyone of
+the dreaded "RedTeam" email virus, including a printout of the dire warning
+they had been sent concerning it.  All attempts to let them know that
+(1) viruses can't be sent by email (outside of an attachment, anyway), and
+(2) the innoculation software provided for it is allegedly a very real virus,
+were merrily ignored. (The BubbleBoy virus <b>can</b> be sent by email. It is a Visual
+Basic script which runs when an infected email is opened and replicates
+by sending itself to everyone in your Outlook Express Address Book).
+<p><hr><p>
+I checked my email one morning when getting into work and
+read a message from our Human Resources department warning
+us about the latest dreaded email virus.  After laughing
+myself silly, I decided to reply, just to have some fun with them.  I
+asked them for more information on the "virus" so I could protect my system.
+<p>
+They told me what to look for by forwarding me a copy
+of the email message that was supposedly a virus.
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Sorry to bother you again, but I think my son threw a
+ stone in my PC.  It tells me, 'Your PC is Stoned!'"
+</ul>
+(The common "stoned" virus displays this message on infected computers.)
+<p><hr><p>
+Once, in the computer cluster, a student asked me to move my disks because
+they were close to her own, and she didn't want them to catch a virus.
+<p><hr><p>
+I received a call from the PA to the Finance Director, (the owner of 28% of our
+tech support calls for that year). She reported that one of her floppy disks
+had caused our virus checker to flash a very alarming message.  I asked her
+to put the disk to one side until I arrived.  When I made it to her office,
+I was directed to a corner desk where a disk box had been set up with a yellow
+post-it note reading "Quarantine."  She explained she had put the disk in this
+separate disk box so it wouldn't infect the other floppies.
+<p><hr><p>
+A customer came in to the store one day with a Macintosh.  I had
+just replaced a bad drive in the thing a few days previously.  She
+complained that it wasn't working again, implying that I didn't fix
+it right the first time.  So, I get out the diagnotic tools, but can't
+find a thing wrong with it.  I then checked some of the diskettes she
+brought in with it and find that they are loaded with viruses.  After
+cleaning up the diskettes, I explained to her that her computer
+probably got the virus by trading diskettes with someone whose computer
+was also infected.  She then got a very sullen expression on her face
+and asked me, "Can a person catch this virus from their computer?"
+<p><hr><p>
+The computer service tech where I work told me he got a call from
+a secretary complaining that the floppy drive in her computer
+wouldn't work.  He went down to check it out and found that she was
+putting the discs in <em>with</em> the plastic dust sleeves still on them.
+He asked her why on earth she was doing that and she said, "Well,
+I didn't want my computer to get a virus."
+<p><hr><p>
+I work for the internal tech support of a company.  One day I received an
+amusing call.<p>
+<ul>
+<li><b>Customer</b>:  "I found a bug in my computer."
+<li><b>Tech Support</b>:  "How do you know it's really a bug?"
+<li><b>Customer</b>:  "I can see it."
+<li><b>Tech Support</b>:  "You can physically see a bug in your computer?"
+<li><b>Customer</b>:  "Yes."
+</ul><p>
+This was definitely worth a trip to his office.  When I got there, I saw an
+anti-virus warning, which included a graphic of a hand holding a bug.  I
+explained that the anti-virus software had discovered a virus on his system.<p>
+<ul>
+<li><b>Customer</b>:  "Well, can you give me another computer so I can let
+ this one rest and recover for a couple of days?"
+</ul><p>
+I cleaned the virus off his system and told him his computer was feeling
+better now.
+<p><hr><p>
+I received a call from a woman. She had been
+told in a previous call that her computer was infected by a trojan virus
+and wanted to know where to begin disinfecting the computer.   I asked her
+what software she was using, but she sounded a little confused.
+After a few minutes, I learned that she had dismantled her computer and was
+preparing to wipe everything down with Lysol, a disinfecting cleaner.
+<p>
+It took me another minute to compose myself and try to tell her to stop
+before she ruined her computer.  I don't know if she did, as I never heard
+from her again -- and it took me ten minutes to stop laughing.
+<p><hr><p>
+I walked into the English department's computer lab one day and saw
+two English teachers staring blankly at a computer screen that
+contained the message, "Non-system disk error; Remove and press any key."
+One of them confidently said, "It's got to be a virus -- those damn kids
+are always putting those things on our network."
+<p><hr><p>
+A friend of mine once found a boot sector virus in one of his computers
+and had tried to repair it by changing the motherboard.  He was getting
+frustrated because the virus kept reappearing.
+<p><hr><p>
+Several years ago my job at the time was to support testing of a group
+of custom microelectronics products.  This involved working with several
+of the customer's programmers, one of whom obviously knew everything
+(just ask him) and was a gift to the programming world (ask him again).
+Naturally, he wasn't very popular.
+<p>
+One day while this fellow was at lunch another programmer modified the
+prompt command in his AUTOEXEC.BAT file.  (This was during the DOS days.)
+The modification changed the default setting to one that showed a
+Bart Simpson face, complete with flashing eyes.
+<p>
+The "gift to programming" returned from lunch. After a few minutes of
+quiet mutterings, he jumped up and ran around warning everyone at the
+top of his lungs that there was a virus in the system.
+<p><hr><p>
+I worked for a health insurer that was making the big move
+from PCs to networked PCs. They hired a network administrator whose mindset
+was security above all -- he was somewhere far to the right of General
+Patton. One facet of the conversion was the changeover from Okidata
+dot matrix printers to HP Laserjets. We were using DisplayWrite, which
+stores the printer information with the document file.
+<p>
+Inevitably, a nurse tried to print an Okidata-formatted document on a
+Laserjet, producing pages of gibberish. Panicking, she called the network
+administrator.
+<p>
+He took one look at what was printing, bellowed "We've got a virus!" and,
+before anyone could figure out what was happening, had reformatted her
+hard drive.
+<p><hr><p>
+I was in the local Circuit City store, when I saw a demo Sony
+Playstation game unit, and I went over to try it out. The controller
+would not work -- it had apparently been disconnected from the game unit.
+I told this to a passing salesman, and he said, "Oh no sir, it doesn't
+work because the controller has a virus."
+<p>
+I asked him how he thought the controller contracted the virus. He
+said it was because the display used to be near the computer section of
+the store, and they had moved it away from the computers "to see if it
+would get better."
+</p>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Viruses</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>

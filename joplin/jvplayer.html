@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Scott Joplin Video Player">
+<META NAME="keywords" CONTENT="Scott, Joplin, video, player">
+<TITLE>Scott Joplin Video Player</TITLE>
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<style>article { font-size:.8em;} #col1, #col2 {width:48%; float:left;} #note {width:96%; float:left;}
+iframe#player {float:left; width:720px; height:405px; border:none; max-width:100%;}</style>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+mlist=new Array();
+vlist = new Array(
+"http://www.youtube.com/embed/d72mZVxdylA?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/fagH03fxY7c?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/Z8c8eFXNolg?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/gTRUSmCtpD0?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/nXe43xnOEf4?enablejsapi=1&autoplay=1",
+
+"http://www.youtube.com/embed/l_dZWHm7I78?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/wHqK9YIHEe8?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/t9gzZJ344Co?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/4Kh7wh5ranI?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/-Njdu1CBXOA?enablejsapi=1&autoplay=1",
+
+"http://www.youtube.com/embed/IGgbHT72In0?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/_7lEPOknjYg?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/RHdiuPxH91c?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/TZVoFl_fD2k?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/xTXfIUrgrZ4?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/bWzKbd429tM?enablejsapi=1&autoplay=1",
+
+"http://www.youtube.com/embed/2szcDyn5g78?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/LHbRjjoRH9Q?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/mrLFPYENwOQ?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/StCD4juj4hU?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/aKarM4nPY-4?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/5w8ZAyGO-VQ?enablejsapi=1&autoplay=1",
+
+"http://www.youtube.com/embed/zbS54VsFCDc?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/_YjCOfdi7m0?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/YjaCLooKazQ?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/Zym1iQDvUAU?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/dKc1pxRicvg?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/hzRWvPMzyCU?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/WmS9Vg87aVk?enablejsapi=1&autoplay=1",
+
+"http://www.youtube.com/embed/kLzLQJUa5-o?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/NBaF5vQc44Q?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/BweSQtoc8D0?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/ViEScy4phN4?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/mvAT7sIFjh0?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/HKYVhw3EAog?enablejsapi=1&autoplay=1",
+
+"http://www.youtube.com/embed/eObraZaIBVk?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/YpZXhVcOiPA?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/fjoUqVgs0RA?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/6usxn1x0hH8?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/Z3kZ-jld670?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/0K28yCQWn5w?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/J_p7viC3pTI?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/ozFKzltL-_w?enablejsapi=1&autoplay=1",
+
+"http://www.youtube.com/embed/7YRnrZiAlgE?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/W2jS5Kmc4lw?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/cNURtCRhY1c?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/ICx-j1MK9KQ?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/mKpzQSDvshs?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/ATKwTONjgUs?enablejsapi=1&autoplay=1",
+
+"http://www.youtube.com/embed/vpRJvfWNkPE?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/zeAUjf39BXA?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/BP69-iS4GzU?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/kLh_lfM6rLc?enablejsapi=1&autoplay=1",
+"http://www.youtube.com/embed/WMogQWmeL4A?enablejsapi=1&autoplay=1");
+nullpage="../selectav.html";
+var amk="amark", vmk="vmark";
+</script>
+<script src="../avplay.js"></script>
+</HEAD>
+<BODY>
+<header>
+<h2>MIDIMUSIC.ORG.UK<span> Computer Processed Music</span></h2>
+</header>
+<nav>
+<ul>
+<li><a href="../index.html">Index</a></li>
+<li><a href="../joplin/index.html">Scott Joplin Music</a></li>
+<li><a href="../wurlitzer/index.html">Wurlitzer Music</a></li>
+<li><a href="../tech/index.html">Technical Articles</a></li>
+<li><a href="../literature/index.html">Literature</a></li>
+<li><a href="../browsertest/index.html">Browser Test</a></li>
+<li><a href="../about/index.html">About MidiMusic</a></li>
+</ul>
+</nav>
+<article>
+<ol class="crumb">
+<li><a href="../index.html">Index</a></li>
+<li><a href="index.html">Joplin Music</a></li>
+<li>Scott Joplin Video Player</li>		
+</ol>
+</article>
+<iframe id="player" type="text/html" src="../selectav.html" scrolling="no"></iframe>
+<script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady()
+{player = new YT.Player('player', {events: {'onReady': onPlayerReady,'onStateChange': onPlayerStateChange}});}
+function onPlayerReady(event){event.target.playVideo();}
+function onPlayerStateChange(event){
+if(event.data==0){newVsrc();}//video finished
+}
+</script>
+<ul class="control">
+<li><button id="b1" type="BUTTON" value="Shuffle" onclick="doshuffle()">Shuffle</button></li>
+<li><button id="b2" type="BUTTON" value="Loop" onclick="doloop()">Loop</button></li>
+</ul>
+<article>
+<h3>Scott Joplin Video Player</h3>
+<section id="col1">
+<h4>1. Joplin Rags 1899-1901</h4>
+<ol>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(0)"> Original Rags 1899.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(1)"> Maple Leaf Rag 1899.</a> To the Maple Leaf Club.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(2)"> Peacherine Rag 1901.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(3)"> The Easy Winners 1901.</a> A Ragtime Two-Step.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(4)"> A Breeze From Alabama 1901.</a> March and Two-Step.</LI>
+</ol>
+<h4>2. Joplin Rags 1902-1903</h4>
+<ol>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(5)"> Elite Syncopations 1902.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(6)"> The Strenuous Life 1902.</a> A Ragtime Two-Step.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(7)"> The Entertainer 1902.</a> A Ragtime Two-Step.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(8)"> Weeping Willow 1903.</a> A Ragtime Two-Step.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(9)"> Palm Leaf Rag 1903.</a>. A Slow Drag.</LI>
+</ol>
+<h4>3. Joplin Rags 1904-1905</h4>
+<ol>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(10)"> The Favorite 1904.</a> A Ragtime Two-Step.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(11)"> The Chrysanthemum 1904.</a> An Afro-American Intermezzo.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(12)"> The Sycamore 1904.</a> A Concert Rag.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(13)"> The Cascades 1904.</a> A Rag.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(14)"> Eugenia 1905.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(15)"> Leola 1905.</a> Two-Step.</LI>
+</ol>
+<h4>4. Joplin Rags 1906-1907</h4>
+<ol>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(16)"> The Ragtime Dance 1906.</a> A Stop-Time Two-Step.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(17)"> The Nonpareil 1907.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(18)"> Gladiolus Rag 1907.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(19)"> Searchlight Rag 1907.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(20)"> Rose Leaf Rag 1907.</a> A Ragtime Two-Step.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(21)"> Fig Leaf Rag 1907.</a></li>
+</ol>
+<h4>5. Joplin Rags 1908-1909</h4>
+<ol>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(22)"> Pineapple Rag 1908.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(23)"> Sugar Cane 1908.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(24)"> Paragon Rag 1909.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(25)"> Wall Street Rag 1909.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(26)"> Country Club 1909.</a> A Rag Time Two-Step.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(27)"> Solace 1909.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(28)"> Euphonic Sounds 1909.</a> A Syncopated Two Step.</LI>
+</ol>
+</section>
+<section id="col2">
+<h4>6. Joplin Rags 1910-1917</h4>
+<ol>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(29)"> Stoptime Rag 1910.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(30)"> Scott Joplin's New Rag 1912.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(31)"> Magnetic Rag 1914.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(32)"> Silver Swan Rag.</a> Piano roll, issued 1914 as QRS 31533.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(33)"> Reflection Rag 1917.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(34)"> School of Ragtime 1917.</a></LI>
+
+</ol>
+<h4>7. Joplin Rags Collaborative</h4>
+<ol>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(35)"> Swipesy Cake Walk 1900.</a> With Arthur Marshall.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(36)"> Sunflower Slow Drag 1901.</a> With Scott Hayden.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(37)"> Something Doing 1903.</a> With Scott Hayden.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(38)"> Lily Queen 1907.</a> With Arthur Marshall.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(39)"> Heliotrope Bouquet 1907.</a> With Louis Chauvin.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(40)"> Felicity Rag 1911.</a> With Scott Hayden.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(41)"> Kismet Rag 1913.</a> With Scott Hayden.</LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(42)"> Sensation Rag 1908.</a> Joseph F. Lamb arr. Scott Joplin.</li>
+</ol>
+<h4>8. Joplin Marches</h4>
+<ol>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(43)"> Great Crush Collision 1896.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(44)"> Combination March 1896.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(45)"> Cleopha March and Two-Step 1902.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(46)"> March Majestic 1902.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(47)"> Rosebud, Two Step 1905.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(48)"> Antoinette March and Two-Step 1906.</a></LI>
+</ol>
+<h4>9. Joplin Waltzes</h4>
+<ol>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(49)"> Harmony Club Waltz 1896.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(50)"> Augustan Club Waltz 1901.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(51)"> Bethena, a Concert Waltz 1905.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(52)"> Bink's Waltz 1905.</a></LI>
+<LI><img class="vmark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initvideo(53)"> Pleasant Moments 1909.</a></LI>
+</ol>
+</section>
+<section id="note">
+Note: Information abbreviated, for more information see the appropriate Joplin full page.
+</section>
+</article>
+<footer>
+<p>
+Webmaster: David Back<BR>
+<a href="../index.html">Index</a>&nbsp;&nbsp;
+<a href="../joplin/index.html">Joplin</a>&nbsp;&nbsp;
+<a href="../wurlitzer/index.html">Wurlitzer</a>&nbsp;&nbsp;
+<a href="../tech/index.html">Technical</a>&nbsp;&nbsp;
+<a href="../literature/index.html">Literature</a>&nbsp;&nbsp;
+<a href="../browsertest/index.html">Browser Test</a>&nbsp;&nbsp;
+<a href="../about/index.html">About MidiMusic.org.uk</a>
+</p>
+</footer>
+</BODY>
+</HTML>

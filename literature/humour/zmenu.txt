@@ -1,0 +1,13 @@
+<footer>
+<p>
+Webmaster: David Back<BR>
+<a href="../../index.html">Index</a>&nbsp;&nbsp;
+<a href="../../joplin/index.html">Joplin</a>&nbsp;&nbsp;
+<a href="../../wurlitzer/index.html">Wurlitzer</a>&nbsp;&nbsp;
+<a href="../../tech/index.html">Technical</a>&nbsp;&nbsp;
+<a href="../../literature/index.html">Literature</a>&nbsp;&nbsp;
+<a href="../../browsertest/index.html">Browser Test</a>&nbsp;&nbsp;
+<a href="../../about/index.html">About MidiMusic.org.uk</a>
+</p>
+</footer>
+

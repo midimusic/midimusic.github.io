@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Networks: 3.5 The World Wide Web</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>World Wide Web</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Networks</H2>
+<H3>3.5 The World Wide Web</H3>
+<blockquote><h4>
+The World Wide Web allows naive users to show their mistakes to a world wide audience.
+Fortunately, most of them are too confused about what the web is to figure out how to
+get on it.
+</h4></blockquote>
+<p><hr><p>
+I used to do tech support for a company that made computer accessories and
+video game accessories. We had a pay-for-access web site for one of our
+products. The site was full of special codes and cheats. One day, a customer
+called, asking how to access the site.<p>
+<ul>
+<li><b>Tech Support</b>: "Well, just go to [URL]."
+<li><b>Customer</b>: "How do I do that?"
+<li><b>Tech Support</b>: "Type it in in your web browser."
+<li><b>Customer</b>: "Huh?"
+<li><b>Tech Support</b>: "Ok...sir...do you have Internet access?"
+<li><b>Customer</b>: "Huh? No. No Internet. I don't even have a computer."
+<li><b>Tech Support</b>: "Ok, sir, you need a computer and an Internet
+ account to access web sites."
+<li><b>Customer</b>: "Oh. Well, it didn't say that when I mailed in the
+ membership card. I want my money back."
+</ul>
+<p><hr><p>
+This conversation took place through email.<p>
+<ul>
+<li><b>Customer</b>: "I need something off the web, and I don't have any way
+ to use a browser!"
+<li><b>Tech Support</b>: "There's a browser called 'lynx' that you can use
+ from a shell."  <em>(gives a brief description of how to use it)</em>
+<li><b>Customer</b>: "What's lynx? I need a browser!"
+<li><b>Tech Support</b>: <em>(again mentions lynx and says how to use it)</em>
+<li><b>Customer</b>: "I need a browser.  If you can't help me, get someone
+ else to answer my emails."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "What do you mean I have to dial into the
+ Internet every time I want to go to your web site? I thought I only
+ had to do that the <em>first</em> time I used this software!"
+</ul>
+<p><hr><p>
+A customer, to his ISP:<p>
+<ul>
+<li><b>Customer:</b>  "I found this [web] page on [another service] but the
+ name you need to get there is too long.  Shorten it."
+</ul>
+<p><hr><p>
+I work for a small ISP. One day I received a phone call from a very
+angry customer who switched to us from another provider.  He had problems
+installing our software.  It took a long time to walk him through fixing
+the problems, because he had no computer skills (even though he was a
+programmer for the last 30 years) and rarely did what I asked him to.
+<p>
+I thought I actually made him happy until he asked me to change his Yahoo
+username and password.  He assumed that since we provide access to the
+web page that we must control it as well. To this day I still hear that he
+calls in from time to time to yell at other techs because they won't change
+his Yahoo username and password.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "I can't get to the page.  The address is:
+ <kbd>http://[site]/~user/~home.htm</kbd>.
+</ul>
+<p><hr><p>
+Sent to our tech support email address:<p>
+<kbd>
+PLEASE GIVE ME HELP ON HOW TO DELETE HTTP://MULTIMEDIA.COM
+</kbd>
+<p><hr><p>
+There was an URL floating around a while ago that pointed to a site that
+had a card trick on it.  I sent the URL to my mom.
+<p>
+The web page asked you to choose a card out of a set of cards and then
+to click on a link.  That link took you to a page with a new set of
+cards. The page stated that the card you picked was now missing from the
+set, because the site had read your mind and knew which card to remove.
+The way the trick worked was that <em>none</em> of the cards in the first
+set were in the second set -- the second set contained similar cards to
+the first set, but none of the same ones.  Many people first think that the
+web page somehow determined what card they had chosen even though they had
+done nothing on the computer to indicate any particular card.
+<p>
+A while after sending the link to my mom, I sent her an explanation for
+how the trick worked.  She sent back email saying that she and her husband
+were rolling on the floor with laughter because they had spent the last
+half hour trying to fool the computer using various methods.
+One of them was this:  her husband would go into another room in the house.
+Then my mom would call him on his cell phone using hers and tell him all
+the cards.  Then he'd tell her that he'd chosen one -- but not tell her
+which one -- and  then she would click on the link.  They were frustrated
+and befuddled that the computer still "knew" which card to remove even though
+they had gone to great lengths to separate the person that chose the card
+from the computer.
+<p><hr><p>
+Emailed to the owner of a web page:<p>
+<kbd>
+I got here by some nefarious route. I was trying to get to <em>[an email
+address]</em> or other similar sites. I distinctly dislike being hijacked in
+cyberspace to see something I did not ask to see. If this happens again
+I will make a formal complaint to my local federal district attorney. Thank
+you. Do not do this again.
+</kbd>
+<p><hr><p>
+A customer emailed the following to his ISP:
+<kbd>
+hello, I have just published my first web page.  What is my
+address?  Never mind, found it, thank you."
+</kbd>
+<p><hr><p>
+A standard format for web sites containing images is to have a front page full
+of thumbnail images, and you click on the thumbnail image to get to the
+corresponding full-sized image.  The reason you do this, of course, is to
+reduce the loading time and required bandwidth for the front page.  Some
+people don't understand this.  I've seen a few thumbnail pages where the
+thumbnail images have the same file sizes as the large versions -- they just
+appear smaller on the page.
+<p><hr><p>
+I'm a high school senior.  One day, we were partnered with another class
+to do an Internet project.  Web site design is a hobby of mine, so I
+happily displayed one of my pages to my partner in Internet Explorer.
+My partner, in a vain attempt to scare me or tease me or something,
+highlighted all the text on the web page and threatened to delete it.
+<p><hr><p>
+Being one of the people that interviews many prospective candidates for
+our computer consulting company, I came across many individuals who
+shouldn't have made it past the first screening process. One was a college
+student for an entry-level position in web development, and I was simply
+trying to ease him into demonstrating his technical knowledge.<p>
+<ul>
+<li><b>Me</b>: "So tell me one of the ways in which you would try to get
+ images to load faster in web pages?"
+<li><b>Him</b>: "I'd do it in Java."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Student</b>: "I can't find the place to type in the URT."
+<li><b>Teacher</b>: "The what?"
+<li><b>Student</b>: "You know the URT -- the thing that starts with 'www'?"
+<li><b>Teacher</b>: "Oh, URL."
+<li><b>Student</b>: "Whatever.  Where do I type it?"
+<li><b>Teacher</b>: "On the blank line at the top."
+<li><b>Student</b>: "Where?"
+<li><b>Teacher</b>: "At the top!"
+<li><b>Student</b>: "I see no line."
+<li><b>Teacher</b>: "Is Netscape open?"
+<li><b>Student</b>: "Does it have to be?"
+</ul>
+<p><hr><p>
+Our school requires all students to take a computer class.  My class has
+to have some of the stupidest people I've ever met.<p>
+<ul>
+<li><b>Teacher</b>: "Does anyone know what HTML means?"
+<li><b>Student</b>: "That means something?!"
+<li><b>Me</b>: "Hypertext Markup Language."
+<li><b>Teacher</b>: "Correct, have any of you ever used HTML?"
+</ul><p>
+I'm the only one who raises a hand.<p>
+<ul>
+<li><b>Teacher</b>: "Great!  We'll be doing some simple HTML by
+ the end of the year."
+<li><b>Me</b>:  <em>(bangs head on desk)</em>
+<li><b>Student</b>:  "How do you use HTML?  Is it like typing?"
+</ul>
+<p><hr><p>
+I work as the graphic/computer designer at a printshop.  A while back, I
+got a phone call from someone who works for a major ISP who asked to have
+an image scanned.  He said he wanted me to scan in the image to a one meg
+JPEG file so he could email it to people and use it on web pages.  He didn't
+give me any dimensions, just the file size.  I explained that this was rather
+large for use online and that even if he had a fast modem or a direct line,
+others might not.<p>
+<ul>
+<li><b>Customer</b>:  "Oh, well I want it this way because, even though
+ the <em>Internet</em> won't allow you to send files that large,
+ the <em>ISP</em> I work for can."
+</ul>
+<p><hr><p>
+I recently visited the site of a company which shall remain unnamed and was
+frustrated by the extremely slow screen refresh as I scrolled through the
+page.  I investigated and discovered that instead of declaring a plain green
+background color for the page, they had created a one pixel GIF image which
+was 'tiled' as a background.
+<p><hr><p>
+I run a web hosting service.  This was sent via email from one of our
+customers:<p>
+<kbd>
+um,u said that if i delete some stuff from my page i'll get more space what do
+u mean by delete?do u mean by deleting the file or just taking a picture out
+of my page?i took saome pictures out of my page but it still said that i
+already used all my space
+</kbd>
+</p>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>World Wide Web</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>

@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Networks: 3.1 Online Folly</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Online Folly</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Networks</H2>
+<H3>3.1 Online Folly</H3>
+<blockquote><h4>
+Even people who understand computers by themselves can't grasp
+the concept of networks.  Dazzled by the feats networked
+computers can accomplish, people are frequently deluded
+into believing they can perform miracles they can't.
+Other people don't understand the function of an online
+service provider.  Still others "just don't get it."
+</h4></blockquote>
+<p><hr><p>
+A member of America Online called me (a member of the tech support staff for
+an Internet service provider with no affiliation with AOL) asking what her
+email address was.  After figuring out she wasn't registered with us, I
+politely pointed out that we were not America Online and she might get a
+better answer to her problem if she called the American Online support number.
+<ul>
+<li><b>Customer:</b>  "Oh, so I should call them?"
+<li><b>Tech Support:</b>  "Yes, they will probably be able to help you more than I can."
+<li><b>Customer:</b>  "But you're an Internet Service Provider!  It says so
+ right here in the phone book!  If you don't want to help me
+ fine.  Thank you, have a good day."  <em>[click]</em>
+</ul>
+<p><hr><p>
+A lady called, claiming to be a new member.  I looked under the screen name
+she gave...couldn't find her.  I looked under her phone number...couldn't find
+her.  I looked under her name...couldn't find her.  I resorted to her credit
+card number...couldn't find her.  Finally, I asked her if she was sure it
+was America Online that she signed up for.
+<ul>
+<li><b>Customer:</b>  "Yeah.  Well, it's called E-World on my computer, though."
+</ul>
+<p><hr><p>
+Got a call today from a gentleman who was upset because ABC's "This Week
+with David Brinkley" show had run long, causing the first twenty minutes
+or so of a sporting event to be preempted, and he had seen AOL's blurb
+at the end of the show.
+<ul>
+<li><b>Tech Support:</b>  "Well, sir, ABC News does have an area on AOL but
+ we're not affiliated with them....  I'm not sure I understand,
+ why did you call us instead of ABC?"
+<li><b>Customer:</b>  "Well, things like this sure don't make America Online look good!"
+</ul>
+<p><hr><p>
+A lady bought a new computer from us.  Two days later she called to say that
+her computer wasn't working.  She said it wouldn't connect to the Internet.
+I asked her what happens after she double clicked on the globe, and she
+replied, "You mean I paid over two thousand dollars for this, and I still have
+to click on something to get on the net?"  She was really, truly upset.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "My phone line comes from the wall and plugs into
+ my hard drive."
+</ul>
+<p><hr><p>
+Once I had a woman call me saying she couldn't connect to her company's
+LAN remotely.  It turned out she had taken her network cable (RJ45) and
+somehow jammed it into her phone line connection (RJ11).
+<p><hr><p>
+On this call a customer was having problems with his fax modem. It took fifteen
+minutes for me to make the guy understand the concept that one must plug a
+phone line into the modem for it to work. At the moment he grasped this
+concept, all I got for a response was, "Oh, so I need to unplug my--"
+<em>(click)</em>
+<p><hr><p>
+Email from a customer:<p>
+<kbd>
+We are going to have a second phone line put in for our computer.  What
+steps do we need to take in order to switch our account over to the new
+phone number?  And do we have to pay to have the account switched?
+</kbd><p>
+I mailed her back saying just to move the computer to the new line and conduct
+business as usual.  She mailed back:<p>
+<kbd>
+But what about receiving my e-mail?  I thought it came to the phone number.
+</kbd>
+<p><hr><p>
+I had been using the net for about nine months, and was spending a
+lot of time on it, so I decided to shift to a flat-rate provider, of
+which there was only one in our area. I headed on over to their site and
+spent half an hour trying to find a way to download the installation software.
+I got there in the end and tried to download the software.
+<p>
+Regrettably, it required a user name and password -- more specifically, a
+user name and password for this ISP. In other words, you had to be a
+member of the thing to be able to download the software to become a member.
+<p>
+So I phoned their tech support (no other way of getting a setup disk.
+After only 45 minutes, I was able to talk to someone and persuade them to
+send me a setup disk. I also informed them of the error regarding their
+FTP server.
+<p>
+Some three weeks later (!) the setup disk arrived -- it was an unformatted
+blank disk with a fancy sticker on it.  So I tried again to download their
+software from their web site -- no such luck.  Another phone call to tech
+support.  This time I got a fancy CD and another promise that the web site
+would be fixed.
+<p>
+As of a month ago, when a friend of mine was joining, some two years after
+I signed up, they still had not fixed their web site.
+<p><hr><p>
+One woman called a customer service number and said she always got a busy
+signal when her computer called the modem pool.  She kept on calling and
+calling, complaining about busy signals.  Finally, we decided to clue her in
+on an experimental phone number that pointed to a few new-at-the-time 14.4Kbps
+modems.  But she insisted, "No, I can't put in that number; I have to put in
+my home number."  No amount of reason could get her to understand that the
+computer at her home had to call the number of the modem at her service
+provider.  Last we heard, she remained unconvinced, calling herself and
+complaining about the busy signals.
+<p><hr><p>
+My friend was having trouble with her dial-up connection and was
+convinced that she needed to type her new home phone number into some
+property dialog to get her connection to work.  I told her I didn't
+think that was important.<p>
+<ul>
+<li><b>Her</b>:  "But how will they know where I'm calling from?"
+</ul>
+<p><hr><p>
+I work on the helpdesk of an oil company.  One of our users, a very high
+level executive, is traveling throughout the United States and calls us,
+long distance, to ask a question about setting up his dial up networking
+connection:  "Do I have to dial a '1' before the number if I'm calling long
+distance?"
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I need help with this dialer. The police have already
+ shown up to my office twice today."
+</ul><p>
+Police?  Ok, whatever.<p>
+<ul>
+<li><b>Tech Support</b>: "Ok, let's check out the settings.  Do you have
+ anything entered for getting an outside line?"
+<li><b>Customer</b>: "A nine."
+<li><b>Tech Support</b>: "Do you need to dial a 9 for an outside line?"
+<li><b>Customer</b>: "I'm not sure. I think so."
+<li><b>Tech Support</b>: "Could you double check?"
+<li><b>Customer</b>: "Sure. <em>(pause)</em>  Nope. Turns out we don't need it."
+<li><b>Tech Support</b>: "Ok. Then remove it. What do you have for the area code?"
+<li><b>Customer</b>: "One and then [area code]."
+<li><b>Tech Support</b>: "Uhm, you don't need the one. Windows 95 automatically adds that."
+<li><b>Customer</b>: "Oh.  So you mean..."
+<li><b>Tech Support</b>: "Yes, your computer was dialing 911 and then the phone number."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Do I need to call my phone company each time to let
+ them know that I am going online?"
+</ul>
+I am sure the phone company would appreciate her calling so that they could
+hold all her calls.  Yeah, right!
+<p><hr><p>
+<ul>
+<li><b>Tech Support:</b>  "May I ask the reason you are cancelling our service?"
+<li><b>Customer:</b>  "Yeah, I just moved, and the phone jack in my new
+ house is too far away from the computer."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "I've been sitting here for over twenty minutes with it
+ saying I'm connected.  When will it do something?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "I hit the 'Open Connection' button and the modem
+ starts to dial.  I hear some terrible noise, and when that's
+ over I hit the 'Close Connection' button.  Then I start
+ Netscape but it keeps telling me that it can't locate the host."
+</ul>
+<p><hr><p>
+One day I was in the school's computer lab with my class, and one of the
+computers could not connect to the Internet. Since the lab attendant
+nowhere to be found, my teacher asked me to help with the problem.<p>
+<ul>
+<li><b>My Teacher</b>: "Maybe today is a bad day for Netscape."
+<li><b>Me</b>: "I think it's a physical problem."
+<li><b>My Teacher</b>: "No, it's gotta be Netscape."
+<li><b>Me</b>: "Yeah, you're right."
+</ul><p>
+When my teacher left the room, I checked under the terminal. The phone
+cord had been kicked out of it's socket. I put it back in. When my
+teacher came back into the room, he noticed it was working again.<p>
+<ul>
+<li><b>My Teacher</b>: "Well, Netscape must be feeling better now!"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Tech Support</b>:  "Is your computer on a separate telephone line?"
+<li><b>Customer</b>:  "No." <em>(clicks the button to log on to our service)</em>
+<li><b>Tech Support</b>:  "Well then we can't--"
+<li> <b>Customer</b>:  "It says 'no dial tone'."
+<li><b>Tech Support</b>:  "That's because you're on the line with me
+ right now.  You need to--"
+<li><b>Customer</b>:  "No, that's not it.  It does this all the time.  I
+ just have to try a few times, and it will let me through."
+<li><b>Tech Support</b>:  "No, ma'am.  It's not even trying to dial
+ right now because you're on the phone with me."
+<li><b>Customer</b>:  "It must be busy.  I'll try again later."
+</ul><p>
+I had given her my email address, and I got a letter from her the next
+day saying:  "Thanks for the help, but I fixed it myself.  It works fine
+now.  Thanks for trying."
+<p><hr><p>
+I work for an ISP.  This one happens to me almost daily.<p>
+<ul>
+<li><b>Tech Support</b>:  "What Internet software are you using?  Internet
+ Explorer or Netscape?"
+<li><b>Customer</b>:  "I'm using <em>(name of ISP)</em>."
+<li><b>Tech Support</b>:  "No, when you try to access the Internet, what do
+ you click on to sign on?"
+<li><b>Customer</b>:  "<em>(name of ISP)</em>!"
+<li><b>Tech Support</b>: "If you were to try to sign on to the Internet right
+ now, what icon would you click on?"
+<li><b>Customer</b>: "I can't sign on, I only have one phone line."
+</ul><p>
+Dings and dongs sound from error messages popping up on the customer's
+screen.<p>
+<ul>
+<li><b>Tech Support</b>:  "If you were not talking to me right
+ now and walked up to your computer because you wanted to get on the
+ Internet, what is the first thing you would do?"
+<li><b>Customer</b>:  "I click on 'Netscape'."
+<li><b>Tech Support</b>:  "Ahhh, you have Netscape." <em>(Then, with great
+ hesitation...)</em> "What version?"
+</ul><p>
+<p><hr><p>
+<ul>
+<li><b>Me</b>: "I can't seem to connect to the Internet. Any problems there?"
+<li><b>Tech Support</b>: "What lights on your modem are on?"
+<li><b>Me</b>: "'Power' and 'Network'."
+<li><b>Tech Support</b>: "Okthen, it's something with your system. Do
+ you use Netscape?"
+<li><b>Me</b>: "My Linux server doesn't get a temporary IP address, and
+ there's no PPP0 connection."
+<li><b>Tech Support</b>: "We only support Netscape."
+<li><b>Me</b>: "A web browser wouldn't work. I can't even do a ping to you
+ or somewhere else outside my network."
+<li><b>Tech Support</b>: "A ping? Are you sure you use Netscape? We only
+ support Netscape."
+<li><b>Me</b>: "As a matter of fact, my Windows 98 machine runs Internet
+ Explorer, but it always worked fine. I really think something else
+ is wrong. A ping is a signal send to see how the connection between
+ two machines is. I can't seem to get a connection between you and me."
+<li><b>Tech Support</b>: "You really should install Netscape. It's on the
+ install disk which came with your modem."
+<li><b>Me</b>: "Ok, never mind."
+</ul>
+<p><hr><p>
+I do some unofficial tech support for friends around campus.
+One day, a couple of my female friends asked me
+to look at their computers.  The symptom: "They're broken."
+<p>
+After much tinkering and safe-mode booting, I saw that many, many weird
+(and obsolete) network drivers and protocols have been loaded, causing the
+computers to freeze at the Windows login screen while they looked
+for a whole mess of NICs that weren't there.  I fixed it and asked
+how so many of these things had been loaded.<p>
+<ul>
+<li><b>My friend</b>: "Joan and I got bored, so we went into the network
+ settings and added a bunch of things we didn't really understand."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Ok, I just signed up for a SLIP account.  Is there an
+ icon that's supposed to appear in Windows?"
+<li><b>Tech Support:</b>  "Did you install the SLIP software?"
+<li><b>Customer:</b>  "What software?"
+</ul>
+<p><hr><p>
+Heard from a customer, while I was setting up his new T1 line:<p>
+<ul>
+<li><b>Customer</b>:  "This is a Mac.  It doesn't <em>need</em> an IP address."
+</ul>
+<p><hr><p>
+I work for a prominent online service and was talking with a fellow
+employee.  He asked me where he could find QuickTime for Windows.  I told
+him to try apple.com.  He had a puzzled look on his face for several seconds.
+Then he meekly said, "You do mean the net site, right?"  I said, "What else
+could I mean?"  He replied, "I thought you meant like command.com -- the
+DOS file."
+<p><hr><p>
+A man called, and he was EXTREMELY upset.  He was yelling
+and carrying on, very angry with his last ISP.  He wanted to know
+our prices and services, so as always I told him what we offer and what
+we could do for him.<p>
+<ul>
+<li><b>Customer</b>:  "Well, good, I'll go with you.  I was using
+ that *^@#$%ing AOL, and I hated them &amp;^$@#%*s!"
+<li><b>Tech Support</b>:  "What was the problem?"
+<li><b>Customer</b>:  "Well, EVERY single time I signed off AOL,
+ this smart-@$$ guy kept telling me 'goodbye' in this smart-@$$ tone,
+ so I canceled them!"
+</ul><p>
+It was <em>really</em> painful to repress my laughter.
+<p><hr><p>
+At the time, I was a junior in high school sitting in our recently built
+(and still to this day broken) Novell network. After about ten
+minutes of the first day I began playing with the instant message
+features built into Netware 4. It didn't take long for
+everyone else to start using this constantly.
+<p>
+Later in the week, our clueless sysadmin (who was a welding instructor
+before he was promoted to district wide technology head) had botched up
+several student accounts, rendering them unusable. When the student
+raised her hand to complain about the login window rejecting her
+password, the teacher blaimed all of the "instance messaging" flying
+around, "bogging the network," and that our messages "had too many
+misspellings which were confusing Netware."
+<p><hr><p>
+I work on an ISP help desk and got this call once.
+This is my work log, with the names edited out and clarifications made:<p>
+<pre>
+August 1998:
+   User cannot connect.
+   User has MAC.
+   User is getting: "Failed" when trying to connect.
+   I can connect with this ID.
+   User is running 8.0, 8.1, and 8.5 beta OS.
+   User says he cannot connect now with any OS.
+   User reports connection problems throughout the past week.
+   Frequently he tries to connect, and it says he is connected, then he
+       gets disconnected.
+   He says it takes a couple of retries and reboots to connect for sure.
+   User says he cannot get into email.
+   User opened his browser, and he is not connecting.
+   User says information occasionally disappears from his configurations.
+   User reports: "His website is private. And the Government has scanners
+       on the Internet that scan people's computers. He can always tell
+       when he is being scanned, because his computer starts running
+       really slow." He would not confirm if, when this happened, he just
+       pulled the plug. After that, he seems to lose information in his
+       Interner/Browser configurations.
+</pre>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "When I bought my modem, it came with a phone cord, right?"
+<li><b>Tech Support</b>:  "Right."
+<li><b>Customer</b>:  "So I plugged it into the one modem jack and the other
+ end into the other modem jack.  Was that right?"
+<li><b>Tech Support</b>:  "No, that's not right."
+<li><b>Customer</b>:  "I didn't think so.  I get 'No dialtone'."
+<li><b>Tech Support</b>:  "Right.  You need to plug one end of the cord
+ into the modem, in the jack marked 'Line', and the other end into the wall."
+<li><b>Customer</b>:  <em>(skeptically)</em>  "So I need to leave one jack open?"
+<li><b>Tech Support</b>:  "Er, yes."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I'm no computer whiz, but I was wondering which
+ end of the phone cord goes into the wall and which one goes into the modem."
+</ul>
+<p><hr><p>
+A user who is attempting to dial in from home calls in for help.  Nothing
+works.  No matter what communications port he tries, no matter how he sets
+up his software, nothing works.  This goes on for most of a day, as the user
+calls, is given something to try, tries it, calls back, is given something
+else to try, etc.
+<p>
+Finally, on about the eleventh call, our intrepid support person hears some
+odd noises, and asks out of simple curiosity what they are.
+<ul>
+<li><b>Customer:</b>  "Oh, that's traffic outside the phone booth."
+<li><b>Tech Support:</b>  "Phone booth?"
+<li><b>Customer:</b>  "Yeah, I don't have a phone in my apartment, so I'm
+ calling from the phone booth on the corner."
+</ul>
+<p><hr><p>
+Modems and pay phones don't mix.  I hotwired my laptop in to the mouthpiece
+of a payphone and proceeded to do system maintenance on a customer's machine.
+The sheriff arrived shortly afterward and proceeded to interrogate me.  Someone
+had called complaining that I was using a computer to steal money from the
+pay phone.
+<p><hr><p>
+A customer had a problem logging in.<p>
+<ul>
+<li><b>Tech Support</b>:  "Can you describe the cables connected to your computer, please?"
+<li><b>Customer</b>:  "I've only got the one cable connected to the computer."
+<li><b>Tech Support</b>:  "Is it the power supply?"
+<li><b>Customer</b>:  "Yes."
+<li><b>Tech Support</b>:  "You don't a phone line connected to the modem?"
+<li><b>Customer</b>:  "Yes, it's connected."
+<li><b>Tech Support</b>:  "To a phone jack?"
+<li><b>Customer</b>:  "Yes...that's how it gets power. My battery is dead."
+<li><b>Tech Support</b>:  "That's not a phone jack. That's a power outlet.
+ You have to have the modem conceded to a phone jack. The thing you
+ connect a <em>phone</em> to."
+<li><b>Customer</b>:  "I thought it was funny that they talked to each other
+ over the power lines."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "I can't connect to you over the Internet."
+<li><b>Tech Support</b>:  "Ok, what account name are you registered under?"
+<li><b>Customer</b>:  "No, I'm not registered.  I just made up things when
+ it asked for my username and password."
+</ul>
+<p><hr><p>
+I'm an audio/video technician for an educational medical school in
+Philadelphia.  One day a professor wanted to use Power Point for a
+presentation.  We were able to borrow a laptop from the Information Tech
+Department.  I brought it in, set it up, booted it, and it came up with
+a password screen.  I explained to the professor that I had to call up the
+Information Tech Department to find out the password, but the professor
+told me not to bother.
+<p>
+He tried his <em>own</em> name and password.  And he <em>kept</em> trying
+it, repeatedly, for the next <em>hour</em>.  I explained to him that this
+would not work, but he was insistent and kept trying.  So I just sat back
+and laughed to myself.
+<p><hr><p>
+I caught the end of one of those cable TV Internet programs.  In the
+last five minutes, the host said, "Every week we get thousands of
+pieces of email asking 'How do I get online?'"  Neat trick.
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "I'm having problem with my modem account."
+<li><b>Tech Support:</b>  "Ok, tell me exactly the part you are having a problem with."
+<li><b>Customer:</b>  "Well, I think you need to give me an account."
+<li><b>Tech Support:</b>  "Well, what kind of account do you need?  An email
+ account, Unix account, or Novell account?"
+<li><b>Customer:</b>  "I need a carrier account."
+<li><b>Tech Support:</b>  "What do you mean a carrier account?"
+<li><b>Customer:</b>  "When I try to dial in, it tells me 'no carrier.'  Can
+ you give me a carrier account?"
+</ul>
+<p><hr><p>
+One employee couldn't log in to her new computer account and asked me for
+help.  I asked all the routine questions, including, "Are you sure
+this is the right password?"<p>
+<ul>
+<li><b>Her</b>:  <em>(exasperated)</em>  "I'm sure it's the correct
+ password.  I typed in the one I saw <em>(another co-worker)</em> use
+ to login to her machine."
+<li><b>Me</b>:  "And what password was that?"
+<li><b>Her</b>: "Five asterisks."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Tech Support:</b>  "Thank you for calling; may I have your name please?"
+<li><b>Customer:</b>  "Yes, but before I do I just want to tell you that this
+ software sucks!  I have never dealt with such a ****** company,
+ and I am just calling so you can cancel my account!"
+<li><b>Tech Support:</b>  "Ok sir, how long have you been a member?"
+<li><b>Customer:</b>  "Three months, And I have only been able to log on once!"
+<li><b>Tech Support:</b>  "Ok sir, before I cancel your account may I ask
+ what the problem is that you've been having?"
+<li><b>Customer:</b>  "Yes, every time I go to type in my password it won't
+ let me!"
+<li><b>Tech Support:</b>  "It won't let you?  What does it do when you try to
+ type in the password?"
+<li><b>Customer:</b>  "All the ******* thing does is ding!"
+<li><b>Tech Support:</b>  "Sir, are you in front of your computer now?"
+<li><b>Customer:</b>  "Yes."
+<li><b>Tech Support:</b>  "What screen is in front of you right now?"
+<li><b>Customer:</b>  "The welcome screen, why?"
+<li><b>Tech Support:</b>  "Could you please hit your tab key and try typing
+ your password."
+<li><b>Customer:</b>  "Ok, but it is not gonna.........SON OF A *****!! IT WORKED!"
+<li><b>Tech Support:</b>  "Ok sir, now would you like me to cancel your account?"
+<li><b>Customer:</b>  "Heck no, I want online!"
+</ul>
+<p><hr><p>
+A gentleman called tech support, as he was having problems uploading
+his newly-made web page to his shell access. He told me the error
+message he was receiving: "User anonymous access denied." I explained to
+him that in order to log in to his shell account he needed to supply his
+username and password. He got very upset, claiming to be a "network
+administrator" and that he knew what he was doing, and obviously the
+problem was on our end.
+<p>
+I tried explaining the situation to him several different ways, but
+he was insistent. Finally, I asked for his password and told him to hold
+on for a moment. I logged into his shell access and told him (more
+irately than I should have to a customer), "I'm on your shell
+account right now. If I wanted to, I could have a web page up in your
+account in 15 seconds."
+<p>
+He was so upset at my "refusal" to help him, that he said he'd call
+back when a "more qualified" techie was working.
+<p><hr><p>
+A customer called our PC tech support line. She had problems getting her
+modem connection to work correctly.<p>
+<ul>
+<li><b>Tech Support</b>: "Our dialup connection settings have changed
+ recently. We have an instruction sheet which tells you how you should
+ set up your connection. Have you followed those instructions?"
+<li><b>Customer</b>: "Oh, I have those instructions, but I couldn't
+ understand a word of them, so I just installed the connection my way.
+ Now it prompts me for a host name. What should I enter?"
+<li><b>Tech Support</b>: "Um...there is nothing you can enter there. Logging
+ in like that doesn't work any more. You really should follow those instructions."
+<li><b>Customer</b>: "I cannot understand them! I just did it my way, and I
+ need the host name."
+<li><b>Tech Support</b>: "Ma'am, there is no host name you could enter that would work."
+<li><b>Customer</b>: "Some help line this is. You don't know your own host name."
+</ul>
+<p><hr><p>
+I work for an ISP.  One day a woman called, furious.<p>
+<ul>
+<li><b>Customer</b>:  "I bought the Internet the other day, and it ain't workin'."
+<li><b>Tech Support</b>: "Well, ma'am, can you explain what's happening?"
+<li><b>Customer</b>: "Well, I called that number that you gave me, and it
+ don't do nothing."
+<li><b>Tech Support</b>: "What do you mean?"
+<li><b>Customer</b>: "When I call it, all it does is squeal in my ear!"
+</ul><p>
+Silence.<p>
+<ul>
+<li><b>Tech Support</b>:  "Ma'am, do you <em>have</em> a computer?"
+<li><b>Customer</b>:  "Computer? Hell, I pay you twenty dollars a month! I
+ don't <em>need</em> a computer!"
+</ul>
+<p><hr><p>
+I've worked closely with the sysops of a local BBS, who are always amazed at
+the users that download a file from the system, decide that it's not what
+they expected, and return it by re-uploading it.
+<p><hr><p>
+
+I had a customer who called to get our BBS number. I gave him the information
+and told him about setting up his modem. The caller said impatiently, "Yeah,
+yeah, I got it," and hung up. Later that day he called back, saying he had been
+trying all day but could not get through to our lousy BBS. I checked but the
+system had plenty of lines free. I asked him about his modem settings.  He
+didn't have a modem. He had spent the day calling the BBS from his telephone.
+<p><hr><p>
+<ul>
+<li><b>Tech Support:</b>  "Ok, sir, to finish opening your account, I will
+ need you to provide a credit card number."
+<li><b>Customer:</b>  "All right, hold on."
+</ul>
+<em>[some rustling sounds]</em>
+<ul>
+<li><b>Customer:</b>  "Ok, do you have it yet?"
+<li><b>Tech Support:</b>  "Well, no,  You haven't given it to me yet."
+<li><b>Customer:</b>  "Sure I did. I just stuck it in this
+ slot in the front of this computer."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Wait, if there's so much info available on this
+ service, are you sure it'll fit onto this little slot on my computer?"
+</ul>
+Sure just STUFF IT in there!
+<p><hr><p>
+Cut from our support log -- note that this is the entirety of the message:<p>
+<kbd>
+This is the 1ST time on america online. I''m as clueless as a pole right
+now, &amp; I would be so happy if You could heLP me a little with my cluelessness
+Maybe a hint or two.
+</kbd>
+<p><hr><p>
+We were having problems with one of our workstations -- it wasn't
+communicating well over the LAN, and we kept getting ethernet timeouts.
+We tried replacing the transceiver, but that didn't help, and we tried
+shortening the network between that workstation and the next (we were on
+the old thinnet lines then) but that didn't work either.  We'd even
+recently installed a repeater to help with some of our LAN problems,
+and <em>that</em> didn't work.
+<em>I</em> knew what the problem was -- we'd had it before with one of out
+other workstations.  It was a bad network chip in the workstation, and all we
+had to do was call the DG Field Engineer, and he'd come replace the system
+board and that would be that.  But my boss wouldn't do it.  It's not like it
+was going to cost us anything, we had a flat fee maintenance contract, but
+the guy just wouldn't call the FE and get it fixed, swearing that it was
+something else and that we'd find it if we just kept looking.  So I was
+sitting at my workstation, with my usual Incredible Hulk
+GIF background, and we were working on the problem.  We tried something (I
+don't remember what it was, now) and then tried to transfer a big file
+from that workstation to the server.  And we started getting the usual
+network timeouts.
+<ul>
+<li><b>Boss:</b> "Have you tried it without that background?"
+</ul>
+I gave him the most incredulous
+look ever, and he just said, "Just humor me, will you?" and insisted I try
+it.  So I did.  And of course, it didn't work.
+<p><hr><p>
+Here's a silly incident which happened to me when I was trying to renew my
+account in a local ISP in Malaysia.
+I was trying to renew my account, and after consulting my computer dealer,
+I had to do it through the bank. Two days after I sent the money, I checked
+if my account was rebalanced and renewed. It wasn't.
+My account had been terminated once last year -- I was not even
+informed, and I only knew this after a ten minute session with technical
+support. I wasn't enthusiastic about seeing another reoccurence, so I
+sent a message to the ISP, stating, "I reviewed my account but it seemed
+that it had not been updated yet. Please do it so as it may be an
+inconvenience if my account is terminated without notice again like the
+last time."
+<p>
+It may apparently be a simple request, but the ISP botched it.  They thought
+I was asking them to terminate my account -- and send a notice about it.
+I was given a notice politely telling me that my account would be terminated
+within three days.
+<p><hr><p>
+I work at an ISP, primarily in tech support, but I
+do sales sometimes. A woman called to sign up for Internet access a
+few weeks ago. After taking some information, I asked her what she
+wanted as her login name. She supplied me a name, which I checked in
+the system, and replied, "I'm sorry, but that name has been taken. Try
+something else."
+<p>
+The woman became very upset, insisting that she needed to use that
+name and no other. I was curious enough to ask why, and the story came
+out. It seems this lady had just purchased her computer, and it booted
+into Windows 95 where it asked for a password to go with the login
+she had supplied me.
+<p>
+After having tried numerous passwords, she finally decided that she
+needed to sign up for Internet access so that we could supply her with a
+password to login to her own computer!
+<p>
+Struggling to contain myself, I suggested that she tried pressing 'Cancel',
+which would pop her right into Windows 95.  Once she realized she didn't need
+a password after all, she hung up on me.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "I can't log in to my account."
+<li><b>Tech Support</b>:  "Ok, let's look at your configuration."
+<li><b>Customer</b>:  "Ok...but I know that my User ID is case sensitive."
+<li><b>Tech Support</b>:  "Yes it is.  Ok, what does it say in the
+ 'User ID' field?"
+<li><b>Customer</b>:  "'Case Sensitive'."
+</ul>
+<p><hr><p>
+I was once discussing computers at a
+party with a very snooty girl.  She was quite intoxicated and decided it
+was time for a game of "I'm more intelligent than anyone else in the
+room."  She started going off on a rant on how Microsoft Network was
+much better than any other Internet provider.  Naturally, I asked why.
+Her reply was (my paraphrasing):<p>
+<ul>
+<li> "During data transfers, both the transmitting and receiving computers
+ usually are running on Windows 95, and by using MSN, you insure full
+ compatibility throughout the transaction and thus can upload and
+ download much faster than with any other provider."
+</ul><p>
+And furthermore,<p>
+<ul>
+<li> "I use only Microsoft apps at work and often want to download my files
+ from my employer's network.  I can only use MSN because otherwise I
+ would not be able to manipulate any of the downloaded files at home."
+</ul><p>
+As soon as the urge to ram her drink up her nose subsided, I excused
+myself and kept at least ten people between us for the rest of the
+evening.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "Is there a place I can go in the computer to make the
+ phone line better?"
+</ul>
+<p><hr><p>
+Some poor old lady called up because she was trying to answer the
+questions in order to register with our service.<p>
+<ul>
+<li><b>Tech Support</b>: "I'm sorry ma'am, but you'll have to register before
+ using the service."
+<li><b>Customer</b>: "Really? Well, I tried. I mean, I answered all the
+ questions. It was a little noisy but I answered all the questions."
+<li><b>Tech Support</b>: "Noisy? How could it be noisy? Your modem
+ dialed, connected, and brought up the questions, right? Then what did you do?"
+<li><b>Customer</b>: "I picked up the phone and answered everything on
+ the screen.  There was a lot of static, but I figured they could still hear me."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I can't get any web pages."
+<li><b>Tech Support</b>: "Ok, can you send and receive email?"
+<li><b>Customer</b>: "No, I can't."
+<li><b>Tech Support</b>: "Ok, what kind of connection do you have with us?"
+<li><b>Customer</b>: "T1."
+<li><b>Tech Support</b>: "Ok, what kind of router do you have?"
+<li><b>Customer</b>: "Router?  I have no idea.  What's a router?"
+<li><b>Tech Support</b>: "Would you happen to know the IP address of the router?"
+<li><b>Customer</b>: "Ummm, no...I don't know that kind of stuff."
+<li><b>Tech Support</b>: "Is there anybody there that would know?"
+<li><b>Customer</b>: "No, the office is closed; I'm the only one here."
+<li><b>Tech Support</b>: "Then I'm sorry, I think you will have to have your
+ network administrator call us."
+<li><b>Customer</b>: "I <em>am</em> the network administrator."
+<li><b>Tech Support</b>: "And you don't know what kind of router you have?"
+<li><b>Customer</b>: "No, I never had to know that before; is your
+ server down?"
+</ul>
+Draw circle. Bang head here.
+<p><hr><p>
+A little knowledge is a dangerous thing.  Someone here at work once asked,
+eyeing the blinking lights on the transceiver next to him, "Do I have to wait
+until the Ethernet is free before I can hit return to send my email?"
+</p>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Online Folly</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>

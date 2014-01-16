@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Hardware: 2.6 Disk Drives</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Disk Drives</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Hardware</H2>
+<H3>2.6 Disk Drives</H3>
+<blockquote>
+<h4>Like many other computer components, disk drives also undergo a wide variety
+of abuse due to ignorance of their function.</h4>
+</blockquote>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "You've sent me a disk but it doesn't seem to fit into
+ the drive.  It seems to be an inch too long."
+<li><b>Tech Support:</b>  "In order to make the disk fit into the drive, you
+ have to make sure that the metal shield is toward the computer,
+ and that the round wheel is downward."
+<li><b>Customer:</b>  "Ahh, that's better, but it still doesn't work."
+<li><b>Tech Support:</b>  "You have to push the disk in until the blue button
+ pops out."
+<li><b>Customer:</b>  "Oh, now it works!  How come it doesn't say that anywhere?"
+</ul>
+<p><hr><p>
+A woman in a non-computer-related company attempted to install a large
+software package, requiring multiple 5 1/2" disks to install from.  She
+placed disk 1 in drive A:, as instructed.  Slightly bewildered when the
+computer prompted her for disk 2, she nevertheless obliged.  But when it
+asked her to insert disk 3, she went to an office-mate and insisted that
+another disk would not fit in the drive.
+<p><hr><p>
+A friend of mine was providing UNIX support for a Large Company (which
+shall remain nameless).  One of his users called up one day to report a
+problem on a DOS machine.  Apparently, her floppy drive was giving general
+failure error messages when writing new files.
+<p>
+My friend dutifully trotted down there to look at the problem.  He
+foolishly neglected to bring a replacement for the drive.  When he arrived,
+he found that this woman had put a floppy in with the little plastic disk
+sleeve still in it.  The head was trashed and the drive had to be replaced.
+<p>
+About three months later, this same woman calls back with the same problem.
+This time my friend, now savvy to the wiles of this particular user,
+grabbed a replacement drive, then trotted on down to visit.  When he got
+there, he found the drive with <em>two</em> 3.5" floppies shoved into it all
+the way.  When he asked why (big mistake), she replied, "I was out of high
+density disks, so I figured I could just use two low density ones instead."
+<p><hr><p>
+I once received a call from a customer who was determined he had a failing
+hard drive.  The problem was that his computer wouldn't boot to Windows unless
+it tried three or four times in succession.  His explanation was that this was
+because the hard drive wasn't "spinning far enough" to find the file it
+needed to boot.  After each attempt, though, the hard drive would spin far
+enough over until finally it could find the file it needed to boot.
+<p>
+Needless to say, that wasn't it.
+<p><hr><p>
+I had a call from our Science Librarian that her floppy drive wouldn't
+accept any disks.  Our librarians misassume that they are all power
+users, and she had taken it upon herself to disassemble the drive (it was
+an external drive to a laptop) and couldn't visually find a problem, so
+she asked that I order a new one.  Well, policy is to inspect a part
+ourselves before ordering a new one, so I went to her office to check the
+drive.  When I got there she demonstrated that one could not insert a floppy
+into the drive.  But I noticed that instead of the eject button being below and
+to the right of the slot, it was above it and to the left.
+I turned the drive over, inserted a disk, and, amazingly, considering that
+she had taken the thing apart, it worked fine.
+<p><hr><p>
+I work for a company that does technical support for a floppy drive
+manufacturer. I got a call from a customer who was absolutely hysterical
+saying that she was going to report us to the Attorney General
+because we were selling a product that was worthless. After
+finally getting her calmed down enough to talk fairly rationally, the
+conversation went something like this:<p>
+<ul>
+<li><b>Tech Support</b>: "What seems to be the problem with our drives?"
+<li><b>Customer</b>: "They don't work! I've had three of the &amp;*@$# things
+ and none of them work. It's against the law to sell a product that
+ you know is worthless, and you're not going to get away with it any longer!"
+<li><b>Tech Support</b>: "What's the problem with them?"
+<li><b>Customer</b>: "They won't let me write to the disk! You people
+ ought to be ashamed of yourselves!"
+<li><b>Tech Support</b>: "Does it give you any kind of error message?"
+<li><b>Customer</b>: "You're %#^$%@ right it does! The same one every &amp;*^#@
+ time! They all say, 'Write protect error reading drive A:'! What's
+ the use of a floppy drive if you can't write to the &amp;*#&amp;$* thing!?"
+</ul><p>
+At that point I put the customer on mute for a few moments while I
+composed myself, summoned some patience and self-control, and
+explained to her how to solve that problem. Did she apologize? Of
+course not! She flew into another tirade that we didn't include
+sufficient documentation with our product and wanted to know what we
+were going to do to reimburse her for her time and inconvenience.
+<p><hr><p>
+A young lady came and asked why she could not open a file that she had
+saved to the network.  I went with her to the PC she was using and opened
+the file in question without difficulty.<p>
+<ul>
+<li><b>Me</b>:  "That seems ok."
+<li><b>Her</b>:  "Yes, it's ok here, but when I get home and look in my
+ college folder on the C: drive, it's not there.  I want this fixed.
+ I'm already late handing in my assignment."
+</ul>
+<p><hr><p>
+The customer called to order a new hard disk drive for his computer.
+He wanted a 20 meg hard drive (this was some time ago) for his IBM PS/2.
+He received the drive but called back, complaining that it was the wrong
+thing.  He said he didn't need a hard drive but rather a 3 1/2" floppy drive.
+And if we couldn't get him a 3 1/2" floppy drive that would store 20 megs,
+he didn't want it and would go elsewhere.
+<p><hr><p>
+A "cannot access drive A:" error turned out to be due to a user putting
+the 5 1/4" diskette in the tiny gap between drives A: and B: and then
+closing the drive A: door.
+<p><hr><p>
+A tech advised a customer to put his troubled floppy back in the
+drive and close the door.  The customer put his phone down and was
+heard walking across the room and shutting the door to the room.
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Can I get a hard drive with a cdrom drive built into it?"
+</ul>
+<p><hr><p>
+In the process of doing a backup on a Mac, I was once given this peculiar instruction:
+<p><ul>
+<li> "Please insert disk drive."</ul>
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "What do I do now?"
+<li><b>Tech Support</b>: "One way to resolve this would be to delete
+ files to free up space."
+<li><b>Customer</b>: "Which files should I delete?"
+<li><b>Tech Support</b>: "Delete files that you have created that you no longer need."
+<li><b>Customer</b>: "I can't do that.  ALL of my files are important.  Isn't
+ there another way?"
+<li><b>Tech Support</b>: "Well, you could get a bigger hard drive."
+<li><b>Customer</b>: "A BIGGER HARD DRIVE!  The thing already takes up
+ most of my desk space.  How much bigger does it have to be?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>A Friend</b>:  "Does my hard drive get heavier when I put mor data on it?"
+</ul>
+<p><hr><p>
+I had a call from a customer who said that his floppy drive recently stopped
+reading disks.  I suggested that he clean out the dust from the drive.
+<ul>
+<li><b>Customer:</b>  "I can't."
+<li><b>Tech Support:</b>  "Huh?"
+<li><b>Customer:</b>  "The dust won't move."
+</ul>
+Finally, I found out that he had been using spray glue near the machine.
+<p><hr><p>
+A customer came into our store one day wanting to buy a tape-backup drive.
+Normally this wouldn't have been a problem, but that day the only drives
+we had in stock required a 1 meg per second floppy controller.<p>
+<ul>
+<li><b>Customer</b>: "I'll take that 3.2 gig tape backup drive."
+<li><b>Me</b>: "Do you know what kind of floppy controller you have?"
+<li><b>Customer</b>: "Of course I do.  It's on my motherboard."
+<li><b>Me</b>: "Do you know how fast it is?"
+<li><b>Customer</b>: "That's none of your business."
+<li><b>Me</b>: "Is it 1 meg per second?"
+<li><b>Customer</b>: "You don't need to know that."
+<li><b>Me</b>: "The only motherboards we carry that support this drive are
+ the P-II motherboards, so..."
+<li><b>Customer</b>: "I didn't buy my board here."
+<li><b>Me</b>: "Well, this drive will only work if you have a 1 meg per--"
+<li><b>Customer</b>: "Look here, son, I know more about
+ computers from working in the field than you get out of your college
+ classes.  I know what I'm talking about.  Sell me the drive."
+</ul><p>
+I sold him the drive.  He returned it the next day.
+His floppy controller wasn't fast enough.
+<p><hr><p>
+We used to supply Xenix systems. For some obscure reason Xenix's <em>fsck</em>
+command required the name of a scratch file during startup on every boot. One
+customer typed in <em>/dev/hdroot0</em> -- the root disk block device -- as
+the scratch file and consequently wiped the whole hard disk. He typed this,
+he explained, because it was displayed on the screen just before the scratch
+file question.
+<p><hr><p>
+<ul>
+<li><b>Tech Support</b>: "What exactly happened?"
+<li><b>Customer</b>: "Well, I tried to download netscape, but the
+ connection kept dropping."
+<li><b>Tech Support</b>: "Ok, then what?"
+<li><b>Customer</b>: "Well, I couldn't find the file to delete it, so
+ I formatted my hard drive."
+<li><b>Tech Support</b>: "What?"
+<li><b>Customer</b>: "Yes. Do you know somewhere I can download DOS?"
+</ul>
+<p><hr><p>
+I talked to a guy whose wife taught computer classes.  At the start of her
+class, she had her students bring in a floppy disk and format it.  This was
+roughly 1986 or 1987, so it was a good place to start.  But at the
+beginning of the first class period, she was greeted by a technician who
+informed her that all the computers had been upgraded with hard drives.  She
+thought that was great.
+<p>
+So when class started, she told her students that they would use hard drives
+rather than their floppies.  First step: <kbd>format C:</kbd>.
+<p>
+After telling me this story, the teacher's husband laid all the blame on the
+tech who installed the hard drives.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "My hard drive is messed up."
+<li><b>Me</b>:  "Could you give me the error message or the problem?"
+<li><b>Customer</b>:  "I added up all the space taken up in the folders,
+ and there should be more space free on the hard drive."
+</ul><p>
+My jaw dropped at this point.  This guy had actually taken the time to
+physically add up all the space taken up by his files and directories in
+File Mangler.  Turns out, he didn't add the sub-directories into the
+equation.  Oops.
+<p><hr><p>
+A customer called complaining that his new computer had a hard drive problem.
+When asked to describe this, he told me he ran out of space on his C: drive.
+<p>
+I spent fifteen minutes trying to explain that the drive was segmented into
+three partitions -- C:, D:, and E:, and all he had to do was use the available
+installer on his desktop to change the installation path.
+<p>
+He responded that that couldn't be right, because he had friends with
+computers, and none of them ever had to do that.  He refused the read the
+manual, do what I suggested, or call anyone else for support.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "All my files I saved last week to my C: drive are missing!"
+<li><b>Tech Support</b>: "Do you remember what directory you first saved them in?"
+<li><b>Customer</b>: "No, I don't. I just know it was on my C: drive."
+<li><b>Tech Support</b>: "Ok, I'll walk you through how to find the files."
+<li><b>Customer</b>: "I wouldn't think I would be losing files on this
+computer.  Gee, I just had the hard drive replaced in it yesterday."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Tech Support</b>:  "Thank you for calling. How can I help you?"
+<li><b>Customer</b>:  "Help!"
+<li><b>Tech Support</b>:  "What's the problem, sir?"
+<li><b>Customer</b>:  "My drive started making funny noises, so I put my
+ finger in it to see what was wrong, and now I CAN'T GET IT OUT!!"
+</ul>
+After muting the customer for a few seconds to regain his composure, I
+calmly suggested that the man hang up and call 911.  The funniest part is
+that this guy actually waited on hold for over ten minutes before he was
+able to reach a tech.
+<p><hr><p>
+A customer brought in a Macintosh SE with a diskette stuck in the
+disk drive.  Even using a paper clip in the manual eject hole would
+not eject the disk.  Upon disassembling the disk drive, I
+discovered why.  The customer had a fondness for carrying 3.5"
+disks in his front shirt pocket.  He had also put his Visa Gold
+Card in his front pocket that day.  It managed to lodge itself on
+the back of the disk by slipping under the metal shutter.  Without
+knowing, he had inserted the disk, Visa and all, into the drive.
+The customer charged the repair fee.
+<p><hr><p>
+I have a user who travels with his zip drive.  He is constantly forgetting
+to plug one end of the cable into the computer, and the other end into the
+zip drive.  He instead, plugs both ends into the zip drive, forming a loop,
+which is in no way hooked to the computer.
+<p><hr><p>
+I had a user who had pulled a 3 1/2" floppy out of a disk drive with pliers
+because she "didn't know what that little button was for."  She had left all
+the metal parts inside the drive and then had the gall to ask if the
+data was ok and get irate when we told her no.
+<p><hr><p>
+A friend had a brilliant idea for saving disk space.  He thought if he
+put all his Microsoft Word documents into a tiny font they'd take up less
+room.  When he told me, I was with another friend.  He thought it was a
+good idea too.
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "My disk ran out of space when trying to save my Word
+ document, so I changed it from double spaced to single spaced
+ and it <em>still</em> wouldn't fit!"
+</ul>
+<p><hr><p>
+A customer called complaining that his "hard drive won't boot."  After
+determining there was a floppy disk in the A: drive, I suggested that the
+customer remove it.  Later, when I arrived, I found he had successfully
+removed the entire floppy drive from the machine.
+<p><hr><p>
+A woman dialed tech support for a large computer manufacturer. She complained
+that her computer was "eating" her disks.<p>
+<ul>
+<li><b>Tech Support</b>:  "Eating your disks?"
+<li><b>Customer</b>:  "Well I've inserted over twenty of them and still can't
+ save to the floppy drive."
+</ul><p>
+After a long frustrating call, the customer service representative sent a
+tech over to the woman's home.  He was dumbfounded by what he saw.<p>
+One of the front face plates on the case was missing.  Inside the computer,
+at the bottom of the case, were exactly twenty floppy disks in a pile.
+<p><hr><p>
+Back when the PS/2 first came out I was setting up a bunch of
+machines for a Big Eight accounting firm here in Chicago.
+Management at the company did not want their users having floppy
+drives because that was just another hole for a virus to enter
+their network.  The funny thing about those old PS/2's is that the
+front of the CPU had the disk slot and eject mechanism even if
+there was no drive in the bay (later fixed, of course).  Thus, we
+send email out to everyone describing this anomaly and put tape
+over the disk slot.  Needless to say, after a mere month, nearly
+every CPU had diskettes lying on the motherboard.
+<p><hr><p>
+A customer said the floppy drive on her Mac wasn't working.  The case had a
+nice rectangular 3 1/2" hole in the front, but there was no sign of the diskette.
+I popped open the cover, and there was the diskette sitting on the
+motherboard.  Only then did I notice two or three pieces of plastic
+sitting next to the monitor.  A question or two solved the mystery.
+The computer had been purchased without a floppy drive, so a cosmetic plastic
+snap-in strip had been placed over the empty floppy hole.  She had pried the
+strip out with a nail file and shoved the floppy in.  I put the case down
+as a "customer attempted upgrade."
+<p><hr><p>
+A girl from my class (a blonde) once called me and complained that her
+computer would not boot up anymore.  I asked her what she had done.  She
+calmly replied, "Oh, I simply opened the hard disk properties tab and
+pressed the 'compress' button to increase the capacity.  But it was taking
+too much time, and I got bored, so I shut it off."
+</p>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Disk Drives</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body>
+</html>

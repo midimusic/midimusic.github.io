@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Scott Joplin Music Player">
+<META NAME="keywords" CONTENT="Scott, Joplin, music, player">
+<TITLE>Scott Joplin Music Player</TITLE>
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<style>article { font-size:.8em;} #col1, #col2 {width:48%; float:left;} #note {width:96%; float:left;}
+iframe#player {float:left; width:720px; height:305px; border:none; max-width:100%;}</style>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+list0=new Array("rags1/original","Original Rags","Music Cover","150","200");
+list1=new Array("rags1/maplerag","Maple Leaf Rag","Music Cover","150","200");
+list2=new Array("rags1/peachrin","Peacherine Rag","Music Cover","150","200");
+list3=new Array("rags1/winner","The Easy Winners","Music Cover","150","200");
+list4=new Array("rags1/breezefa","A Breeze From Alabama","Music Cover","150","200");
+list5=new Array("rags2/elitesyn","Elite Syncopations","Music Cover","150","200");
+list6=new Array("rags2/strenlif","The Strenuous Life","Music Cover","150","200");
+list7=new Array("rags2/entrtain","The Entertainer","Music Cover","150","200");
+list8=new Array("rags2/weepwill","Weeping Willow","Music Cover","150","200");
+list9=new Array("rags2/palmleaf","Palm Leaf Rag","Music Cover","150","200");
+list10=new Array("rags3/favorite","The Favorite","Music Cover","150","200");
+list11=new Array("rags3/chrysan","The Chrysanthemum","Music Cover","150","200");
+list12=new Array("rags3/sycamore","The Sycamore","Music Cover","150","200");
+list13=new Array("rags3/cascades","The Cascades","Music Cover","150","200");
+list14=new Array("rags3/eugenia","Eugenia","Music Cover","150","200");
+list15=new Array("rags3/leola","Leola","Music Cover","150","200");
+list16=new Array("rags4/ragdance","The Ragtime Dance","Music Cover","150","200");
+list17=new Array("rags4/nonparel","The Nonpareil","Music Cover","150","200");
+list18=new Array("rags4/gladiols","Gladiolus Rag","Music Cover","150","200");
+list19=new Array("rags4/srchlite","Searchlight Rag","Music Cover","150","200");
+list20=new Array("rags4/roseleaf","Rose Leaf Rag","Music Cover","150","200");
+list21=new Array("rags4/figrag","Fig Leaf Rag","Music Cover","150","200");
+list22=new Array("rags5/pineappl","Pineapple Rag","Music Cover","150","200");
+list23=new Array("rags5/sugrcane","Sugar Cane","Music Cover","150","200");
+list24=new Array("rags5/paragon","Paragon Rag","Music Cover","150","200");
+list25=new Array("rags5/wallst","Wall Street Rag","Music Cover","150","200");
+list26=new Array("rags5/countryc","Country Club","Music Cover","150","200");
+list27=new Array("rags5/solace","Solace","Music Cover","150","200");
+list28=new Array("rags5/euphonic","Euphonic Sounds","Music Cover","150","200");
+list29=new Array("rags6/stoptime","Stoptime Rag","Music Cover","150","200");
+list30=new Array("rags6/newrag","Scott Joplin's New Rag","Music Cover","150","200");
+list31=new Array("rags6/magnetic","Magnetic Rag","Music Cover","150","200");
+list32=new Array("rags6/silvswan","Silver Swan Rag","Music Cover","150","200");
+list33=new Array("rags6/reflectn","Reflection Rag","Music Cover","150","200");
+list34=new Array("rags7/swipesy","Swipesy Cake Walk","Music Cover","150","200");
+list35=new Array("rags7/sunflower","Sunflower Slow Drag","Music Cover","150","200");
+list36=new Array("rags7/smthngdn","Something Doing","Music Cover","150","200");
+list37=new Array("rags7/lilyquen","Lily Queen","Music Cover","150","200");
+list38=new Array("rags7/bouquet","Heliotrope Bouquet","Music Cover","150","200");
+list39=new Array("rags7/felicity","Felicity Rag","Music Cover","150","200");
+list40=new Array("rags7/kismet","Kismet Rag","Music Cover","150","200");
+list41=new Array("rags7/sensation","Sensation Rag","Music Cover","97","130","Joseph Lamb","94","130");
+list42=new Array("march1/gtcrush","Great Crush Collision","Music Cover","150","200");
+list43=new Array("march1/cmbnatn","Combination March","Music Cover","150","200");
+list44=new Array("march1/cleopha","Cleopha March and Two-Step","Music Cover","150","200");
+list45=new Array("march1/majestic","March Majestic","Music Cover","150","200");
+list46=new Array("march1/rosebud","Rosebud, Two Step","Music Cover","150","200");
+list47=new Array("march1/antointt","Antoinette March and Two-Step","Music Cover","150","200");
+list48=new Array("waltz1/harmony","Harmony Club Waltz","Music Cover","150","200");
+list49=new Array("waltz1/augustan","Augustan Club Waltz","Music Cover","150","200");
+list50=new Array("waltz1/bethena","Bethena, a Concert Waltz","Music Cover","150","200");
+list51=new Array("waltz1/bink","Bink's Waltz","Music Cover","150","200");
+list52=new Array("waltz1/plsntmmt","Pleasant Moments","Music Cover","150","200");
+list53=new Array("songs/pictface","A Picture Of Her Face","Music Cover","150","200");
+list54=new Array("songs/pleasesay","Please Say You Will","Music Cover","150","200");
+list55=new Array("songs/pickanny","I Am Thinking Of My Pickaninny Days","Music Cover","150","200");
+list56=new Array("songs/littlebb","Little Black Baby","Music Cover","150","200");
+list57=new Array("songs/sarahdear","Sarah Dear","Music Cover","150","200");
+list58=new Array("songs/gboldgal","Good-bye Old Gal Goodbye","Music Cover","150","200");
+list59=new Array("songs/snrgsmpn","Snoring Sampson","Music Cover","150","200");
+list60=new Array("songs/hairsnow","When Your Hair Is Like The Snow","Music Cover","150","200");
+list61=new Array("songs/lovnbabe","Lovin' Babe","Music Cover","150","200");
+mlist=new Array(list0,list1,list2,list3,list4,
+list5,list6,list7,list8,list9,
+list10,list11,list12,list13,list14,
+list15,list16,list17,list18,list19,
+list20,list21,list22,list23,list24,
+list25,list26,list27,list28,list29,
+list30,list31,list32,list33,list34,
+list35,list36,list37,list38,list39,
+list40,list41,list42,list43,list44,
+list45,list46,list47,list48,list49,
+list50,list51,list52,list53,list54,
+list55,list56,list57,list58,list59,
+list60,list61);
+vlist = new Array();
+nullpage="../selectav.html";
+var amk="amark", vmk="vmark";
+</script>
+<script src="../avplay.js"></script>
+</HEAD>
+<BODY>
+<header>
+<h2>MIDIMUSIC.ORG.UK<span> Computer Processed Music</span></h2>
+</header>
+<nav>
+<ul>
+<li><a href="../index.html">Index</a></li>
+<li><a href="../joplin/index.html">Scott Joplin Music</a></li>
+<li><a href="../wurlitzer/index.html">Wurlitzer Music</a></li>
+<li><a href="../tech/index.html">Technical Articles</a></li>
+<li><a href="../literature/index.html">Literature</a></li>
+<li><a href="../browsertest/index.html">Browser Test</a></li>
+<li><a href="../about/index.html">About MidiMusic</a></li>
+</ul>
+</nav>
+<article>
+<ol class="crumb">
+<li><a href="../index.html">Index</a></li>
+<li><a href="index.html">Joplin Music</a></li>
+<li>Scott Joplin Music Player</li>		
+</ol>
+</article>
+<iframe id="player" type="text/html" src="../selectav.html" scrolling="no"></iframe>
+<ul class="control">
+<li><button id="b1" type="BUTTON" value="Shuffle" onclick="doshuffle()">Shuffle</button></li>
+<li><button id="b2" type="BUTTON" value="Loop" onclick="doloop()">Loop</button></li>
+</ul>
+<article>
+<h3>Scott Joplin Audio Player</h3>
+<section id="col1">
+<h4>1. Joplin Rags 1899-1901</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(0)"> Original Rags 1899.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(1)"> Maple Leaf Rag 1899.</a> To the Maple Leaf Club.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(2)"> Peacherine Rag 1901.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(3)"> The Easy Winners 1901.</a> A Ragtime Two-Step.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(4)"> A Breeze From Alabama 1901.</a> March and Two-Step.</LI>
+</ol>
+<h4>2. Joplin Rags 1902-1903</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(5)"> Elite Syncopations 1902.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(6)"> The Strenuous Life 1902.</a> A Ragtime Two-Step.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(7)"> The Entertainer 1902.</a> A Ragtime Two-Step.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(8)"> Weeping Willow 1903.</a> A Ragtime Two-Step.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(9)"> Palm Leaf Rag 1903.</a>. A Slow Drag.</LI>
+</ol>
+<h4>3. Joplin Rags 1904-1905</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(10)"> The Favorite 1904.</a> A Ragtime Two-Step.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(11)"> The Chrysanthemum 1904.</a> An Afro-American Intermezzo.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(12)"> The Sycamore 1904.</a> A Concert Rag.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(13)"> The Cascades 1904.</a> A Rag.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(14)"> Eugenia 1905.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(15)"> Leola 1905.</a> Two-Step.</LI>
+</ol>
+<h4>4. Joplin Rags 1906-1907</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(16)"> The Ragtime Dance 1906.</a> A Stop-Time Two-Step.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(17)"> The Nonpareil 1907.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(18)"> Gladiolus Rag 1907.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(19)"> Searchlight Rag 1907.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(20)"> Rose Leaf Rag 1907.</a> A Ragtime Two-Step.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(21)"> Fig Leaf Rag 1907.</a></li>
+</ol>
+<h4>5. Joplin Rags 1908-1909</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(22)"> Pineapple Rag 1908.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(23)"> Sugar Cane 1908.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(24)"> Paragon Rag 1909.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(25)"> Wall Street Rag 1909.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(26)"> Country Club 1909.</a> A Rag Time Two-Step.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(27)"> Solace 1909.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(28)"> Euphonic Sounds 1909.</a> A Syncopated Two Step.</LI>
+</ol>
+<h4>6. Joplin Rags 1910-1917</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(29)"> Stoptime Rag 1910.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(30)"> Scott Joplin's New Rag 1912.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(31)"> Magnetic Rag 1914.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(32)"> Silver Swan Rag.</a> Piano roll, issued 1914 as QRS 31533.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(33)"> Reflection Rag 1917.</a></LI>
+</ol>
+</section>
+<section id="col2">
+<h4>7. Joplin Rags Collaborative</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(34)"> Swipesy Cake Walk 1900.</a> With Arthur Marshall.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(35)"> Sunflower Slow Drag 1901.</a> With Scott Hayden.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(36)"> Something Doing 1903.</a> With Scott Hayden.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(37)"> Lily Queen 1907.</a> With Arthur Marshall.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(38)"> Heliotrope Bouquet 1907.</a> With Louis Chauvin.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(39)"> Felicity Rag 1911.</a> With Scott Hayden.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(40)"> Kismet Rag 1913.</a> With Scott Hayden.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(41)"> Sensation Rag 1908.</a> Joseph F. Lamb arr. Scott Joplin.</li>
+</ol>
+<h4>8. Joplin Marches</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(42)"> Great Crush Collision 1896.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(43)"> Combination March 1896.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(44)"> Cleopha March and Two-Step 1902.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(45)"> March Majestic 1902.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(46)"> Rosebud, Two Step 1905.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(47)"> Antoinette March and Two-Step 1906.</a></LI>
+</ol>
+<h4>9. Joplin Waltzes</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(48)"> Harmony Club Waltz 1896.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(49)"> Augustan Club Waltz 1901.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(50)"> Bethena, a Concert Waltz 1905.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(51)"> Bink's Waltz 1905.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(52)"> Pleasant Moments 1909.</a></LI>
+</ol>
+<h4>10. Joplin Songs</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(53)"> A Picture Of Her Face.</a> 1895, by Scott Joplin.</li>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(54)"> Please Say You Will.</a> 1895, by Scott Joplin.</li>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(55)"> I Am Thinking Of My Pickaninny Days.</a> 1901, lyrics Henry Jackson.</li>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(56)"> Little Black Baby.</a> 1903, Lyrics Louise Armstrong Bristol.</li>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(57)"> Sarah Dear.</a> 1905, Lyrics Henry Jackson.</li>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(58)"> Good-bye Old Gal Goodbye.</a> 1906, Music H. Carroll Taylor, lyrics Mac Darden, arr. Joplin.</li>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(59)"> Snoring Sampson.</a> A Quarrel in Ragtime, 1907, Music & lyrics by Harry La Mertha, arr. Joplin.</li>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(60)"> When Your Hair Is Like The Snow.</a> 1907, Lyrics Owen Spendthrift.</li>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(61)"> Lovin' Babe.</a> 1911, Lyrics Al. R. Turner, arranged by Joplin.</li>
+</ol>
+</section>
+<section id="note">
+Note: Information abbreviated, for more information see the appropriate Joplin full page.
+</section>
+</article>
+<footer>
+<p>
+Webmaster: David Back<BR>
+<a href="../index.html">Index</a>&nbsp;&nbsp;
+<a href="../joplin/index.html">Joplin</a>&nbsp;&nbsp;
+<a href="../wurlitzer/index.html">Wurlitzer</a>&nbsp;&nbsp;
+<a href="../tech/index.html">Technical</a>&nbsp;&nbsp;
+<a href="../literature/index.html">Literature</a>&nbsp;&nbsp;
+<a href="../browsertest/index.html">Browser Test</a>&nbsp;&nbsp;
+<a href="../about/index.html">About MidiMusic.org.uk</a>
+</p>
+</footer>
+</BODY>
+</HTML>

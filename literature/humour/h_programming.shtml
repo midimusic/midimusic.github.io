@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Systems: 1.6 Programming</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Programming</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Systems</H2>
+<H3>1.6 Programming</H3>
+<blockquote>
+<h4>
+Teaching an individual to use a computer is bad enough, teaching
+someone to program one is worse.
+</h4>
+</blockquote>
+<p><hr><p>
+<ul>
+<li><b>User:</b>  "Hey, can you help me?  My program doesn't work."
+<li><b>Consultant:</b>  "What is the problem?  Are you using Turbo Pascal?"
+<li><b>User:</b>  "Yes, the program just blocks the machine."
+<li><b>Consultant:</b>  "Well, does it compile?"
+<li><b>User:</b>  "I don't know -- it just doesn't run.  You see?  There's the
+ EXE file. If you run it, it blocks the machine."
+<li><b>Consultant:</b>  "And where is your source, the PAS file??"
+<li><b>User:</b>  "I wrote it and renamed it to EXE so it could run."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Programmer</b>: "What do you mean, I can't initialize things in an assert()?"
+</ul>
+<p><hr><p>
+During a code review, when I asked why (besides the source control file
+headers) there was not a comment in 240,000 lines of code which was
+getting handed over to me for maintenance, the programmer replied,
+"I'm terse."
+<p><hr><p>
+When a computer professor asked his students to comment all their programs,
+he got remarks like:
+<ul>
+<li> "This program is very nice."
+<li> "This program is very difficult."
+<li> "This program is very interesting."
+</ul>
+<p><hr><p>
+When I was studying programming, one of my classmates was having serious
+troubles with his program. When he asked me for help, I leaned
+over his screen and saw <em>all</em> of his code in comments.  The
+reason:  "Well, it compiles much faster that way."
+<p><hr><p>
+In college I worked as a consultant.  One day this grad student was
+having trouble with his Fortran program and brought the printout to me.  He
+said he kept changing things but couldn't get it to run correctly.  His
+analysis: "I get the feeling that the computer just skips over all the
+comments."
+<p><hr><p>
+I was taking a C programming class once, and the class was divided up
+into two programming teams.  On my team we had a woman who was totally
+out of her league.  What earned her legendary status was doing a global
+search and replace, swapping out asterisks for ampersands, because she
+felt the asterisks weren't "working."
+<p><hr><p>
+I was just teaching an optional class on C programming; in the first
+class meeting, I asked, "Does anybody know anything about programming?"<p>
+To which one of my students gleefully replied, "I know how to use a chat
+program!"
+<p><hr><p>
+Back in my first year of school in computer science, we were learning Turbo
+Pascal.  I remember one day looking over the shoulder of a guy
+who was writing some unreadable code by removing all possible spaces and
+empty lines.<p>
+<ul>
+<li><b>Me</b>: "Why are you writing like that -- it's unreadable."
+<li><b>Him</b>: "I want to keep the code compact, so I get maximum speed
+ when I execute the program."
+</ul>
+<p><hr><p>
+I was asked to maintain a shell script that was taking too long to run and 
+wasn't reliable.  Among other horrors, the one that gave me the best mix of 
+laughter and fear was a repeated construct like this:<p>
+<kbd>
+display=`env | grep DISPLAY | sed 's/[^=]*=//g'`<br>
+DISPLAY=$display<br>
+export DISPLAY
+</kbd><p>
+This made me scratch my head for a moment, until I realized that this was a 
+complete no-op.  It's equal to <kbd>DISPLAY=$DISPLAY</kbd> (except when the
+<kbd>grep</kbd> command pulls out the wrong thing).  This was repeated for
+something like a dozen environment variables.  I still cannot fathom the
+logic of it. I ended up doing a complete rewrite.
+<p><hr><p>
+I was asked about taking on a contract to maintain a piece of software.
+Something about the way it was presented made me wary.  I asked to look
+over it first.  What a sight!  I use it as an example of why not to use
+global variables.  Among other things, there were files with suites of
+functions on the following order:<p>
+<kbd>
+adjust_alpha()<br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;alpha = gamma + offset * 3;<br>
+}<p>
+adjust_beta()<br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;beta = gamma + offset * 3;<br>
+}<br>
+</kbd><p>
+Dozens of functions that differed only by the global variable they
+modified.  Just picture it: a multi-thousand line program with a graphical
+interface and a database that never used function parameters.<p>
+The original programmer painted himself into a corner with his variable
+names.  Clearly if you need variables "up," "down," "left," and "right,"
+you name them as such.  When he found himself needing those direction
+names in different parts of his program but was stuck because global
+variable names had to be unique, his solution was to use names like:<p>
+<kbd>
+    up, _up, up_, Up, uP, UP, _Up, _UP<br>
+    down, _down, down_, Down, dOWN, DOWN, _Down, _DOWN
+</kbd><p>
+...and so on.  Even the densest of my students comprehended immediately why
+that was bad.  Needless to say, I turned down the job.
+<p><hr><p>
+At my previous job, we were porting a UNIX system to Windows NT using
+Microsoft VC++. A colleague of mine, that was in the process of porting his
+portion of the code, came to me, looking really upset.<p>
+<ul>
+<li><b>Colleague</b>: "Hey! I hate these Microsoft guys! What a rotten
+ compiler! It only accepts 16,384 local variables in a function!"
+</ul>
+<p><hr><p>
+I ran across this gem while debugging someone else's old code once:<p>
+<kbd>
+if (value == 0)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return value;<br>
+else<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return 0;
+</kbd>
+<p><hr><p>
+Years ago, I put a simple, fortune cookie style program out on an FTP site.
+It was too simplistic to look at environment variables or configuration files
+to look for the location of the fortune cookie database file; the path was
+compiled into the executable.  I provided the source, so if you wanted to
+change the path it was installed in, you had to change it in the source file
+and recompile.
+<p>
+Since I put it out, every so often I'll get an email message commenting on
+it.  Recently, I received a message asking for help trying to get the thing
+to work.  He couldn't get the executable to find the database file properly.
+I answered him, and he mailed back saying nothing helped.  I mailed him again,
+saying that the readme file which was included in the archive should have very
+detailed instructions.  He mailed me back saying the readme file didn't help
+him.  So he mailed me the source code file, asked me to change it to the way
+it should be, then mail it back to him.  I told him, but as I was typing in my
+final reply, a horrific thought occurred to me.  So I asked:
+<ul>
+<li><b>Me:</b>  "I assume you have a C compiler, right?"
+<li><b>User:</b>  "What's a C compiler??????/  I've been editing it using
+ the DOS editor."
+</ul>
+<p><hr><p>
+I was working for a consulting firm that was called in to help another
+firm that was doing some fairly important UNIX work for a large
+Wall Street firm.  They were all Mac programmers that had taken a
+week long course in UNIX, C programming, and UI programming for this
+particular workstation.  I took a look at their C code and it was littered
+with the following code statement:<p>
+<kbd>
+strcat(string,"\0");
+</kbd><p>
+I asked why they were doing this.  The reply was, in a "don't you know?" tone
+of voice:  "All strings in C must end in a null zero!"<p>
+Trying to explain that <kbd>strcat</kbd> wouldn't work unless the null
+terminator was there already just got me blank stares.
+<p><hr><p>
+I've seen this code excerpt in a <em>lot</em> of freeware gaming programs for
+UNIX:<p>
+<pre>
+/*
+* Bit values.
+*/
+#define         BIT_0                    1
+#define         BIT_1                    2
+#define         BIT_2                    4
+#define         BIT_3                    8
+#define         BIT_4                   16
+#define         BIT_5                   32
+#define         BIT_6                   64
+#define         BIT_7                  128
+#define         BIT_8                  256
+#define         BIT_9                  512
+#define         BIT_10                1024
+#define         BIT_11                2048
+#define         BIT_12                4096
+#define         BIT_13                8192
+#define         BIT_14               16384
+#define         BIT_15               32768
+#define         BIT_16               65536
+#define         BIT_17              131072
+#define         BIT_18              262144
+#define         BIT_19              524288
+#define         BIT_20             1048576
+#define         BIT_21             2097152
+#define         BIT_22             4194304
+#define         BIT_23             8388608
+#define         BIT_24            16777216
+#define         BIT_25            33554432
+#define         BIT_26            67108864
+#define         BIT_27           134217728
+#define         BIT_28           268435456
+#define         BIT_29           536870912
+#define         BIT_30          1073741824
+#define         BIT_31          2147483648
+</pre><p>
+A much easier way of achieving this is:<p>
+<pre>
+#define BIT_0      0x00000001
+#define BIT_1      0x00000002
+#define BIT_2      0x00000004
+#define BIT_3      0x00000008
+#define BIT_4      0x00000010
+...
+#define BIT_28     0x10000000
+#define BIT_29     0x20000000
+#define BIT_30     0x40000000
+#define BIT_31     0x80000000
+</pre><p>
+I wonder if guy who wrote it used calculator or just computed it all
+out on paper.
+<p><hr><p>
+When I was still a student, I worked as an admin for the university CS
+dept.  Part of this job involved time in the student labs.  Our network
+was a conglomeration of Suns and SGIs and was generally confusing for
+novice users who don't understand the concept of multiuser, multitasking,
+networked computers.<p>
+Around the room are large signs explaining how to log in, along with big
+warnings about not removing power unless you like the idea of having a grad
+student running a several million variable modeling project he's been working
+on for several years show up and beat you death with research papers.<p>
+You would be amazed how many people try to type in a program at the "Login:"
+prompt, and then turn the machine off when they are done.  The worst of the
+bunch then complain about not being able to find the program they just typed
+in at the login prompt.
+<p><hr><p>
+I was looking through a shell script I had written recently, and I almost
+died when I saw some of the code.  I'm embarrassed to admit it, but here's
+one thing I had done:<p>
+<pre>
+if ($var = value) then
+	# do something
+else
+	# do the exact same thing as in the other code
+endif
+</pre>
+<p><hr><p>
+While in college, I used to tutor in the school's math lab.  A student came
+in because his BASIC program would not run. He was taking a beginner course,
+and his assignment was to write a program that would calculate the recipe
+for oatmeal cookies, depending upon the number of people you're baking for.  I
+looked at his program, and it went something like this:<p>
+<kbd>
+10   Preheat oven to 350<br>
+20   Combine all ingredients in a large mixing bowl<br>
+30   Mix until smooth<br>
+.<br>
+.<br>
+.
+</kbd>
+<p><hr><p>
+A "software engineer" I used to work with once had a problem with his
+code that looked something like this:<p>
+<pre>
+a_pointer-&gt;fn();
+</pre><p>
+It caused a General Protection error.  He knew C, but not C++ -- I did, so he
+asked me for help.  I told him to check to see if the pointer was NULL
+before making the call.  A couple of hours later he came back; the problem
+was still happening.<p>
+<pre>
+if (a_pointer == NULL)
+{
+	LogError();
+}
+
+a_pointer-&gt;fn();
+</pre><p>
+I said, "You need a return statement after the LogError call."<p>
+He said, thoughtfully, "Where does it return to?"
+</p>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Programming</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>

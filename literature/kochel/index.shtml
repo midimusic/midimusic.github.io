@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Mozart Kochel Catalog">
+<META NAME="keywords" CONTENT="mozart, kochel, catalog, music">
+<title>Midimusic.org.uk, Mozart K&ouml;chel Catalog</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li>Kochel Catalog</li>		
+</ol>
+<H2>Midimusic.org.uk, Mozart K&ouml;chel Catalog</H2>
+<H4>July 2012 HTML Version By: David Back</H4>
+<P>
+<UL>
+<LI><b>Mozart, K&ouml;chel Catalog of all Mozart's work</b> (Includes results of Mozart research up to 1988)
+<UL>
+<LI><A HREF="Kochel0.shtml">K1 to K100.</A>
+<LI><A HREF="Kochel1.shtml">K101 to K200.</A>
+<LI><A HREF="Kochel2.shtml">K201 to K300.</A>
+<LI><A HREF="Kochel3.shtml">K301 to K400.</A>
+<LI><A HREF="Kochel4.shtml">K401 to K500.</A>
+<LI><A HREF="Kochel5.shtml">K501 to K600.</A>
+<LI><A HREF="Kochel6.shtml">K601 to K626, K deest and Anh.</A>
+</UL></UL>
+<P>
+The first catalog of Mozart's work was compiled by Sir Ludwig von K&ouml;chel
+and published in 1862. It listed all works known at the time in chronological
+order and is now known as K<SUP>1</SUP>.
+<P>
+The second edition, K<SUP>2</SUP> of the catalog with minor corrections and additions was
+ prepared by Count Paul von Waldersee and published in 1905.
+<P>
+The first thorough revision K<SUP>3</SUP> was completed by Alfred Einstein in 1936. He had to
+insert some new numbers between the previously established numbers, so he added lower
+case letters.
+<P>
+K<SUP>3</SUP> was reprinted in 1946 with an extensive supplement of corrections and additions. It
+was known as K<SUP>3a</SUP>.
+<P>
+The fourth and fifth editions were unchanged reprints of K<SUP>3</SUP>.
+<P>
+The sixth and current edition, K<SUP>6</SUP>, published in 1964, continued Einstein's innovations
+and added even more numbers with lower case letters appended and a few with upper
+case letters as well.
+<P>
+Seventh and eighth editions are unchanged reprints of K<SUP>6</SUP>.
+<P>
+This explains why many of Mozart's works bear two K numbers and a few three, such as
+the Symphony in B-Flat major, K182=K166c=K173dA.
+<P>
+<B>Abbreviations:</B><BR>
+SATB = voices used chorally: soprano, alto, tenor, bass<BR>
+strings = 2 violins, viola, basso<BR>
+deest = a work by (or attributed to) Mozart which does not appear in any edition of the K&ouml;chel Catalog.<BR>
+Anh. = Anhang or appendix.
+</p>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li>Kochel Catalog</li>		
+</ol>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</BODY>
+</HTML>

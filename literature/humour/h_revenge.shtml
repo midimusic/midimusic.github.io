@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Tech Support: 5.6 Revenge</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Revenge</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Tech Support</H2>
+<H3>5.6 Revenge</H3>
+<blockquote><h4>
+Once in a great while, tech support gets back at the inane
+callers.
+</h4></blockquote>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "How fast will my COM ports go?"
+<li><b>Tech Support:</b>  "How hard can you throw your computer?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Can I ask you a really stupid question?"
+<li><b>Tech Support:</b>  "Yes.  And history will bear me out on that."
+</ul>
+Needless to say, that user was also a friend.  I have always wanted to say
+this to someone, and there he was!
+<p><hr><p>
+Our service does not work with a UART older than the 16550 one.  One customer
+had an older UART chip, and he refused to believe it would keep him from
+using our service.  He got very upset, finally snapping:<p>
+<ul>
+<li><b>Customer</b>:  "What does UART stand for anyway??"
+<li><b>Tech Support</b>:  "It stands for UART gettin' online!"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "When I touch the sound card board at the back of my
+ PC, I can feel electric current."
+<li><b>Tech Support</b>:  "Then don't touch it."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Student</b>: "How do I make a paper longer?"
+<li><b>Consultant</b>: "You write more."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "Hello, I have a problem.  My name is Bob Murton."
+<li><b>Tech Support</b>:  "I'm sorry, but I can't help you with that problem."
+</ul><p>
+I did call him back and helped him fix his problem.
+He didn't complain about my response, but he did get members of 
+the department asking for a while afterwards if he'd fixed his "other" 
+problem.
+<p><hr><p>
+When working as a computer consultant in college, a co-worker and I were
+playing around with the NETSEND command in Windows NT.  At one point he
+accidentally sent a message to all the NTs in the lab that said, "Can you see
+me?"  Shortly thereafter, a girl came to our station looking perturbed.<p>
+<ul>
+<li><b>Girl</b>: "Um, my computer is talking to me.  It's asking if I can see it."
+<li><b>Co-Worker</b>: "<em>Can</em> you see it?"
+<li><b>Girl</b>: "Yes."
+<li><b>Co-Worker</b>: "Click OK."
+</ul><p>
+We laughed for a good fifteen minutes after that.
+<p><hr><p>
+In 1989 I worked as a repair tech for a company that made Amiga and Atari
+modems and hard drives.  On one of the Atari computers I used for testing, I
+added a screen saver that just made a blank screen. One of the female line
+leads used this particular computer for auditing floppy disks and was
+unaware that I had added the screen saver.  One day when she came over to
+test a few disks, she asked if I would turn the computer on for her.  I told
+her that it was already on and jokingly told her that there was a loose
+connection somewhere in the computer, but if you bang on the table by the
+computer it should fix it long enough for her test (when in reality, it was
+just bumping the mouse and turning off the screen saver).  I even banged on
+the table to show her.  She accepted this and continued to bang on the table
+whenever she tested some disks, and each time I had to hold in the laugher. I
+decided to see how long I could get her to believe this.  A couple of weeks
+later she was training someone new to her crew and included the table
+banging to "activate the loose connection" as part of the training.  This went
+on for a month before I finally decided to tell her what was going on when
+one day she banged on the table a good ten times trying to activate
+a computer that was turned off. 
+<p><hr><p>
+I am a system administrator, but at times, when I'm feeling benevolent,
+I assist technically challenged users.  I was speaking with one of the
+network analysts while enjoying a cup of latte, when a woman from the
+Health Services department frantically rushed over to us.  We told her
+to call the help desk, which is what she is supposed to do first, and then
+her problem would probably be assigned to one of us.  She couldn't wait,
+though -- you know that scenario.  She needed to copy a document to a disk
+immediately, but her disk drive was "broken."  She was
+flailing her arms with the diskette in her hand saying, "I keep trying
+to put the diskette in, but it won't go in.  The disk drive is broken!"
+<p>
+The analyst and I looked at each other, then followed her to
+her computer.  We stood next to her as she repeated her story. At the
+same time, she was unsuccessfully attempting to shove her diskette into
+the drive...with the disk <em>upside down</em>.
+<p>
+I told her that there wasn't anything wrong with her drive.  I said her
+computer was upside down.
+<p><hr><p>
+I just had a phone call from a high-level academic asking why his screen
+was so white, bright, and blurry, and if there was any way he could
+increase the amount of ink it used.
+<p>
+I directed him to his monitor's brightness and contrast controls.<p>
+<ul>
+<li><b>Him</b>:  "Brightness and contrast controls?  What do they do?"
+</ul><p>
+As a friend of mine has just commented, "Funny.  There's a brightness
+dial on the monitor, but the users don't get any smarter."
+<p><hr><p>
+My boss received complaint about me from one of those users that hates all
+tech support personnel.  He said, quote:<p>
+<ul>
+<li><b>Customer</b>: "I don't know what that idiot did, but my PC was
+ LAN connected yesterday, and now it's not."
+</ul><p>
+I had not touched this person's PC for several months. I went to her
+desk and discovered she had moved her desk to the other side of the cube.
+She had disconnected the Cat 5 LAN cable because it was too short to reach
+the new desk location.
+<p>
+She was not in the area, so I moved the desk back and hooked the PC to the LAN.
+I left a note saying it would "only work on this side of the cube."
+<p>
+Being an "idiot," I doubt that I could have found any of the longer LAN cables
+in the tub drawer at my desk.
+<p><hr><p>
+<ul>
+<li><b>Tech Support</b>:  "Am I speaking with Mr. Brown?"
+<li><b>Customer</b>:  <em>(in a heavy Italian accent)</em> "Yesss, who eees this?"
+<li><b>Tech Support</b>:  "This is technical support. I see you requested
+ to speak to a Mac expert."
+<li><b>Customer</b>:  "And you are theees Mac expert?"
+<li><b>Tech Support</b>:  "Yes sir, I am.  I see here you're having trouble
+ receiving e-mail--"
+<li><b>Customer</b>:  "Yes, your *&amp;@$% company put me on the phone weeeth
+a stupid woman who didn't know @#$% about Macs and she @#$^ up my compoooota."
+<li><b>Tech Support</b>:  "Ok sir, calm down.  What specifically is the
+ problem  you're having with email?"
+<li><b>Customer</b>:  "Cannot you read, stupid woman?  Eeeet should say in the teeeecket."
+<li><b>Tech Support</b>:  "Sir, if you do not cease using abusive langauge and
+ profanity, I shall terminate this call immediately."
+<li><b>Customer</b>:  <em>(mocking tone)</em> "Oooooooh, okay, threatening
+ the customer are we now?"
+<li><b>Tech Support</b>:  "Sir, I will repeat my question.  What specifically
+ is the problem you are having with email?"
+<li><b>Customer</b>:  "Well, every time I go and try to get eeet, it ask me
+ for a pazzword.  It never do that before."
+<li><b>Tech Support</b>:  "Do you know your password?"
+<li><b>Customer</b>:  "Yes."
+<li><b>Tech Support</b>:  "Did you enter your password?"
+<li><b>Customer</b>:  "No."
+<li><b>Tech Support</b>:  <em>(head in hands)</em> "Sir, if it is prompting
+ you for a password, you must enter one to receive your email."
+<li><b>Customer</b>:  "But but but, I never deeeed theees before, and it work FINE."
+<li><b>Tech Support</b>:  "What email client are you using?"
+<li><b>Customer</b>:  "Don't use those big eendustry terms to scaaare me.
+ What is meaning client?"
+<li><b>Tech Support</b>:  "What <em>program</em> do you use?"
+<li><b>Customer</b>:  "Netscape, I justa download it.  I hated that !@#$%@ Eudora."
+<li><b>Tech Support</b>:  "Ok sir, I can help you configure Netscape
+ so it won't always ask you for your password, but it <em>will</em>
+ ask for it once."
+<li><b>Customer</b>:  "But I never enter a #$!@%-ing password before!"
+</ul><p>
+After much cajoling and gratuitous verbal abuse, he finally consented to
+let me configure his program.  He downloaded his mail and then asked,
+in a sneering tone:<p>
+<ul>
+<li><b>Customer</b>:  "So you are the Mac expert, eh?"
+<li><b>Tech Support</b>:  "Well, I'm not certified by Apple or anything,
+ but I do own a Mac, and I do fine on it."
+<li><b>Customer</b>:  "Ok, what ees this Mac TCP DNR file, what does it dooo?"
+<li><b>Tech Support</b>:  "Well, the DNR stands for Domain Name Resolver."
+<li><b>Customer</b>:  "Eeees that eeeeeeeet?"
+<li><b>Tech Support</b>:  "Sir, if you want the specifics on that particular
+ file, I suggest you contact Apple tech support."
+<li><b>Customer</b>:  "Some @#$%-ing Mac experta you ar-a, you stupid woman!"
+<li><b>Tech Support</b>:  "Sir, I must stress to you that being abusive to
+ technical support can result in the loss of service."
+<li><b>Customer</b>:  "Yeah, right-a, som-a stupid woman is-a gonna cancel my account!"
+<li><b>Tech Support</b>:  "Consider yourself reported."  <em>(click)</em>
+</ul><p>
+After that, I received a gushing email from a fellow tech who did a check on
+the guy a few weeks after the call.  By his name and encrypted password was
+the word "cancelled."  Sweet.
+<p><hr><p>
+I work in a small computer store, not only as a tech, but also as a
+salesperson.  A customer came to me with a question about whether a
+piece of software would run on his computer.<p>
+<ul>
+<li><b>Me</b>: "Have you checked the minimum system requirements on the box?"
+<li><b>Customer</b>: "The what?  Look, I just bought a computer here four
+ months ago. Just tell me whether it will work."
+</ul><p>
+Alarm bells go off in my head.<p>
+<ul>
+<li><b>Me</b>: "Well, what kind of system did you buy?"
+<li><b>Customer</b>: "I dunno, it was a <em>[brand name]</em>."
+<li><b>Me</b>: <em>(grasping at straws, losing the will to live)</em>
+ "How fast is the system?"
+<li><b>Customer</b>: "Well, it's Microsoft 98."
+</ul><p>
+Ten minutes later, after making no progress whatsoever, I decided to throw
+together some random jargon and buzzwords to get rid of him.<p>
+<ul>
+<li><b>Me</b>: "Well sir, I hate to tell you this, but your BIOS would
+ cause an DMA type 3 conflict on the processor cache, causing a
+ complete system shut down.  I'm sorry, but you can't run this program."
+</ul><p>
+The customer, unhappy with our "poor service," rants, raves, and goes down the
+street to another computer store.  I happen to have a friend there, so I
+called him, warned him, and told him what to say.  Last I heard, the guy was
+still trying to figure out how to stop a DMA type 3 conflict with the
+processor cache.
+<p><hr><p>
+I work as a clerk in a computer store.  Once a guy came in needing RAM for his
+486.  I told him he probably needed parity SIMMs.<p>
+<ul>
+<li><b>Customer</b>: "Isn't non-parity faster?"
+<li><b>Me</b>: "Well, yeah, more or less."
+<li><b>Customer</b>: "That's what I want."
+<li><b>Me</b>: "Well, sir, that won't work in your machine."
+<li><b>Customer</b>: "Yes, it will. My friend said it was faster and
+ that it would work."
+<li><b>Me</b>: "Sir, non-parity is for 120 Pentiums and better.
+ I assure you, it will not work in your machine."
+<li><b>Customer</b>: "My friend says it will, and he's a computer genius."
+<li><b>Me</b>: "Fine."
+</ul><p>
+I put the parity away and got him two 8 meg non parity. As he left, I got a
+good one in.<p>
+<ul>
+<li><b>Me</b>: "See you tomorrow. Hang on to your receipt."
+</ul>
+<p><hr><p>
+I had just completed a test install of a LAN-based remote control tool,
+when a VERY dependant secretary called my office.  She calls me way too
+often to have me show her how to do very basic things.  Her boss, "Don,"
+insisted that "Tess" did not need special training, only my occasional
+assistance.  That day, Tess was frustrated while trying to learn how to
+use the thesaurus feature in Word 97.  I recommended that she use the Help
+Assistant to learn.  She was unaware of how the assistant worked; an
+idea came to mind.<p>
+<ul>
+<li><b>Me</b>:  "Go to 'Help' and choose 'Microsoft Word Help'."
+<li><b>Her</b>: "Ok.  A little paper clip came up. Ha ha!"
+<li><b>Me</b>:  "Now, see the text box?  Keep your eye on it, and tell me what it says."
+<li><b>Her</b>: "'Hi...Tess....  So you want...to learn about...the thesaurus...today?'"
+<li><b>Me</b>:  "Now say 'Yes.'  Don't type it."
+<li><b>Her</b>: "'Yes.'"
+<li><b>Me</b>:  "Now what does it say?"
+<li><b>Her</b>: "First...I must suggest you...read 'Word 97...for Dummies.'"
+<li><b>Me</b>:  "Ask where it is."
+<li><b>Her</b>: "Where is it?" <em>(pause)</em> "It says it is in my cabinet above my desk."
+<li><b>Me</b>:  "Oh, good.  Always trust the Help Assistant.  You will be
+ proficient very soon.  Now the assistant knows you are going to get
+ smarter, so it will now want you to type your questions in that box."
+<li><b>Her</b>:  "Hey Don, I can talk to my computer!"
+<li><b>Me</b>:  "Gotta go!" <em>(click)</em>
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I'm trying to install Word 4.0, and it won't let me!"
+<li><b>Tech Support</b>:  "Word 4.0!? Isn't that several years old?"
+<li><b>Customer</b>: "Yeah, I got it when I was a freshwoman and never installed it."
+<li><b>Tech Support</b>:  "Ok, so what is the problem?"
+<li><b>Customer</b>: "It keeps asking for disk 5."
+<li><b>Tech Support</b>:  "What happens when you insert disk 5?"
+<li><b>Customer</b>: "That's the problem! I don't have disk 5. I only have
+ disks 1-4 and 6!"
+<li><b>Tech Support</b>:  <em>(stunned)</em> "Ah. Um. Well, you need disk 5
+ to install the program."
+<li><b>Customer</b>: "No I don't!"
+<li><b>Tech Support</b>:  "Uh. Yes. You do. If you don't, the program can't
+ install. You can come to the HAC lab and use our PC's. We have Word 6.0."
+<li><b>Customer</b>: "I don't have to do that! I need to install this
+ program now! My paper was due this morning!"
+<li><b>Tech Support</b>:  "Look, you can't install the program without the
+ fifth disk. It can't be done."
+<li><b>Customer</b>: "Yes you can. My friends told me if I'm missing only
+ one disk, it will install. I'll just be missing some fonts."
+<li><b>Tech Support</b>:  "That might be true if you were missing the last
+ disk. But you are missing a middle disk. Just come down to the lab
+ and use our computers."
+<li><b>Customer</b>: "What, do you think I don't know anything about
+ computers? I need to install this, you idiot! My paper was due hours ago!"
+<li><b>Tech Support</b>:  "I'm sorry. It simply can not be done.  You are
+ going to have to use another computer or program."
+<li><b>Customer</b>: "Don't treat me like an idiot! I know it can be done.
+ You don't know anything you moron. Put someone who knows what they
+ are talking about on the phone."
+</ul><p>
+I snapped. Keep in mind that (a) we don't really do tech support, so she
+can't complain to anyone, and (b) even if she does, as one of the only
+competent student employees, I can get away with a lot.  I laid into her
+hard, called her some nasty names, and hung up the phone.  I'm so glad I
+was able to do that.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I can't read my fonts anymore."
+<li><b>Tech Support</b>: "Pardon?"
+<li><b>Customer</b>: "My fonts have all disappeared from the screen."
+<li><b>Tech Support</b>: "Really.  Uhhh...have you changed anything recently?"
+<li><b>Customer</b>: "No. It happened this morning."
+<li><b>Tech Support</b>: "Ok, I'll log a call and be there in a few minutes."
+</ul>
+I trudged down to her cubicle (she had gone out for coffee) and looked at her
+Windows 3.11 workstation.  She had changed her background window color to
+mauve, and her text color to mauve.  I switched her text color to black and
+left a post-it note saying the problem was fixed.  Fifteen minutes later:<p>
+<ul>
+<li><b>Customer</b>: "The fonts are gone again."
+<li><b>Tech Support</b>: "Really?  Did you change anything?"
+<li><b>Customer</b>: "Well, they had been black, but that was hard to read,
+ so I tried changing the colors, and they disappeared again!"
+<li><b>Tech Support</b>: "Hold on, I'll be down."
+</ul><p>
+Again, she had gone for coffee while I was there (she drank a lot of coffee).
+Now her background color was blue, and her text color was blue.
+Sick of this, I selected "Windows Default" for the color scheme.  Then I
+changed the permissions on her DESKTOP.INI file to read-only.  I left the
+post-it note and went back to my game of solitaire.<p>
+<ul>
+<li><b>Customer</b>: "Hi!  My colors won't work."
+<li><b>Tech Support</b>: "Yes, last time I was down I discovered an error in
+ your Windows setup which I then was able to link back to a small
+ hardware bug in your CPU.  It seems that the ALU is interfering with
+ your video accelerator."
+<li><b>Customer</b>: "What does all this mean?"
+<li><b>Tech Support</b>: "You can't switch Windows colors from default
+ anymore.  Nothing can be done.  Sorry."
+<li><b>Customer</b>: "Oh, all right, thanks."
+</ul>
+<p><hr><p>
+I once went on site to fix a problem a customer had.  Nothing would come up.
+I asked if he cycled the power, and he said he did.  I asked him to show me
+exactly what he had done.  He turned the monitor off and on again.
+<p>
+I reached down under the desk, hit the reset button, and everything was fine.
+He asked what the problem was.  I said, "Don't worry about it sir, it's an
+eye-dee-ten-tee error -- takes too long to explain -- have a nice day."
+<p>
+Write down 'I,' 'D', '10', and 'T' together, and you'll see what I meant.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I want to send an email. How do I do it from WordPerfect?"
+<li><b>Tech Support</b>: "Do you have an email program?"
+<li><b>Customer</b>: "No."
+<li><b>Tech Support</b>: "Are you on a network?"
+<li><b>Customer</b>: "No."
+<li><b>Tech Support</b>: "Do you have a modem?"
+<li><b>Customer</b>: "No."
+<li><b>Tech Support</b>: "Then you can't send email."
+<li><b>Customer</b>: "This program is useless! How am I going to send an email!?"
+<li><b>Tech Support</b>: "Well, if you push the send button a small door
+ will open at the back of your monitor, and a pigeon will fly out with your message."
+</ul><p>
+I had the phone on mute when I said this last line, but my supervisor didn't
+know it.  The look on his face was great.
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "What's the fastest way to move 500 megabytes of data
+ daily from Santa Cruz to Los Angeles?"
+<li><b>Tech Support:</b>  "Fed Ex."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "I can't get loaded!"
+<li><b>Tech Support:</b>  "Try stronger drinks."
+</ul>
+<p><hr><p>
+The classic Freudian slip delivered to PC users whose mouse and modem
+share the same interrupt request:
+<ul>
+<li> "The problem is an IQ conflict..."
+</ul>
+<p><hr><p>
+I have a Mac friend that convinced the other IBM people at his
+company that when the token ring network went down, it was due to
+someone removing the cable and the token falling out.  He actually had
+businessmen on the floor looking for it.  I think he eventually stated
+he found it himself to avoid getting lynched.
+<p><hr><p>
+Some years ago, I was working for Apple's Customer Service line,
+answering as many technical support calls as possible.  Since this
+was before Apple offered "official" customer assistance, I often
+answered technical questions with the standard company line, "Have
+you called your Apple dealer yet?"
+<p>
+One day I received a call from an elderly woman, who wanted to pay
+her local utility bill.  I told the woman that she had reached
+Apple Computer, and that she had probably dialed the wrong number,
+fully expecting that she would acknowledge her error and that this
+would be the end of the call.
+<p>
+Much to my surprise, she countered, "Young man, don't tell me where
+I've called.  I dial this number every week and you can't tell me
+that I cannot pay my bill through this number!"  I was stunned.
+I repeated my insistence to her that she had reached the wrong
+number.  Still, she wouldn't budge.  She had dialed the right number,
+and come hell or high water she was going to talk to someone who
+could help her.
+<p>
+I was exasperated, but being the quick thinking employee that I am,
+I replied, "My mistake ma'am, you are correct, you have dialed PG &amp; E.
+If you just tell me the amount on your bill, I'll enter it into
+our records here."  I made some keyboard noises in the background
+trying to sound as official as possible.  "You're all set here,
+Ma'am.  You can just mail your check into us."
+<p>
+There was a pause on her end.  Then, "Could you give me the billing
+address so I can mail my check to you?"
+<p>
+Red alert!  "Uhhhh, Ma'am?  Our address should be right there on your bill."
+<p>
+"Oh yes, you're right."
+<p><hr><p>
+<ul>
+<li><b>Tech Support:</b>  "Hello?"
+<li><b>Customer:</b>  "Cursor's broke."
+<li><b>Tech Support:</b>  "Beg your pardon?"
+<li><b>Customer:</b>  "Cursor's broke on my VT220 computer."
+</ul>
+A VT220, of course, is the model number of a dumb terminal made by Digital.
+<ul>
+<li><b>Tech Support:</b>  "Did you try plugging it in?"
+<li><b>Customer:</b>  "Of course I did. What do think I am, an idiot?"
+<li><b>Tech Support:</b>  "Sometimes on those VT220 'computers' you have to
+ reverse the polarity on the plug.  Can you unplug it and turn
+ the plug upside down and plug it back in?"
+</ul>
+The tech knows full well that the cord has a grounded three-pronged plug that
+<em>cannot</em> be plugged in upside down.
+<ul>
+<li><b>Customer:</b>  "Ok, hold on."
+</ul>
+Pause.  <em>Beep!</em>
+<ul>
+<li><b>Customer:</b>  "Ok, I've reversed the polarity and it works fine now!"
+</ul>
+<p><hr><p>
+An elderly lady bought a Mac Performa and when she got it home she
+decieded to give me a call.
+<ul>
+<li><b>Customer:</b>  "I opened my computer and set it up and I love it!"
+<li><b>Tech Support:</b>  "I'm glad to hear it how can I help you?"
+<li><b>Customer:</b>  "Well, I turned it on and can't seem to get anything to happen."
+<li><b>Tech Support:</b>  "Did you turn the power switch on?"
+<li><b>Customer:</b>  "Yes."
+<li><b>Tech Support:</b>  "Is the monitor on?"
+<li><b>Customer:</b>  "Yes."
+<li><b>Tech Support:</b>  "What do you see?"
+<li><b>Customer:</b>  "The same thing I saw in your store."
+<li><b>Tech Support:</b>  "What is the problem?"
+<li><b>Customer:</b>  "I can't get the arrow to move."
+<li><b>Tech Support:</b>  "Ok, what do you have plugged into the system?"
+<li><b>Customer:</b>  "Well, the thing with the letters on it and this foot pedal thing."
+<li><b>Tech Support:</b>  "Is the foot pedal on a chair mat?"
+<li><b>Customer:</b>  "No."
+<li><b>Tech Support:</b>  "Well, you will need to get one before it will work."
+<li><b>Customer:</b>  "Thank you, I'll do that."
+</ul>
+<p><hr><p>
+Last night, I had a woman on the phone who was trying to get her Mac's DOS
+card to see more memory.  Not only did she change her story ten times, but she
+kept restarting the Mac, over and over.
+<ul>
+<li><b>Tech Support:</b>  "Let's change this option in PC Setup now, ok?"
+</ul>
+<em>BONG!</em>
+<ul>
+<li><b>Tech Support:</b>  "Ma'am, why did you restart your Mac?"
+<li><b>Customer:</b>  "I wanted the changes to take effect."
+<li><b>Tech Support:</b>  "Please don't restart until I ask you to, ok?"
+<li><b>Customer:</b>  "Ok."
+</ul>
+Anyway, we'd go back into the PC Setup, change something, and then,
+inevitably, <em>BONG!</em>  I got so upset, I finally said to her, "Ma'am, you
+shouldn't restart so much, you're going to burn out your restarting coil, and
+that's not covered under Apple's warranty."  She got so scared, she didn't
+even want to restart her Mac ever again.  She even told me, "Thank you so much
+for telling me that, I don't want to burn out my coil."
+<p><hr><p>
+A support representative friend of mine came up to me one
+day and said that he thought he had done something wrong.
+He had been walking a novice Mac user through rebuilding her desktop.  She
+tiresomely questioned every direction the technician made.  After half an hour
+of patiently talking her through what should have been a one minute process,
+she finally stated, "Oh!  Now it says, 'Are you sure you want to rebuild the
+desktop on the disk XXX?'"<p>
+<ul>
+<li><b>Tech Support</b>:  "Ok--"
+<li><b>Customer</b>:  "Oh, now there's something like a spinning barber pole
+ on the screen."
+<li><b>Tech Support</b>:  "You didn't press 'OK' did you?"
+<li><b>Customer</b>:  "Yes.  You said 'OK'."
+<li><b>Tech Support</b>:  <em>(acting alarmed)</em>  "I just said 'Ok,' I
+ didn't mean for you to <em>press</em> 'OK'!"
+<li><b>Customer</b>:  <em>(panicking)</em>  "What should I do now?"
+<li><b>Tech Support</b>:  "Run!  Get out of there!  Run!  Run!"
+</ul><p>
+The next thing he heard was the phone hitting
+the floor, the sound of rapidly retreating footsteps, and a door slam.
+After numerous calls over the course of an hour, the customer finally
+answered the phone. She had waited outside for an hour -- when the computer
+didn't explode, she went back inside and unplugged it.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I tried to use this web page from my bookmarks, but it
+ comes back with a DNS failure!"
+<li><b>Tech Support</b>: "Can you go anywhere else?"
+<li><b>Customer</b>: "YES!"
+<li><b>Tech Support</b>: "Then it's probably that the web site is down for
+ repairs or that it's been discontinued.  That happens on the Internet."
+<li><b>Customer</b>: "Well, go out and fix it! It's at [some obscure site in Japan]."
+<li><b>Tech Support</b>: "That would require me to take Japanese language
+ lessons for about six months. Then you will have to send me money and
+ plane tickets to travel to Japan to speak with the people who
+ shut down the web site."
+<li><b>Customer</b>: "Geez, all I want is naked pictures!"
+<li><b>Tech Support</b>: "Who is your supervisor, so we can make arrangements?"
+<li><b>Customer</b>: "Ms. [such and such]."
+<li><b>Tech Support</b>: "Ok, please hold, and we'll have a conference call..."
+</ul>
+<p><hr><p>
+I work in the IS department of a healthcare company, and we are converting
+all our sites from old LANtastic networks to Windows NT server and new
+computers running Windows 95. A manager at one of the sites called me with
+a problem.<p>
+<ul>
+<li><b>Manager</b>:  "How come I can't log into this new server?"
+<li><b>Me</b>:  "Well, although on the old system the server can double
+ as a workstation, the new system no longer allows that.  You can't
+ log into the server as a user.  You'll have to use one of the new
+ Windows 95 machines."
+<li><b>Manager</b>:  "What??  Look, I'm the site manager, and I should have
+ the best computer.  I shouldn't have to use the same old machines as
+ every other common employee."
+</ul><p>
+I put her on hold and called her site on my other line.  When I got the
+receptionist, I asked, "What's your manager wearing today?"  She gave me
+a full description.  I went back to the other line.<p>
+<ul>
+<li><b>Me</b>:  "You probably don't want to use the server anyway, because
+ we can see you from it."
+<li><b>Manager</b>:  "What?"
+</ul><p>
+I described exactly what she was wearing, right down to the fact that she'd
+spilled coffee on her blouse earlier in the day. She hasn't called back since.
+<p><hr><p>
+My friend was quite good with computers.  His brother was not.  His
+brother's biggest problem was double clicking.  He could never seem to
+do it fast enough and would often get very frustrated in his attempts.
+One day, while his brother was away, my friend took a snapshot of his
+brother's screen, set it as the wallpaper, and cleared the desktop of all
+icons.  You can't even begin to imagine how frustrated his brother grew
+trying and failing for hours to click on the "icons" in the wallpaper.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I'm sorry. I think I just deleted the Internet!"
+<li><b>Tech Support</b>: "That's ok. We have it backed up here on tape somewhere."
+</ul>
+<p><hr><p>
+This is a true account of personal trial, which happened while I was
+working Tech Support for a company which sold Stock Analysis software.
+The company would sell data to its customers who would download said
+data from the company's database on a daily basis. Their listing of data
+was, therefore, kept on their hard drive, along with the data itself.<p>
+<ul>
+<li><b>Me</b>: "Thank you for calling, how can I help you?"
+<li><b>Him</b>: "Yeah, I want my data back. You need my phone number?"
+<li><b>Me</b>: "Back? What's happened to your data?"
+<li><b>Him</b>: "It's gone. I need it back. Let's get this going, hmmm?"
+<li><b>Me</b>: "Ummm...sir, what happened to it?"
+<li><b>Him</b>: "Don't you worry about <em>that</em>. Just give me my freaking data."
+<li><b>Me</b>: "Well, we have several options for data replacement. If you
+ can send us a listing of the stocks you had--"
+<li><b>Him</b>: "Send you a list? I don't have time for this !@*#$!&amp;. Give me my data."
+<li><b>Me</b>: "Uh, unfortunately, it's not that easy. We can--"
+<li><b>Him</b>: "Look, buddy, don't jerk me around. Just press your little
+ whachamajiggers there, zip me down my data, and we're good, ok?"
+<li><b>Me</b>: "Well, sir, these are your options. You can--"
+<li><b>Him</b>: "*$#&amp; you, you stupid &amp;#&amp;$!  Stick those options up your @#$*!
+ Why won't you give me my data!?!?"
+</ul><p>
+For the next half hour, I try to explain amidst all the interruptions
+that he is going to have to pay for the replacement data,
+either by downloading it again or by getting it on disk from us, and that it
+would be Monday at the earliest (this was Friday, one hour before closing)
+before he got it back regardless of which method he chose.
+This, of course, was unacceptable and resulted in me being subjected to
+more tirades of ridiculous cursing and genetic analysis. Finally,
+just to change the subject (he refused to hang up, which I was hoping
+for), I inquired further into the whereabouts of his missing data.<p>
+<ul>
+<li><b>Me</b>: "Sir, what exactly was it that happened to your data?"
+<li><b>Him</b>: "You have it there! What the hell is in your head?"
+<li><b>Me</b>: "What happened to the data you used to have?"
+<li><b>Him</b>: "Well, this is a new computer, and I need it here, if you
+ morons can handle that."
+<li><b>Me</b>: "Oh! Well, we can transfer it from the old machine. Is it--"
+<li><b>Him</b>: "Nope, nope, can't do that. It's dead."
+<li><b>Me</b>: "Dead?"
+<li><b>Him</b>: "That's right, dead. Your software killed it, so I threw it away."
+<li><b>Me</b>: "You...threw it away? What was wrong with it?"
+<li><b>Him</b>: "What are you, deaf?!? It wouldn't work any more, the
+ monitor, laser printer, nothing, so I threw it all away."
+<li><b>Me</b>: "You threw away the printer?!?"
+<li><b>Him</b>: "Yeah, damn thing cost me $8000 to replace it all, and I'm
+ gonna sue you guys!"
+<li><b>Me</b>: "Well, um, what was wrong with it? Did it get hit by
+ lightning or something?"
+<li><b>Him</b>: "I told you, your software killed it! You got @#!+ in your
+ ears? I put your $#^&amp;*# disk in, and the whole computer just died."
+<li><b>Me</b>: "Died."
+<li><b>Him</b>: "That's right, pooboy!! It wouldn't load anymore, not even
+ windows, just a blank screen with some gobbledygook babble on it."
+<li><b>Me</b>: "What babble was this? An error message?"
+<li><b>Him</b>: "You're damn right, an error message, caused by <em>your</em>
+ software!!! I hope you can clean toilets, buddy!"
+<li><b>Me</b>: "Do you have the error message written down somewhere?"
+<li><b>Him</b>: "Well, Mr. Smartypants, as a matter of fact I do! And I'm
+ gonna use it in court to see you in rags!"
+<li><b>Me</b>: "What's it say?"
+ (rustle, rustle, curse curse, mutter)
+<li><b>Him</b>: <em>(rustle, rustle, curse, curse, mutter)</em> "Ah hah! Here
+ it is! It says, 'Non System Disk or Disk Error!' You'll pay for this!"
+</ul><p>
+At this point, I, and the other techs who were listening in by now,
+shared a great laugh, which I didn't bother to mute.<p>
+<ul>
+<li><b>Me</b>: "Sir, you will be happy to know that you threw away a
+ perfectly good $8000 set of machinery because you were stupid enough
+ to leave a disk in the drive."
+<li><b>Him</b>: <em>(long silence)</em> "...well, I'm still gonna sue you guys..."
+<li><b>Me</b>: "I want front row seats in the courtroom. Have a nice evening."
+ <em>(click)</em>
+</ul><p>
+Epilogue: When he called back on Monday, the manager terminated his
+account for abusive behavior for that record two minutes, thirty-eight second
+call.
+<p><hr><p>
+<ul>
+<li><b>Tech Support:</b>  "Sir, something has burned within your power supply."
+<li><b>Customer:</b>  "I bet that there is some command that I can put into
+ the <em>AUTOEXEC.BAT</em> that will take care of this."
+<li><b>Tech Support:</b>  "There is nothing that software can do to help you
+ with this problem."
+<li><b>Customer:</b>  "I know that there is something that I can put in...some
+ command...maybe it should go into the <em>CONFIG.SYS</em>."
+</ul>
+Minutes later:
+<ul>
+<li><b>Tech Support:</b>  "Ok, I am not supposed to tell anyone this but there
+ is a hidden command in some versions of DOS that you can use.
+ I want you to edit your <em>AUTOEXEC.BAT</em> and add the last
+ line as <b>C:\DOS\NOSMOKE</b> and reboot your computer."
+</ul>
+Pause.
+<ul>
+<li><b>Customer:</b>  "It is still smoking."
+<li><b>Tech Support:</b>  "I guess you'll need to call Microsoft and ask them
+ for a patch for the <em>NOSMOKE.EXE</em>."
+</ul>
+Four hours later, he calls back.
+<ul>
+<li><b>Tech Support:</b>  "Hello sir, how is your computer?"
+<li><b>Customer:</b>  "I called Microsoft and they said that my power supply
+ is incompatible with their NOSMOKE.EXE and that I need to get
+ a new one.  I was wondering when I can have that done?"
+</ul>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Revenge</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>

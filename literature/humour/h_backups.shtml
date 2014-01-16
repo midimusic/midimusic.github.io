@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Systems: 1.5 Backups</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Backups</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Systems</H2>
+<H3>1.5 Backups</H3>
+<blockquote>
+<h4>
+Although some people still learn about backups the hard way,
+even the most illiterate of computer illiterates have
+had it ingrained in to their heads that they should backup
+their data on a regular basis.  Problems arise when they
+fail to learn how to create a backup correctly.
+</h4>
+</blockquote>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "The printer has been acting up.  Could that be the
+ cause of our backups failing?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "What do you mean, other tape?  When it said second
+ volume, I just hit enter again."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Tech Support:</b>  "Have you made backups of your software and data?"
+<li><b>Customer:</b>  "I didn't know it had a reverse."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Michaelangelo virus ate my hard disk, but I have a tape
+ backup.  Can you help me restore the system?"
+</ul>
+No problem.  When I arrive, I find out that the last time she had run a backup
+was 18 months ago.  Worse, she hadn't done it correctly:
+<ul>
+<li><b>Customer:</b>  "I thought you just shoved in the tape, and it sucked up the data."
+</ul>
+<p><hr><p>
+A customer called our technical support and explained that his
+system had crashed and for some reason the restored backup did
+not work as expected. After we had spent a few days of
+investigating his collection of backup tapes we were convinced
+that he had a good one year record of backups from the wrong
+directory.
+<p><hr><p>
+In the late 1980s in Finland, my mother was a system administrator for
+a company.  In those times hard drives were small, and backups were made
+with PC Tools (version 4 or 5 at the time) which could be done using
+less than ten 3 1/2" disks for all the most important directories.
+<p>
+One day my mother asked the president of the company if he had done his
+monthly backup of his computer data.  He said he had, and he'd even been
+able to improve the backup process.  He had discovered he didn't have to
+change disks if he just answered 'yes' to all the "Is it ok to overwrite this
+floppy disk?" prompts.  He was overwriting backup disk #1 with the data for
+backup disk #2, then overwriting that with the data for backup disk #3, and
+so on.  My mother was still laughing when she called to tell me the story.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "I have MS Office, but whenever I try to make a
+ backup of the disks, my machine says it's not able to. Can you give
+ me Microsoft's telephone number so I can call them and complain?"
+<li><b>Tech Support</b>:  <em>(grinning ecstatically)</em>  "OF COURSE I CAN!!!!!!"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I lost some of my files.  I archived them, but when I
+ went to retrieve them, they were gone!"
+<li><b>Tech Support</b>: "What program did you use to archive your files?"
+<li><b>Customer</b>: "I used DOS -- but now I can't find them!"
+<li><b>Tech Support</b>: "Ok, what program are you using to do this?"
+<li><b>Customer</b>: "I used 'undelete', but they aren't there."
+<li><b>Tech Support</b>: "Uh...what command did you use to archive your files?"
+<li><b>Customer</b>: "I used 'del' and the filename."
+</ul><p>
+It turned out that the guy had been deleting files, which would free up
+disk space (he liked that), and when he wanted a file again, he would
+undelete it.  Apparently he actually got away with this for a while, until
+he discovered 'defrag', which overwrote his deleted files.
+<p><hr><p>
+A friend at work had to visit a police station to work on a Clipper
+database recording parking fines.  Before he started work he made sure to
+check that the staff had a backup of the database in case anything went
+wrong.
+<p>
+"Oh yes, every evening we back it up onto a floppy disk and take it over to
+the other building and lock it in a fire-proof safe."
+<p>
+"Very good," said my colleague, impressed at their security-consciousness --
+if only all our customers could be so efficient!  But then something they'd
+said made him pause.  "Wait a minute - did you say a floppy <em>disk</em>?
+You mean you back up the whole database onto a single diskette?"
+<p>
+"Yes, that's right.  Just one."
+<p>
+"But this diskette can only hold 1.44 Mb of data -- you've got over ten
+megabytes in this system.  What exactly do you do to make the backup?"
+<p>
+So they showed him.  Every day they'd religiously inserted a fresh diskette
+into the drive, typed "FORMAT A:", and, "backup complete," they deposited the
+newly formatted, but quite empty, diskette in the safe.
+<p>
+Before starting his work, my friend showed them how to really make a backup,
+which was fortunate for my friend, if not for the local parking offenders, as
+a week later the PC in question suffered a complete hard-drive failure.
+</p>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Backups</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</BODY>
+</HTML>

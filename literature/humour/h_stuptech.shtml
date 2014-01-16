@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Role Reversal: 6.1 Stupid Tech Support</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Stupid Tech Support</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Role Reversal</H2>
+<H3>6.1 Stupid Tech Support</H3>
+<blockquote><h4>
+Stories of customers that just can't get the help they need.
+</h4></blockquote>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "Hi, I can't seem to connect you guys are you having a problem?"
+<li><b>Tech Support</b>: "Well sir, what dialup software are you using?"
+<li><b>Customer</b>: "The one you provided."
+<li><b>Tech Support</b>: "And what version is it?"
+<li><b>Customer</b>: <em>(says the version number)</em>
+<li><b>Tech Support</b>: "Oh, that's the problem you need the latest version."
+<li><b>Customer</b>: "Ok, how do I get it?"
+<li><b>Tech Support</b>: "Well, just transfer the file via FTP."
+<li><b>Customer</b>: "Well that would be nice, but I can't connect to the Internet."
+<li><b>Tech Support</b>: <em>(sounding exasperated)</em> "I told you just to FTP the file sir."
+</ul><p>
+I hung up.
+<p><hr><p>
+This incident happened to me in India. This was in 1992-3 when Windows 3.1
+was becoming popular. My machine had a CGA card and monitor, which I exchanged
+for a VGA card and monitor.  The machine booted up -- there were no warning
+beeps -- but nothing was appearing on the screen.  So I called up tech
+support.<p>
+<ul>
+<li><b>Customer</b>: "The computer boots up without any warning beeps, but
+ nothing shows up on the screen."
+<li><b>Tech Support</b>: "Is the monitor connected."
+<li><b>Customer</b>: "Yes, but there is no display."
+<li><b>Tech Support</b>: "Did you install the drivers for the VGA card?"
+<li><b>Customer</b>: "How can I install them before I'm in DOS?"
+<li><b>Tech Support</b>: "You have to install the drivers first before you
+ can get a display."
+<li><b>Customer</b>: "You don't need VGA drivers to boot to DOS like you do
+ for Windows.  I should be able to boot to DOS."
+<li><b>Tech Support</b>: "Well, insert the floppy you received with your
+ card. Go to the A:\Utilities directory. Type 'readme.com'."
+<li><b>Customer</b>: "I cannot see anything. How do you expect me to read a
+ file on the screen?"
+<li><b>Tech Support</b>: "Read the file, and it will explain everything."
+</ul><p>
+I hung up.  The problem was that the monitor was broken.  I took it to the
+shop and proved it, and they gave me a replacement.
+<p><hr><p>
+When I was in college, I needed to connect to the school's network from my
+own computer in my dorm room.  I knew there was a dial-up number that
+would allow me to log in and run limited commands.  All I needed to know was
+the number.  So I called the help desk.<p>
+<ul>
+<li><b>Me</b>: "I'm trying to access the University's network from my
+ computer in my dorm room.  Can you help me?"
+<li><b>Help Desk</b>: "Which lab are you in?"
+<li><b>Me</b>: "I'm not in a lab. I'm in my room."
+<li><b>Help Desk</b>: "Then you're not on the network."
+<li><b>Me</b>: "But I want to connect over the phone line.  What number do
+ I need to dial?"
+<li><b>Help Desk</b>: "You need to call <em>[phone number of help desk]</em>."
+<li><b>Me</b>: "No, that's your phone number.  I need a dial-up number for
+ the computer."
+<li><b>Help Desk</b>: "I don't understand.  What are you trying to do?"
+<li><b>Me</b>: "I want to connect my computer to the school's network
+ through the dial-up."
+<li><b>Help Desk</b>: "Why don't you use a computer in the lab?"
+<li><b>Me</b>: "That would defeat the purpose of having a computer in my room."
+<li><b>Help Desk</b>: "Well, your computer is not connected to the school network."
+<li><b>Me</b>: "I <em>know</em>!  I want to use my modem to connect."
+<li><b>Help Desk</b>: "What's a modem?"
+<li><b>Me</b>: "Never mind."
+</ul>
+<p><hr><p>
+My company recently hired a new technician, and at first he seemed to
+know what he was doing, but soon he got in over his head.
+A customer brought in a system and said she couldn't get on the
+Internet.  When the tech couldn't get the plug-n-play modem to work
+under Win3.11, he assumed it was a new modem, and it couldn't be done. He
+called her.<p>
+<ul>
+<li><b>Tech Support</b>:  "Ok, this modem, since it is plug-n-play, will not
+ work in Windows 3.11.  You'll have to get a new modem or install the
+ Windows 95 upgrade."
+<li><b>Customer</b>:  "But I've been using that modem for over a year in
+ Windows 3.11, and it never gave me any problems."
+<li><b>Tech Support</b>:  "Well it doesn't work now."
+<li><b>Customer</b>:  "If it worked before, why would it not work now?"
+<li><b>Tech Support</b>: "Lightning must have hit it, and now it won't work
+ in anything but Windows 95."
+</ul><p>
+She called back later and asked for someone else.
+<p><hr><p>
+A year ago, I was programming a database for one of the larger
+insurance companies in my state.  The computers they had were awful
+things that still ran Windows 3.1 and took about three minutes to boot up.
+<p>
+One morning I turned on my computer and waited for it to boot. Just as
+it loaded Windows, it started rebooting all over again.  I waited again,
+and it did it again.  After about ten times, I began to wonder.  I would have
+just loaded DOS and found the problem, but one of the security systems on
+the computers there automatically rebooted the computer if you went to a
+DOS prompt.
+<p>
+So I called tech support and explained the problem.<p>
+<ul>
+<li><b>Tech Support</b>: "Ok sir, have you tried rebooting the computer?"
+</ul>
+<p><hr><p>
+I have a Pentium 100 that I bought in March 1996.  I moved since then and
+lost the documentation about the motherboard. I called tech support.<p>
+<ul>
+<li><b>Me</b>: "Hi, I have a Pentium 100, and I want to put in a faster
+ processor, a 133 MHz.  I lost my motherboard documentation and the
+ jumpers aren't marked.  Can you tell me what the maximum is for the board I have?"
+</ul><p>
+I give him all the information he needs, restating the question three
+times in the process.<p>
+<ul>
+<li><b>Tech Support</b>:  "I don't have that information."
+<li><b>Me</b>: "You guys built the machine. Don't you have an engineer
+ somewhere with this information?"
+<li><b>Tech Support</b>:  "Um, I don't know let me ask."
+</ul><p>
+Ten minutes later:<p>
+<ul>
+<li><b>Tech Support</b>: "Ok, I am going to transfer you to a technician."
+<li><b>Technician</b>: "Ok, you want to put a 133 processor on this board?"
+<li><b>Me</b>: "Yes."
+<li><b>Technician</b>: "This board only goes up to 100 MHz.  You can use it
+ with Pentium 75, 90, or 100."
+<li><b>Me</b>: "That's a disappointment -- I wish you hadn't sent me a
+ machine with no upgrade flexibility like that."
+<li><b>Technician</b>:  "Well, you can put the P133 in -- it will run at 133,
+ even though when it boots it will only say 100."
+<li><b>Me</b>: "REALLY?  In the five years I have been working with PC
+ hardware and software, and of all the machines I have upgraded, I have
+ never heard of this.  Are you sure you are correct?"
+<li><b>Technician</b>: <em>(long pause)</em> "Um, no."
+<li><b>Me</b>: "You just wanted to get me off the phone, right?  Well, I just
+ wanted the answer about my board -- if the answer is no, fine, but
+ don't lie to me."
+<li><b>Technician</b>:  "Um, sorry.  No, you can't upgrade that board to a
+ processor faster than 100."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Me</b>: "Hi, I have a problem with my left speaker, no sound is  coming out of it."
+<li><b>Tech Support</b>: "Have you adjusted the balance in the volume properties?"
+<li><b>Me</b>: "Yes, it's definitely not that, and it's not a sound card or
+ connection problem either. Could you just send me some new speakers?
+ It's still under warranty."
+<li><b>Tech Support</b>: "Errrm, ok, I want you to go to DOS and type
+ 'format c:' and then restore your hard disk from the master CD."
+<li><b>Me</b>: <em>(click)</em>
+</ul>
+<p><hr><p>
+I called my cable modem service about a problem involving a series of constant
+disconnections and lock ups.<p>
+<ul>
+<li><b>Tech Support</b>: "Oh, you need to empty your browser's cache."
+<li><b>Me</b>:  "Well, that's a different program."
+<li><b>Tech Support</b>: "Do you use Internet Explorer or Netscape?"
+<li><b>Me</b>:  "Internet Explorer."
+<li><b>Tech Support</b>: "Ok, click on View/Properties/Internet Options."
+<li><b>Me</b>:  "I'm sorry but cache files from an entirely different
+ program couldn't possibly be causing this."
+<li><b>Tech Support</b>:  "Hmm, let me refer you to advanced technical support."
+</ul><p>
+The advanced technician knew exactly what the problem was and solved it.
+A month later it happened again.<p>
+<ul>
+<li><b>Tech Support</b>: "When was the last time you cleaned your browser's cache?"
+</ul><p>
+Yet again I was forwarded to advanced tech support, and my problem was solved.
+A while later, it happened a third time.<p>
+<ul>
+<li><b>Tech Support</b>: "Oh, it's the cable line in your area. We'll get a
+ truck rolling on it right away."
+<li><b>Me</b>: "If it's the cable line, how am I able to connect at all?"
+<li><b>Tech Support</b>:  "There could be a short in one of the lines, and
+ that could be causing it."
+</ul><p>
+The next day the cable repairman arrived and checked the lines in my area,
+but my service was again working flawlessly even before he arrived.  When he
+left, I turned on the TV and noticed the cable was out.
+<p><hr><p>
+I'm a system administrator for a fairly large company.  We were shipping
+out new desktop PC's to all our branches, but the PC's did not come with
+installed modems. I installed modems in these machines and configured
+all the necessary software before I shipped them out.  I received a call
+from one branch manager stating that his modem would not work.  I had
+him try all the standard tests, and it appeared that the modem had
+become unseated.
+<p>
+He called the IS director and asked why I hadn't tested the machine before
+I sent it.  I tried to explain that I did, and the card had become unseated
+in shipping.  The IS director, knowing that I install PCanywhere on all
+machines so I can troubleshoot from my office, asked, "Can't we use PCanywhere
+to dial in and fix that?"
+<p><hr><p>
+I had just come across a Compaq 386 Deskpro motherboard. Since I was
+just getting into PCs, I thought it would be cool to wire it up for my
+brother. But I had no idea what the pinout for the power supply plug
+was, as it was non-standard. So I called up Compaq tech support.<p>
+<ul>
+<li><b>Me</b>: "I just got an old 386 Deskpro motherboard, and I wondered
+ if I could get a pinout for the power supply plug, so I can power it
+ up and see if it works."
+<li><b>Tech Support</b>:  "What happens when you turn it on?"
+<li><b>Me</b>: "Ummm...nothing, I don't have a power supply for it. I need a
+ pinout to wire up a standard power supply."
+<li><b>Tech Support</b>: "I see. Can you get into Windows?"
+</ul>
+<p><hr><p>
+About two years ago I signed up with a local ISP.  They gave me some
+software to install and said it would take up to five days for my account
+to be activated.  I installed the software, but five days later I still
+couldn't get on.  I waited two more days, then called to find out what the
+problem was.  The tech support person said he would check on it and call me
+back.  Four hours later, I still hadn't received a call, so I called again.
+The same guy answered the phone.  I asked if he had figured anything out.
+He replied that he had not.  I told him if he couldn't fix the problem, I
+wanted to cancel my service.  He stammered and told me he really didn't
+know that much about computers, but he didn't want to lose my business.
+<p>
+At this point I completely lost my patience and told him to cancel the
+account immediately.  He told me that to cancel my account I had to send
+them email from it.
+<p><hr><p>
+I called the TurboTax support number for help with the online filing of my
+taxes.  Here is my dialog with the "tech support" person:<p>
+<ul>
+<li><b>Tech Support</b>:  "How can I help?"
+<li><b>Me</b>:  "I'm having a timeout problem when filing online.  The
+ modem dials up ok, but after connecting I get a timeout error."
+<li><b>Tech Support</b>:  "What kind of modem do you have?"
+<li><b>Me</b>: "A MultiTech 28.8."
+<li><b>Tech Support</b>: <em>(pause)</em> "We only support 9600 baud. What's 28.8?"
+<li><b>Me</b>: "Twenty-eight point eight K-baud."
+<li><b>Tech Support</b>: "What's K-baud?"
+</ul>
+<p><hr><p>
+My husband and I helped our church get online. We installed a new
+modem, checked everything out and then after doing some research
+on local ISPs we chose a reputable one that would give the
+church a good deal.
+<p>
+Netscape came with the modem's communications software, but it was an old
+version.  After getting everything going we started to download Netscape's
+upgrade.  The ISP kept hanging up ten minutes after starting the download.
+We checked all the settings. Everything checked out fine, but we
+were still experiencing the problem.  It would even disconnect while
+downloading email.
+<p>
+I asked the church's secretary to call the ISP's tech support number the
+following morning.  The next morning she called me back and reported that the
+ISP tech support person had told her she needed to reformat her computer and
+reinstall Windows.
+<p>
+I called the tech support person myself.<p>
+<ul>
+<li><b>Me</b>:  "I can't believe you told her that!  You told her that?
+ That's preposperous! This is not a software problem, this is a problem with the ISP.
+ What does this have to do with email downloads and getting disconnected?"
+<li><b>Tech Support</b>:  "Look, this is a common problem. I can't even
+ download email without it disconnecting. It is like that with all
+ ISPs. This is what we tell all our customers who have this
+ problem. You see, SMTP stands for--"
+<li><b>Me</b>: "I don't think you have any idea what you are talking
+ about. I am with Netcom, and this has <em>never</em> happened to me."
+</ul>
+<p><hr><p>
+I was getting several "illegal operation" errors on a new Windows 95 machine
+I was trying out.  So I called tech support.<p>
+<ul>
+<li><b>Customer</b>: "I want to buy this computer, but I'm a little
+ concerned that I'm getting so many error messages. Is that common
+ with this machine?"
+<li><b>Tech Support</b>: "Well, we have to reformat the hard disk and
+ reinstall the software every day. That's normal."
+<li><b>Customer</b>: "Wait, wait, wait. You're saying that I will have to
+ reinstall Windows every single time I use the computer?!?"
+<li><b>Tech Support</b>: "When it has errors, ma'am, that's the only way to
+ get rid of them."
+</ul><p>
+Needless to say, I purchased my computer elsewhere.
+<p><hr><p>
+I had a problem with my computer.  Out of the clear blue, the sound card
+disappeared from my hardware settings.  After trying to get Windows 95 to
+re-install it, I gave up -- Win95 consistently told me that the card was a
+Soundblaster, and I knew it wasn't.  But I didn't know what kind it was, and
+the manuals that came with the computer didn't say.  I called tech support,
+and they asked me what had been installed on the system since I bought it.
+"Microsoft Office, and Plus" I said.
+<p>
+They told me <em>that</em> was the problem.  They told me I wasn't
+<em>ever</em> supposed to install anything on the machine except for what
+came with it originally.  Then they told me to reformat my hard drive and
+re-install everything from the setup CD.
+<p>
+I asked to speak with this guy's supervisor, and he told me the same thing.
+<p><hr><p>
+In the 1980s, I did not know what <em>fdisk</em> was or how to use it, so I
+called tech support and left a message on their answering machine.  I spoke
+very clearly and left the message:  "My hard drive crashed, and I've been
+told that I need to do a low-level format before I can restore from my
+tape backup.  How do I low-level format my hard drive?"
+<p>
+The next day, our receptionist handed me this message from the tech support
+team:  "Put the floppy diskette in the drive and type <em>format a:</em> and
+hit enter."
+<p><hr><p>
+I bought a laptop with a DVD drive and S-video output, thinking to use
+it, among other things, to play DVDs on my TV.  The S-video output
+
+worked fine until I tried to play DVDs, when it switched back to the
+laptop's monitor.  So I called tech support.<p>
+<ul>
+<li><b>Tech Support</b>:  "It's not supposed to work, because the
+ resolution would degrade too much."
+<li><b>Customer</b>:  "But this is DVD; they're designed for TV sets."
+<li><b>Tech Support</b>:  "No.  You see, it looks really great on your
+ computer monitor, but the TV doesn't have as good resolution."
+<li><b>Customer</b>:  "But DVDs aren't SUPPOSED to use all that resolution.
+ They're <em>supposed</em> to be shown on TV sets.  Anyway, do you
+ have a solution for me?"
+<li><b>Tech Support</b>:  "Well, if you'd get an HDTV, it would work fine!"
+</ul><p>
+As it turns out, he was right about one thing -- it wasn't supposed to
+work.  Buried in the documentation of the MPEG decoder is a line that
+the card didn't support interlaced displays.
+<p><hr><p>
+The company is now dead, so I can mention this one by name:<p>
+<ul>
+<li><b>Tech Support</b> <em>(an elderly sounding woman)</em>:  "Hello,
+ Commodore customer service.  May I help you?"
+<li><b>Customer</b>:  "Yes, I'm trying to find the file format for Deluxe
+ Music Construction Set."
+<li><b>Tech Support</b>:  "You want to format a disk?  Lemme see..."
+ <em>(paper rustles)</em>
+<li><b>Customer</b>:  "No.  I'm looking for documentation on the file
+ format for DMCS."
+<li><b>Tech Support</b>:  "Oh, yes.  I've got documentation here."
+ <em>(paper rustles)</em> "Ok, to format a disk, first you--"
+<li><b>Customer</b>:  "No, no...I'm looking for the file format for--"
+<li><b>Tech Support</b>: "You want to format a file?  I umm..."
+ <em>(paper rustles again)</em>
+<li><b>Customer</b>:  "NO... I DO NOT WANT TO FORMAT A FILE!"
+<li><b>Tech Support</b>:  "Ok, well, to format a disk, you--"
+<li><b>Customer</b>:  "NO!  I don't want to format a disk.  I'm a
+ programmer.  I'm trying to find some documentation on--"
+<li><b>Tech Support</b>:  "We have documentation."
+<li><b>Customer</b>:  "Yes, I understand.  But I'm looking for specific
+ documentation on software that I bought through Commodore.  I'm
+ looking for documentation on the file format for Deluxe Music
+ Construction Set--"
+<li><b>Tech Support</b>: <em>(paper rustles)</em> "You want to format a file?"
+<li><b>Customer</b>:  "No, I--  Is there someone else there I can talk to?"
+<li><b>Tech Support</b>: "No.  No one here but me."
+</ul><p>
+I tried in vain for other contact numbers or the vendor of the software
+(contact information for that software was conspicuously missing in my software
+and documentation).  Some hours later I called the same number above and got
+someone who gave me decent information.  He had no clue what woman I talked
+to earlier.  Could have been janitorial staff for all I knew.
+<p><hr><p>
+I was troubleshooting a powerbook for a user, which had been flaky
+all of it's short life, when it refused to boot and I could smell
+something smouldering.  Clearly there was a short-circuit somewhere,
+probably in the power supply.  I called Apple to get it repaired under
+the warranty.<p>
+<ul>
+<li><b>Me</b>: "Hi, I have a problem with a powerbook.  It has developed a
+ short circuit, probably in the power supply.  I need an
+ RMA number so I can send it back; it's still under warranty.
+<li><b>Tech Support</b>: "Please describe the symptoms."
+<li><b>Me</b>: "Um, there is a short circuit somewhere.  I'd guess it's a bad
+ power supply.  I can smell smouldering when I try to power it
+ on, and it won't boot, and the screen is just a pattern of lines.
+<li><b>Tech Support</b>: "Ok, let's try troubleshooting this."
+<li><b>Me</b>: "There's nothing to troubleshoot. I need an RMA number so I
+ can send it back under warranty.
+<li><b>Tech Support</b>: "Well, you just described three problems to me.
+ We'll tackle each one and see how many we can fix."
+<li><b>Me</b>: <em>(frustrated)</em> "There's only one problem, a short
+ circuit in the power supply.  Something's burning inside the case;
+ I can smell it when I power it on."
+<li><b>Tech Support</b>: <em>(as to a child)</em> "You said that you smell
+ smoke, that it won't boot, and that there are funny lines on the
+ screen.  We'll tackle each of these one at a time.  Now, let's start
+ the troubleshooting and see if we can get it to boot."
+</ul><p>
+At this point, I mumbled something about the phone not being near the
+computer and hung up.
+<p>
+The punch line is that, after the thing was shipped to Apple (twice),
+it got stolen from the shipping agent's truck, and we got a brand new
+model.
+<p><hr><p>
+I had just bought a new laser printer in the US when I received a very good
+job offer for the summer in Europe. So I called the printer manufacturer's
+help desk to find out if I could use the printer in Europe with 220 volts,
+or if they had a low cost transformer.<p>
+<ul>
+<li><b>Me</b>: "Hello, I have just bought your new <em>(printer model)</em>,
+ and I was wondering if I can use it in Europe with 220 volts?"
+<li><b>Tech Support</b>: "Hmmm...let me see....  Here, ok, it says
+ that the printer works with 120 volts, so 220 volts should be enough."
+<li><b>Me</b>: "What?! If it is made only for 120 volts, and I hook
+ it up to 220 volts, it's going to fry."
+<li><b>Tech Support</b>: "Hmmm.  You may need a surge protector."
+</ul>
+<p><hr><p>
+I'm an American living in Switzerland. I prefer English software, and the
+easiest way to get it is to buy directly from the United States.
+<p>
+So, we've recently purchased software from <em>[a company]</em> in the
+States.  It had a few problems, so I called the international support line,
+and please note the word 'international'.
+<p>
+After 45 minutes of listening to bad music at peak international phone rates,
+someone came on the line.  It's a known problem, he said, and he'd send an
+update right out -- he'd just need my address.
+<p>
+He asked for my street.  He asked for my city.  He asked for my state.  Oops,
+I'm in Switzerland, and the 'state' field doesn't apply.  The tech is very
+apologetic, but his software won't let him leave the field blank.  Ok, I said,
+I'm from Texas, so just put Texas in there.  Amazingly, the software accepts my
+four digit zip code.  But he never asked me for my country, so I double
+checked.  No, there was no place for him to enter a country.  So he wrote my
+address down and said he'd sort it out later.
+<p>
+Weeks later, the update still hadn't arrived.  I called back, waiting "only"
+twenty minutes this time.  They checked, found my order, and told me it had
+been sent to Canada and been returned as undeliverable.  I corrected the
+mistake, and the update arrived a few days later in spite of the fact that
+it was addressed to "Swaziland."
+<p>
+I have no idea if this company ever updated their software so the international
+help line could support international addresses.
+<p><hr><p>
+<ul>
+<li><b>Me</b>: "Does your Internet provider support multicasting?"
+<li><b>Tech Support</b>: "Yes. Just download it onto your PC and it'll work fine."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I seem to have lost my IP address can you tell me what it is?"
+<li><b>Tech Support</b>: "Just a minute, I'll check."  <em>(pause)</em>
+ "You're using Win95 aren't you?  It's a bit complicated. Click on Start."
+<li><b>Customer</b>: "Ok, I don't need to do that--"
+<li><b>Tech Support</b>: "Please do it my way, click on Start."
+<li><b>Customer</b>: "Ok."
+<li><b>Tech Support</b>: "Now click on Settings...Control
+ Panel...Networks...TCP/IP...and now on Protocols, and there you are."
+<li><b>Customer</b>: "Yes, that's where I was when I called you."
+<li><b>Tech Support</b>: "Well why call me?  That's where your IP address is,
+ right in front of you."
+<li><b>Customer</b>: "Well, that's where it should be, but mine's all blank."
+<li><b>Tech Support</b>: "Well, what do you want me to do?"
+<li><b>Customer</b>: "Can you tell me what it is?"
+<li><b>Tech Support</b>: "Of course, just a second...why didn't you ask me
+ that in the first place?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I can't seem to connect.  Is there a problem on your end?"
+
+<li><b>Tech Support</b>: "No.  Let's check a few things."
+</ul><p>
+"We" check.<p>
+<ul>
+<li><b>Tech Support</b>: "Ok, looks like you'll have to re-install your net
+ software.  Do you still have the disks we sent you?"
+<li><b>Customer</b>:  "I've been using you guys as an ISP fully a year before
+ you had handy install disks for common software."
+<li><b>Tech Support</b>: <em>(pause -- he clearly doesn't comprehend how
+ that's even possible)</em> "Well, then you'll have to re-install Windows."
+<li><b>Customer</b>: "I don't think so.  Can I talk to someone else?"
+<li><b>Tech Support</b>: "Um...just a sec."  <em>(several minute pause)</em> "You there?"
+<li><b>Customer</b>: "Yes."
+<li><b>Tech Support</b>: "We're down in your area."
+<li><b>Customer</b>:  <em>(dryly)</em> "Thank you very much."
+</ul>
+<p><hr><p>
+One of our clients, an ISP, gave us a free account to use to test
+their service and help us write the documentation and marketing copy for
+them. I set the system up, logged on, and handed it over to my
+assistant.
+<p>
+After about thirty minutes I passed by and noticed they were on the phone to
+the technical support line, reporting a problem with the connection. I
+checked what the problem was with my assistant who told me that the
+web site they were supposed to connect to wasn't answering.
+I checked -- sure enough the connection just timed out with the usual
+'Unable to connect to server' error. I tried a ping to the server and
+got no response, then decided to speak to the tech support person myself.
+<p>
+He was convinced the problem was with our dial-up connection, but as
+soon as I got on the phone I suggested the server was down and asked if
+he could check it with someone. He refused and we spent the next forty
+minutes trying various things on our machine to get the connection working.
+Finally I stopped him:<p>
+<ul>
+<li><b>Me</b>: "Look, I'm a technical consultant who tells other ISP's
+ how to set up their services. I was a founder member of the largest
+ ISP in the UK, I think I know the difference between your server
+ being down and a probem with my machine."
+<li><b>Tech Support</b>: "I've set up two ISPs myself, I know what I'm doing, sir."
+<li><b>Me</b>: "You may well have set two ISPs up, but your server is
+ currently down. Can I speak to your supervisor? I don't have time to
+ waste checking things I know aren't wrong."
+<li><b>Tech Support</b>: "Hang on a second -- I'll just check something."
+ <em>(pause)</em>  "It looks like our server is down."
+<li><b>Me</b>: "I told you that 45 minutes ago. Why didn't you check that
+ when I first asked -- we could have both saved ourselves a heck of a lot of time."
+<li><b>Tech Support</b>: "Well, we have to go through this procedure of
+ checking the caller's machine."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Me</b>: "I'm having problems connecting to sites outside the University."
+<li><b>Tech Support</b>: "What operating system are you using?"
+<li><b>Me</b>: "The latest version of Linux."
+<li><b>Tech Support</b>: "What programs are you currently running?"
+<li><b>Me</b>: "Nothing much -- ftp, telnet, X, Netscape, sendmail..."
+<li><b>Tech Support</b>: "It's not our fault you can't connect anywhere
+ if you're running sendmail. You have to get mail centrally."
+<li><b>Me</b>: "But sendmail has nothing to do with ftp access, web access,
+ or anything else."
+<li><b>Tech Support</b>: "It's not our problem."
+</ul><p>
+Three months later, it was announced on the University web site
+that there was an "untraced fault" on the network, and everyone had to reduce
+the MTU on their computers to 1498.  A few
+talks with various technicians revealed that this had been
+known and repeatedly reported by a great many people, who had
+received just as unfriendly a response as I had, over those
+3 months. The <em>official</em> story was that the technicians
+were waiting to see if the problem would clear up on its own. It
+took another six months of complaints before they finally got
+someone in to fix the router.
+<p><hr><p>
+I had a problem with using my PPP connection through Linux.
+The data transfers were <em>really</em> slow sometimes but fine at others.  I
+played with it for a while, then finally called the help desk.  I was on hold
+for twenty minutes, then:
+<ul>
+<li><b>Tech Support</b>: "Hi.  How can I help you?"
+<li><b>Me:</b> "Hi.  I'm trying to hook up my linux box via PPP, and I'm
+ running into some problems.  It works fine under 95, but I
+ can't seem to get it to connect right under Linux.  I can
+ resolve hostnames and even --"
+<li><b>Tech Support:</b> "Um, sir -- what kind of computer is it?"
+<li><b>Me:</b> "IBM compatible.  Specifically, an Ambra."
+<li><b>Tech Support:</b> "Ok -- what happens when you try running Trumpet Winsock?"
+</ul>
+I slap my forehead.
+<ul>
+<li><b>Me:</b> "This is Linux.  It doesn't run Trumpet Winsock."
+<li><b>Tech Support:</b> "Oh - it's a DOS program?"
+<li><b>Me:</b> "No.  It's an operating system.  Trumpet runs fine under 95."
+<li><b>Tech Support:</b> "Well, have you tried running this program under
+ Windows 95 then?"
+<li><b>Me:</b> "No, it <em>is</em> an operating system.  It doesn't run under
+ another operating system."
+<li><b>Tech Support:</b> "Oh.  Ok, so what happens when you try to run
+ Winsock under it?"
+</ul>
+Murderous thoughts are going through my head.  After a couple more exchanges
+back and forth, she finally understands that Winsock won't run on Linux for
+some weird reason.
+<ul>
+<li><b>Me:</b> "So can I get an incident number so I can talk to a tech?"
+<li><b>Tech Support:</b> "Sure.  I just need to get some info from you."
+</ul>
+She gets down my name, room number, phone number, computer type and
+brand, then we get interesting again.
+<ul>
+<li><b>Tech Support:</b> "Ok, so is this under Windows 3.1 or Windows 95?"
+<li><b>Me:</b> "Neither.  It's Linux."
+<li><b>Tech Support:</b> "Which type of Windows does it run under though?"
+<li><b>Me:</b> "Neither!  It runs on its own!"
+<li><b>Tech Support:</b> "Oh!!!  Oh!  I'm sorry, in that case we can't help
+ you.  We only support Windows 3.1 and Windows 95."
+<li><b>Me:</b> "<em>WHAT?!?</em>"
+<li><b>Tech Support:</b> "Sorry.  That's all we're currently supporting.
+ Have a nice day."  <em>[click]</em>
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Me</b>: "The ethernet card you supplied doesn't work under Linux."
+<li><b>Tech Support</b>: "Have you installed the DOS drivers?"
+<li><b>Me</b>: "I'm using Linux, so the DOS drivers won't work."
+<li><b>Tech Support</b>: "Why not?"
+</ul>
+<p><hr><p>
+I was a manager in an IT department who had a network of around 100
+point-of-sale (POS) computers spread all over Australia.  One of our
+shops, about 2000 miles away, called with a problem.  The motherboard
+appeared to be broken.  I called one of our technicians who was in the
+area and asked him to go over and swap out the hard drive from the
+machine with the broken motherboard into a machine that was in the
+store room which I figured was working fine -- that way the shop wouldn't
+lose any of its data.
+<p>
+The technician called me later and said he couldn't figure out how to get the
+hard drive out of the machine.  To understand what he was looking at, I
+dismantled a spare machine I had.  Thankfully IBM made the machines easy to
+service -- lots of diagrams and instructions on the <em>inside</em> of the
+case.  You just had to get into it first.  The hard drive was mounted on a
+tray which was designed to slide out smoothly once a retaining clip had been
+pressed.  Then it would be easy to unplug the drive and slide a new one in.
+<p>
+No matter how much I described, cajoled, and threatened the technician, he
+could not figure out how to get the hard drive out. He finally got sick of it,
+got in his car and drove away, leaving the shop with frustrated customers.
+I called the technician's manager and explained the situation.  But he wasn't
+too interested either, saying we'd have to get IBM to come and fix it (at a
+huge cost, as you can imagine).
+<p>
+I called the shop back to explain what was going on and that they'd be down
+for a while.  But the elderly lady in the shop said, "It's ok, dear.  I watched
+what the technician was doing, and it didn't look that complicated.  He left
+some of his tools behind, so I pulled the machines apart, swapped the disks,
+and all I need to know now is how to get the cases back on."
+<p>
+I lead her through how to re-fit the case, and she was off and running.
+<p><hr><p>
+This is an actual conversation I overheard in the cube next to me.  I
+only heard one side of it.  He had called the helpdesk to resolve a
+network problem.<p>
+<blockquote>
+"Hello, my name is <em>[name]</em>.  My computer no
+longer communicates on the network. . . .  Yes, the
+network connection is plugged in. . . .  Yes, both ends. . . .  Ok, I've
+rebooted the computer.  Still nothing. . . .  I don't have a 'Start' button.
+I'm running Windows NT 3.51. . . .  Windows NT. . . .  NT. . . .  Ennnn Teeee.
+. . .  I don't think that will work. . . .  Well, ok.  I'm pulling down
+file <em>[long list of instructions]</em>. . . .  I don't have that menu
+choice. . . .  Ok, we'll try it again.  I pull down file <em>[long list of
+instructions]</em>.  That menu choice doesn't exist. . . .  Yes, thank you, I
+do know how to spell. . . . No, there is no menu choice by that name. . . .
+I'm sorry, it isn't there. . . .  No, I do not have a 'Start' button. . . . No,
+I am not running Windows 3.11.  I am running Windows NT 3.51. . . .  Uhhh, no,
+I don't think they are the same thing. . . .  Look, you can keep saying that
+the choice has to be there, but in fact it is not.  I'm running Windows
+Ennn Teee.  It's different from Windows 3.1. . . .  No, the choice third from
+the bottom is <em>[name of option]</em>. . . .  I AM NOT LYING TO YOU. . . .
+Hello? . . .  Hello?"
+</blockquote><p>
+My co-worker redials.<p>
+<blockquote>
+"Hello help desk?  My name is <em>[name]</em>.  I called a few minutes ago
+with a network problem.  I'd like the name of the tech assigned to my
+case. . . .  Thank you.  Now, could you assign a different person to the case
+please? . . . Because she's a moron. . . .  Yes, I did say moron. . . .
+Thank you."
+</blockquote>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "I'm calling to find out if the modem that was bundled
+ with my system has Non-Volatile RAM.  It doesn't appear to work, if so."
+<li><b>Tech Support</b>:  "Have you run 'MemMaker'?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Tech Support</b>: "Multitasking a Pentium is like
+ stepping on the motherboard with running cleats."
+</ul>
+<p><hr><p>
+I was waiting in a computer store for a price quote once, and while I
+was waiting I noticed one of the technicians trying to fix a customer's
+computer. I listen in on the conversation.<p>
+<ul>
+<li><b>Tech Support</b>: "You see when I put my mouse over 'Documents'?
+ How it turns yellow?"
+</ul><p>
+It was clear the customer had changed the Windows 95 colour
+scheme from the standard green background and blue and white windows
+that you see when Windows 95 starts for the first time. He had a new
+color scheme altogether, a blue background, and when he ran his mouse to
+highlight something, it turned yellow instead of the original blue.
+Perfectly normal, I thought; almost every Windows 95 user changes the color
+scheme.<p>
+<ul>
+<li><b>Customer</b>: "Yes, I see that. What about it?"
+<li><b>Tech Support</b>: "That means you have a virus."
+</ul><p>
+Of course, that was it. I wasn't going to buy a system from a store
+with this incredible tech support, so I left.
+<p><hr><p>
+I had a friend who gave me a Mitsubishi monitor. The monitor
+wasn't getting a picture for some reason, so it obviously needed some
+servicing. I took it to a repairman to see what could be done.<p>
+<ul>
+<li><b>Technician </b>: "You mean you get no picture at all when you boot up
+ your computer?"
+<li><b>Me</b>: "That's right."
+<li><b>Technician </b>: "Oh, that's because you have a small hard drive. You
+ have to get a bigger hard drive and then the monitor will work fine."
+</ul>
+<p><hr><p>
+I originally bought a certain brand of computer that supposedly came
+with a video card that had 2 megs of memory.  After a while, noting that
+the screen graphics were moving very slowly, I went into the
+Windows 95 Control Panel to take a look.
+<p>
+Video memory:  1 meg.
+<p>
+So I checked with a diagnostic program.
+<p>
+Video memory:  1 meg.<p>
+I called the tech support people about this.
+<p>
+<ul>
+<li><b>Tech Support</b>:  "Oh, the Control Panel just tells you how much
+ video memory you are using right now, you really do have 2 megs in there."
+</ul><p>
+Pardon me, but if my Windows 95 desktop takes up 1 meg of video memory just
+sitting there, we have a problem.<p>
+<ul>
+<li><b>Tech Support</b>:  "Well, you need to go out and buy <em>[a brand name
+ diagnostic program]</em> and check the video memory, because that is
+ the only one I know how to use.  Don't worry, it'll tell you you have
+ 2 megs of video memory."
+</ul><p>
+Um, I need to buy a $50 piece of software so that I can tell you something I
+already know?<p>
+<ul>
+<li><b>Tech Support</b>:  "Well, this particular motherboard/chip/etc is
+ registered with the FCC, and I have the specs right here!  It has
+ 2 megs of video memory!"
+<li><b>Customer</b>:  "Maybe the <em>specs</em> say so, but my computer doesn't."
+<li><b>Tech Support</b>:  "Well, you can just ask the FCC if you need to!
+ Your computer is <em>[a certain type]</em>, and that type has 2 megs
+ of video memory -- so your computer does too."
+<li><b>Customer</b>:  "It is still under warranty.  Can I have someone take
+ a look at it and check to see if something is wrong?  It only has
+ 1 meg of video memory."
+<li><b>Tech Support</b>:  "No, it has <em>2</em>!"
+</ul><p>
+He couldn't seem to grasp the difference between a written set of
+specifications and a material object -- namely, my computer.<p>
+<ul>
+<li><b>Tech Support</b>:  "Here, I'll have my supervisor come and read
+ you the specifications for your computer!"
+<li><b>Customer</b>:  "Um, I have the specs right here.  And yes, this
+ computer should have 2 megs of video memory.  But it <em>doesn't</em>,
+ and <em>that</em> is why I'm on the phone with you!"
+</ul><p>
+I <em>finally</em> managed to get the guy to give me the number of the local
+computer tech so I could take it in.  The computer tech looked at
+it, said, "Hmm.  It only has a 1 meg video card in it," traded it out,
+and I got my computer back.
+<p><hr><p>
+The following is a three-way conversation between customer support for a company
+that sells computers, a customer of said company, and a technician that was
+called in to repair the hard drive of a machine from said company.
+There's one brain among the three of them, and it's not hard to figure out
+which one has it.<p>
+<ul>
+<li><b>Customer Support:</b>  "Customer support center this is Allen."
+<li><b>Technician:</b>  "Ya, this is the 'CE' from <em>(company)</em>.
+ I was called in to fix yer hard drive.  I put one in but now it's
+ asking for a reference disk."
+<li><b>Customer Support:</b>  "All our systems are shipped with reference
+ disks.  They should be in a box called 'reference disks' there
+ next to the computer."
+<li><b>Technician:</b>  "Oh, here they are, do I put it in now?"
+<li><b>Customer Support:</b>  "Yes, and reboot the computer.  It will come up
+ to a configuration screen and all you have to do is follow the
+ prompts.  Are you sure you're a service guy?"
+<li><b>Technician:</b>  "Look, I've been working on PC's for over 10 years
+ now; I know enough to reboot.  Geeez!  Oh, wait, it says,
+ 'There were no configuration files found for devices in
+ slots 1, 2, 4...please remove your reference disk and
+ insert disk containing the correct configuration.'  What do I do now?
+<li><b>Customer Support:</b>  "Look in the box.  There should be the original
+ disks that came with the network card, the scsi controller, and the
+ modem.  You'll have to put them in one at a time as it asks to update
+ your reference disk.  What kind of network card is in the machine?"
+<li><b>Technician:</b>  "It's a microchannel card."
+<li><b>Customer Support:</b>  "Not what <em>brand</em>.  What type?  Token ring?  Ethernet?"
+<li><b>Technician:</b>  "How do I tell?  Oh wait, the customer wants to talk to you."
+<li><b>Customer:</b>  <em>[yell, yell, curse, curse]</em>  "What do we pay you for??"
+<li><b>Customer Support:</b>  "Calm down."
+<li><b>Customer:</b>  "We have a box here that says use these disks to
+ reconfigure the computer.  Maybe he should be using these instead."
+</ul>
+Hours go by.
+<ul>
+<li><b>Customer Support:</b>  "There, now reboot the computer, and it should
+ all be finally working fine."
+<li><b>Technician:</b>  "Hmmmm.  It says invalid or missing command interpreter."
+<li><b>Customer Support:</b>  "Were there any error messages when you
+ formatted the new drive?"
+<li><b>Technician:</b>  "Formatted the new drive?  I just put it in outta the box."
+<li><b>Customer Support:</b>  <em>[taking a big gulp of cold coffee]</em>
+ "That's ok, we can do that now.  Put in a boot disk, and we'll
+ format the drive and then restore the system from tape."
+</ul>
+Dead silence.
+<ul>
+<li><b>Technician:</b>  "I don't think we have a backup tape."
+</ul>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Stupid Tech Support</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Hardware: 2.2 Memory</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Memory</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Hardware</H2>
+<H3>2.2 Memory</H3>
+<blockquote>
+<h4>
+Computer memory is very frequently misunderstood.  One, it is
+not physically seen or directly manipulated by the user.
+Two, measurement of its quantity is not expressed in terms familiar
+in other contexts. Three, the size of hard disks, also not physically seen by
+the user, are measured using the same units.
+</h4>
+</blockquote>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "Memory? Is that the RAM stuff?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "...I just had 60 more of them RAMs installed..."
+</ul>
+<p><hr><p>
+<ul>
+<li> "My computer has 6 gigs of memory."
+</ul>
+<p><hr><p>
+I had called the electronics department of a chain department store to ask
+how much their RAM was.  The clerk who answered the phone asked me, "Is that
+that CD-RAM stuff?"  I decided it was better to drive over there and see for
+myself.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "I just put on DOS/Windows 6.0, and my memory crashed the system."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Tech Support:</b>  "How much RAM do you have in the computer?"
+<li><b>Customer:</b>  "32 megs."
+<li><b>Tech Support:</b>  "Are you using any RAM doubling software?"
+<li><b>Customer:</b>  "Yes."
+<li><b>Tech Support:</b>  "So you have 16 megs of actual, physical RAM?"
+<li><b>Customer:</b>  "No.  I have 8 megs.  I installed [a RAM expanding
+ product], and that gave me 16.  I liked it so much I went out
+ and got [another RAM expanding product].  So now I have 32."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Can you send me a disk to increase my RAM to the 64 meg maximum?"
+</ul>
+<p><hr><p>
+A woman brought her Macintosh LC520 into my shop to have more memory
+added.  This was all fine, but she said she the computer kept running out of
+memory at startup.  I found this to be rather interesting and decided to fire
+it up at the counter while she watched.<p>
+After plugging in the computer to the wall and a keyboard and mouse I hit
+the power button.  The computer sounded to life and the screen lit with the
+"Welcome to Macintosh" box on screen.  This was immediately replaced by
+the Mac/OS picture and a status bar that was progressing as the extensions
+loaded.  As the bar approached the end she said, "See the memory is all full."
+I looked at her rather confused and asked where she would have gotten that
+idea.  Apparently one of the know-nothings at the local computer superstore
+had said that that was what the progress bar meant.<p>
+Needless to say she was rather angry at them for the erroneous information.
+She ending up not buying the RAM but was thankful for our good service.
+<p><hr><p>
+A customer called in at MicroSystems Warehouse and said he needed to
+speak to a tech immediately.  I asked him what the problem was and that I
+might be able to help.  He said, "Are the SIMM slots located in the back of
+the computer?"  I asked him if he needed help installing the chips.  He said,
+"No.  I installed them and the computer just isn't recognizing them."  I said
+to him, "Where did you install the chips?"  He said, "I removed my sound
+card and put them in there."
+<p><hr><p>
+I got a guy who was trying to remove a 4 meg SIMM from his LC III so he
+could install an 8 meg SIMM.  He complained that he was having trouble
+with it -- it appeared to be soldered in.  I asked him if he had released the
+SIMM from the clips; he said he had to rip one of them off.  He said the ends
+could wiggle free, but the middle looked like it was soldered in.  I tried to
+understand what the heck was going on in his Mac...the weirdness went on for
+at least five minutes.  Finally, grasping for some semblance of reality,
+I asked how much memory his LC III had.  Four megs.  He looked at the
+directions again -- "Ohhhhh, you gotta take it out if you have <em>more</em>
+than four megs."  He was removing the SIMM <em>slot</em>.<p>
+He asked if he should solder it back down.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "You people owe me a new computer."
+<li><b>Tech Support</b>:  "You're having trouble with your computer?  What
+ seems to be the problem?"
+<li><b>Customer</b>:  "Well, I bought some memory from you people, and ever
+ since I installed it into my computer, it's been doing nothing
+ but making grinding noises, and nothing works anymore!"
+<li><b>Tech Support</b>:  "Grinding noises??  It shouldn't be doing that!"
+<li><b>Customer</b>:  "I know that!  That's why you people owe me a new
+ computer, and I'm going to charge you for lost downtime and my inconvenience."
+</ul><p>
+Grinding noises from SIMMs?  This was a new one.<p>
+<ul>
+<li><b>Tech Support</b>:  "Sir, did you install those chips yourself or
+ did someone do it for you?"
+<li><b>Customer</b>:  "I'm not an idiot!  I did it myself.  I put them
+ right in that slot in the front of the computer, smart aleck."
+</ul>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Memory</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>

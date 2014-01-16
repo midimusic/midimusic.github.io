@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Networks: 3.2 Email Magic</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Email</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Networks</H2>
+<H3>3.2 Email Magic</H3>
+<blockquote>
+<h4>Email is one of the most popular applications of computer
+networks.  It's yet another item that the general public
+raves about but doesn't really understand.</h4>
+</blockquote>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "If I want somebody to send a reply to my email...should
+ I include a self-addressed stamped envelope along with it?"
+</ul>
+<p><hr><p>
+Tech Support through email:
+<ul>
+<li><b>Customer:</b>  "I CAN'T READ OR RECEIVE EMAIL!  HELP!"
+</ul>
+We're only allowed to reply through email, so I almost deleted it.  But
+I reconsidered.
+<ul>
+<li><b>Tech Support:</b>  "Yes you can."
+</ul>
+<p><hr><p>
+The following letter was received, through email, mind you, to a friend
+of mine:
+<p>
+<kbd>
+Apparently I have read-only access with the email, but my boss would like
+me to be able to send messages as well.  Is there any way this can be
+established with my account?
+</kbd>
+<p><hr><p>
+When I started working here, I got myself all the computer
+accounts I needed, including an email account.  I was given
+my passwords for all systems except email.  After about a week, I
+called up the appropriate person to find out what the problem was
+and was told that my password had been emailed to me.
+<p><hr><p>
+A customer was inquiring about the features of a certain machine. Among
+his questions was, "Does it come with an email?"
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "I tried sending email to 1.404.123.4567 but the
+ emailer wouldn't let me."
+<li><b>Tech Support:</b>  "Um, that's a telephone number."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Tech Support</b>:  "How may I help you?"
+<li><b>Customer</b>:  "I'm writing my first email."
+<li><b>Tech Support</b>:  "Ok, what seems to be the problem?"
+<li><b>Customer</b>:  "Well I can get the 'a'.  But how do I put the circle
+ around it?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I send you all this email, but I never get a response
+ from you? Why? I don't like your service. Answer me before I cancel!"
+</ul><p>
+There was no return address on the email, and the Reply-To: field was set
+to 'mail'.
+<p><hr><p>
+I had a user say that the email messages she was trying to send would come
+back undeliverable.  I went to her machine to take a look.  The two messages in
+her out basket had valid email addresses in the To: line, but the text of her
+message was stored in the Cc: and Bcc: lines.
+<p>
+This user had been using the same computer and the same email program for over
+a year.
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I can't get my email!"
+<li><b>Tech Support</b>: "What's the exact problem you're having?"
+<li><b>Customer</b>: "I called in earlier and I was told to go to Eudora to
+ check for mail, but there's no Eudora channel."
+<li><b>Tech Support</b>: "Where are you looking for Eudora?"
+<li><b>Customer</b>: "I'm in mIRC of course."
+</ul>
+<p><hr><p>
+Doing phone support for a software company, we had a customer that
+needed an update to our program.  We told her that we had placed it in
+her mailbox, and it was there waiting on her to pick it up (our customers
+had "mailboxes" on our dial up server). She told us it wasn't there, so
+we asked her to check again just to be sure. She said ok, put the
+phone down, and was gone for about five minutes. Finally she came back and
+said, "It's still not there.  I knew it wouldn't because our postman
+only comes around 11:00am."  She had walked outside and checked her
+street mailbox.
+<p><hr><p>
+The company I work for recently sent out (completely voluntary) customer
+information cards, asking for the customer's name, home address, and
+email address.  On more than one card, the email address field was filled
+in with the word "same" and an arrow pointing to the home address field.
+<p><hr><p>
+I have a user who still insists that he should not have to dial in to get
+his remote e-mail.  The computer should just know to turn it on.  When he
+asked if the other remote users in the company knew this, I said, "Well, I
+have never had this question before."  He accused me of calling him
+stupid and proceeded to call his manager to complain about our service.  His
+manager laughed him off the phone and signed him up for training.
+<p><hr><p>
+I run a mailing list.  Like most others, it's set up so if you send email to
+the list with "unsubscribe" in the message, you'll be unsubscribed from the
+mailing list automatically.
+<p>
+I should tell you how many times I've seen "unsubscribe" spelled.  People get
+so mad at me because "it doesn't work right" when they fail to realize that
+they've misspelled "unsubscribe." This is a quote from one such person, who
+wasn't even consistent:
+<ul>
+<li> "Hi.  I try unbuscribe but it not let me unsubbscibe.  Please unsubscibe me NOW!"
+</ul><p>
+<p><hr><p>
+The following was received via email from a customer:<p>
+<kbd>
+Dear Help Desk:
+<p>
+Hmmm.  This appeared in my inbox as I was writing you about Outbox trouble.
+So, apparently that email sat in my outbox BUT was also delivered... so I
+just BET the computer thinks I was sending it from the LS Mailbox, whence
+mail DOES sit in the outbox even if it was delivered.  That was a forwarding
+of a message which had ORIGINALLY come into the LS mailbox BUT I had moved
+it into MY inbox before forwarding.  I guess the computer remembered where
+it had originally arrived, does that make sense?  This is this not a PAB
+problem but a Shared Inbox thing, a feature not a bug?
+</kbd>
+<p><hr><p>
+Cut directly from our support log:<p>
+<kbd>
+&gt; jim,  when  i  send e-mail!  do i use ink,  like if i was writing?  i<br>
+&gt; had to put in new ink in<br>
+&gt; my printer, so i  was  wondering  if  e-mail  use'es  ink.<br>
+&gt;   thank you<br>
+</kbd>
+<p><hr><p>
+A client brought his PC into the office.  "Eudora just doesn't work!" he
+complains.  The tech opened Eudora.  Five minutes later it opened.  He had
+about 200 letters minimized.<p>
+<ul>
+<li><b>Customer</b>:  "Whaddaya mean, 'I need to close them'?  Aren't they closed?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "I've been away a few days and it seems my mail has
+ built up to the point where I can't get it anymore."
+</ul>
+Small wonder.  It turned out, the user had 30,000 messages in his email box."
+<p><hr><p>
+This morning someone came barging into my office, panic stricken, and frantic.
+"All my mail I saved in one of my folders is gone!!!" she said.  I asked her
+which folder she had saved it to. "Deleted Items," she said.
+<p><hr><p>
+A few months ago we had panicked users stating that they couldn't get to
+their mail and were getting error messages.  Lo and behold, the mail
+directory had been moved to our server.  (We use a single database
+oriented mail system.)  When we went into the console to find out where,
+when, and who moved the mail directory, we found that it had been moved by a
+user.  (Users need full read, write, and modify access to the mail folder
+beause it is a shared database -- a setup like this is itself a computer
+stupidity.)  When questioned why she did this, she replied, "The network
+needed cleaning up."
+<p><hr><p>
+Someone here at work, who just couldn't grasp the big picture of computers
+and computer networks, had something go wrong with his workstation and, for
+the day, had to use a different one in another lab.  When he read new email
+from the second workstation, he replied, "How did you know what machine to
+send it to?"
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I can't get my email."
+<li><b>Tech Support</b>: "What software are you using?"
+<li><b>Customer</b>: "What do you mean?"
+<li><b>Tech Support</b>: <em>(sigh)</em> "What do you get your email on?"
+<li><b>Customer</b>: "My computer."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Yes, I just got this disk in the mail. Does it give me email?
+<li><b>Tech Support:</b>  "Yes, ma'am, it does."
+<li><b>Customer:</b>  "Well, can I have my answering machine hooked up so
+ that I can just check my email from my answering machine?"
+<li><b>Tech Support:</b>  "Well, no, ma'am, it does not work that way."
+<li><b>Customer:</b>  "Now, you listen, young man, there is no reason for you
+ to get smart with me!"
+<li><b>Tech Support:</b>  "No, ma'am, I understand.  I was just trying to
+ explain to you how it works."
+<li><b>Customer:</b>  "Well, young man, you have to understand in my day this
+ stuff did not even exist."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Tech Support:</b>  "You're having a problem with getting your mail?"
+<li><b>Customer:</b>  "Yes."
+<li><b>Tech Support:</b>  "Ok, tell me line by line everything you do."
+<li><b>Customer:</b>  "I click 'check mail' and it asks me for my password."
+<li><b>Tech Support:</b>  "Ok, so you type your password."
+<li><b>Customer:</b> "No, I already did when I logged on, so I click 'Cancel'."
+<li><b>Tech Support:</b>  "No, Ma'am, you have to type your password."
+<li><b>Customer:</b> <em>[pause]</em> "Hey, what do you know, I got some mail!"
+</ul>
+<p><hr><p>
+I once had a customer call me up wanting to send something via email.  She
+said no matter what she did it wouldn't go through.  After much debating over
+the settings, I finally asked her what she was trying to send.  It turned out
+she was trying to email a <em>box</em> to her daughter for her birthday.  I
+still haven't quite figured out how she thought that would work.
+<p><hr><p>
+When I was setting up a service call with Apple computer, the girl
+was getting my info.  She asked if I had another way of being
+reached other than by the phone number I gave her.  I said that I
+could be reached by email.  She asked for my address.  I gave it to
+her.  Then she wanted the phone number for my email address.
+<p><hr><p>
+<ul>
+<li><b>My Supervisor</b>:  "I have email now."
+<li><b>Me</b>:  "Great.  What's the address?"
+<li><b>My Supervisor</b>:  "'dmusket506'."
+<li><b>Me</b>:  <em>(writing it down)</em>  "Ok, what's the rest?"
+<li><b>My Supervisor</b>:  "That's it."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>:  "I can't seem to send any email."
+<li><b>Tech Support</b>:  "What are you doing to send it?"
+<li><b>Customer</b>:  "I write it down on a piece of paper, slide it into
+ the slot on the front of my computer, and click on 'send mail'."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "I can't send an email. Is the Internet full?"
+</ul>
+<p><hr><p>
+The other day I took exception to an insulting joke that someone had sent me,
+repeatedly, in his email signature.
+<p>
+His response: "Don't draw conclusions about me from my email signature!"
+<p>
+Isn't that what an email signature is <em>for</em>?
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Uh, I'm trying to send email to my daughter and she's
+ not receiving it."
+<li><b>Tech Support:</b>  "Ok, sir, what is her email address?"
+<li><b>Customer:</b>  "I don't know.  She doesn't even have a computer.
+ Can't I send it to her post office?"
+</ul>
+<p><hr><p>
+Once my friend tried to send me a message by clicking on the "mailto:" link
+on my web page -- but no one had set up email on her system, so it
+didn't work.
+<p>
+She came to me the next day and told me about it.  "Your computer must not have
+been turned on," she said, diagnosing the problem.
+<p><hr><p>
+I received two differently worded email letters that said essentially the
+same thing (obviously something happened and the sender didn't realize the
+first letter had gotten sent, so she typed up a second and sent that too).
+The letters were complaining on the subject of foul language in the movies,
+and she asked if anything could be done about it.  I maintain a movie-related
+web site, so this did not seem out of the ordinary to me.  I answered her,
+saying she should contact the studios directly.
+<p>
+The next thing I know, I received another letter from the address.  It asked
+who I was and how in the world had I gotten hold of this movie language
+letter.  It concluded by saying, "This is not my regular email address, so
+please respond to this one...."
+<p>
+All I could figure out was that this person had logged into her friend's account,
+found a letter of email addressed to her friend in response to her friend's
+email, and got confused.
+<p>
+I answered her, saying who I was and that I didn't know how or where the
+original email had come from.  I speculated on a couple theories, including
+the one above (expressed in less demeaning terms), to help sort out the
+problem.
+<p>
+She writes back acting all snotty, acting like I'm a nosy little jerk unduly
+interested in her Internet access, and then, in that "I asked you once" tone,
+would I please tell her honestly how I came about that original letter on
+the subject of movie language?  She went on to say that she really did write
+the letter, but it wasn't supposed to be sent to me.  It was supposed to go
+to the Vice President of the United States at whitehouse.gov.  My email
+address is absolutely nothing like that of our Vice President's.  To type mine
+out accidentally when trying to type out his, you need to mistype somewhere
+around 25 characters in just the right way.  To this day, I have no idea how
+she flubbed this up, and I know she doesn't.
+<p>
+I wrote her back, telling her I didn't appreciate her attitude, and, for the
+second time, that her original email was emailed normally to my mailbox and
+that that that's how I came about it.
+<p>
+Three days later, I get yet another letter from her.  It was slightly
+differently worded, but what it said was that I was acting like a nosy
+little jerk unduly interested in her Internet access and then, in that
+"I asked you once" tone, would I please tell her honestly how I came about
+that original letter on the subject of movie language?
+<p>
+That's right, she sent me a differently worded version of the same email as
+before.  I wrote back, hopefully for the last time, saying she should learn
+how to read and write email before she chews someone out over it.  But with
+her track record, I have no idea if she'll ever actually read it.
+<p><hr><p>
+This story is an example of a kind of mass stupidity mob that happens in
+various forums on the Internet all the time.  I don't understand why.
+<p>
+I belong to a mailing list, the topic of which will remain unnamed.  The
+list's only purpose is to send out a brief newsletter every day talking about
+things of interest to the subscribers.  Consequently, the list is set up so
+that, normally, only the owner of the list is allowed to send messages; none
+of the recipients can post to it.  After months of running smoothly, the
+mailing list software went haywire, and suddenly <em>everyone</em> was able
+to post to the list.  Chaos broke out, and people started to send notes to
+the list (a list of about 500 people, mind you) just to be "cute."  Had it
+been left alone, the flood of mail would have quickly subsided.  But then a
+wave of people started posting to the list telling these people to stop it.
+Letters poured in reading "STOP IT!" and "DON'T REPLY!" and "Why are you
+sending this to me?"  This triggered <em>more</em> people to do that, which
+triggered <em>more</em>, and so on.  In the first couple hours, there were
+easily seventy of these silly nonsense notes telling everyone else to stop
+sending out mail.  You'd think common sense would keep people from "solving"
+the problem by contributing to it.
+<p><hr><p>
+I subscribe to a listserver that covers an automotive topic.  Last year
+one of the list members went on vacation and set up his email server
+to autoreply to any email with a message that he was out of town.
+Unfortunately, he didn't unsubscribe from the list before he left.
+<p>
+You can guess the result.  Everytime anyone sent a message to the list, this
+guy's automated reply went out on it too.  The listserver fell down and went
+"splat" a couple of times before things got sorted out.
+<p><hr><p>
+This story points out the amazing fact that, although it is great fun to
+laugh at the mistakes of computer newbies, it takes the knowledge and
+expertise of a fairly competent newbie system administrator to make
+your sides really split.  That's me, and I maintain our organization's
+UNIX systems.
+<p>
+There I was, looking at my screen, pondering what I saw.  It was a message,
+stuck in the mail queue for no apparent reason.  So, I figured, "What the
+hey, let's process the queue and see if it goes out."  It didn't.  And it
+said it was stuck because it couldn't contact the remote site.  "They must
+be down, then," I figured.  So, since I was bored, I decided to speed up
+the rate at which the queue got processed by typing "sendmail -q5".  And
+after about ten minutes, I got bored of watching the message sit there in
+the queue and went on to other things.  I assume the message eventually
+went, but I never went back to check up on it.
+<p>
+Later that day, someone sent out email to the whole office using a mailing
+list that we had set up specifically for that purpose.  I got four copies
+of the message.  Some people only got one; others got as many as seven or
+eight.  Needless to say, I was a little shocked.  The sender insisted he
+only hit 'send' once.  I dubbed around a little bit, looking for the cause,
+but didn't find it.  So I left it until the next day.
+<p>
+The next day, people were complaining to me left and right that everytime they
+used the mailing list to send office mail, people would get multiple copies.
+I thought, "This is a serious problem now."  So I did what every good
+newbie system administrator would have done in that situation.
+I rebooted the mail server.  And lo and behold, it actually worked.
+<p>
+Feeling pretty good about myself, I went to check on the sendmail
+daemon to see if it was running (as a sanity check more than anything --
+mail was going out, so I knew it was running).  But I discovered, much to
+my surprise, that sendmail wasn't running at all -- and mail was still
+going out.
+<p>
+I was shocked.  I felt a little scared.  And then, suddenly, I felt
+incredibly stupid.  I finally remembered that we don't USE sendmail, we
+use SMTP.  So I checked the SMTP process, and there it was, happily processing
+email.
+<p>
+It took me a few minutes to figure out what probably happened.  When I was
+looking at the stuck job, I started a copy of the sendmail daemon.  Not only
+that, I set it to a delay of only five seconds.  The regular daemon, SMTP,
+is set by default to 30 or 60 seconds.
+<p>
+So when the queue got plugged by the mounds of mail going out in an
+all-office mailing, was this:  SMTP got to it first, because the process was
+triggered by the mail entering the queue.  But it wasn't fast enough to keep
+ahead of sendmail.  Sendmail could process the queue but couldn't delete the
+message from it after it had sent the message.  So while SMTP was plodding
+through the messages one by one, sending them and cleaning them up, sendmail
+was blazing through them, delete nothing, and do it all over again in another
+five seconds.
+<p>
+As it happened, people who were at the physical bottom of the mailing
+list got the most copies of the message, while the person at the top would
+only get one or two.
+<p>
+Needless to say, I kept this knowledge to myself, and instead
+of being the laughing stock of the office, I was the hero for having
+"solved" the great mail problem.
+</p>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Email</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body>
+</html>

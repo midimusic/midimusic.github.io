@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Systems: 1.4 Hardware Requirements</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Hardware Requirements</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Systems</H2>
+<H3>1.4 Hardware Requirements</H3>
+<blockquote>
+<h4>
+Many people do not understand the concept of "minimum
+requirements."  There's a reason software packages list
+quantities of hardware and say, "You must have a minimum
+of the following to run this software."  Nevertheless,
+this doesn't stop some from trying anyway.
+</h4>
+</blockquote>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Can I run Netscape 2.0 on my Apple ][c?  I have the
+ color monitor!"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Is it possible to put Windows 95 on a Commodore 64?"
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "Do you have WordPerfect for Gameboy?"
+<li><b>Tech Support:</b>  "No, but I'll call you when it comes in."
+</ul>
+Sometimes it's better to go along with the customer and not ask questions.
+<p><hr><p>
+<ul>
+<li><b>Customer:</b>  "I am not seeming to be connecting."
+<li><b>Tech Support:</b>  "Ok, what kind of error message to you get?"
+<li><b>Customer:</b>  "I do not know, just help me!"
+</ul>
+This is common.  We have people who will tell us they saw the error
+message 10+ times but have absolutley no idea what it said.  We are not
+psychics.
+<ul>
+<li><b>Tech Support:</b>  "Oh, ok, well, what kind of computer do you have?"
+<li><b>Customer:</b>  "It is being a Packard Bell."
+<li><b>Tech Support:</b>  "Do you know how much memory you have?"
+<li><b>Customer:</b>  "I have 4 megs of Random Memory."
+</ul>
+There's the problem -- the customer doesn't have the minimum requirements to
+run the software.  You would think that once the person finds out he doesn't
+have the right equipment to run a piece of software, it would end the
+conversation...but, alas, the following dialogue is more representative of
+customer responses in such situations.
+<ul>
+<li><b>Tech Support:</b>  "I'm sorry, but, you don't meet the minimum
+ requirements, so we're really not of much use to you until you upgrade."
+<li><b>Customer:</b>  "But, this is not explaining why I am not connecting!
+ Why am I not connecting to your system!?  What does memory
+ have to do with me connecting!?!?"
+<li><b>Tech Support:</b>  "Well, if you don't meet the requirements, there is
+ no guarantee that the software will work at all, hence the
+ system requirements.  Because you don't meet them, there's
+ really no reason to try and fix it, because it's not going to work."
+<li><b>Customer:</b>  "BUT, I HAVE A 28.8!!  What would you have done if I
+ had said I had 8 Megs!?"
+<li><b>Tech Support:</b>  "Well, when I found that you had four, after you
+ told me that you surely had eight, I would be pretty mad."
+<li><b>Customer:</b>  "This is not explaining why I am not connecting!!  I
+ HAVE A 28.8!!"
+<li><b>Tech Support:</b>  "But you do NOT have the MEMORY requirements for
+ the software.  It WILL NOT work for you unless you upgrade to
+ eight megs of RAM."
+<li><b>Customer:</b>  "I am thinking that I must be cancelling my account."
+</ul>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Hardware Requirements</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Systems: 1.1 Piecing It Together</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Piecing It Together</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Systems</H2>
+<H3>1.1 Piecing It Together</H3>
+<blockquote><h4>More than with any other product on the market today, people
+ are willing to shell out hundreds of pounds to buy something
+ of which they have no real conception - a computer.</h4></blockquote>
+<p><hr>
+<p>I used to work for MacWarehouse as a tech support representative.
+ One day a gentleman called who had never had a computer before. He
+ was trying to set up his new system. I tried and I tried but I just
+ couldn't make him understand where to plug the cables in. Finally
+ I looked up the details on his order. He had ordered top-of-the-line
+ everything - monitor, keyboard, printer, modem, scanner, speakers,
+ CD-ROM drive, external hard drive......except, he had not ordered the
+ actual computer itself. No wonder the cables would not plug in
+ anywhere.
+<p><hr>
+<p><ul><li><b>Customer:</b> "One of my friends gave me an ImageWriter printer and
+ this keyboard. He said he gave me all the cables, but I can't figure out how to
+ connect them. Am I missing something?"
+<li><b>Tech Support:</b> "Well, a computer would help."
+<li><b>Customer:</b> "You mean this keyboard isn't a word processor?"
+<li><b>Tech Support:</b> "No ma'am, its just an input device."
+<li><b>Customer:</b> "Then I need to buy a computer, right?"
+<li><b>Tech Support:</b> "Yes."
+<li><b>Customer:</b> "Do you think I'll need a monitor, too?"
+</ul>
+<p><hr><p><ul><li><b>Customer:</b> "Do I need a monitor? I have everything else."
+<li><b>Tech Support:</b> "Yes, ma'am."
+<li><b>Customer:</b> "Why? That is the dumbest thing I've ever heard of."
+</ul>
+<p><hr><p>On one occasion, a lady came into the store, apparently interested in buying
+ a home computer. After surveying the models on display, she walked over to
+ one and pointed to the monitor and keyboard saying, "I think I need one of
+ these, and one of those...." She then pointed to the CPU and continued,
+ "...but I don't think I need one of those."
+<p><hr><p>Well, I had one event happen to me, where one lady had just bought
+an Apple IIc and complained that she was having problems with her
+ monitor, so we told her to bring her monitor in, and we'd check it
+ out. So she brings her monitor in, and we plug it in, and it works
+ without a flaw. We tell her that the monitor isn't the problem,
+ and to bring her CPU in. She stares at us blankly, and asks,
+ "What's the CPU?" Joe explains that it's the piece of equipment
+ that all your devices plug into. So about twenty minutes later,
+ she returns and walks in carrying the surge supressor. When we
+ explained to her the item that we needed her to bring in, she
+ replied, "Oh you mean the keyboard!" (On Apple IIc's, the CPU box
+ and keyboard are part of the same unit.) And to make this all the
+ more interesting, she was a school computer class instructor.
+<p><hr><p>Back in the mid-eighties, the high school I went to had
+ just purchased a handful of 8086s along with some basic hardware -- at
+ that time these things still were horribly expensive. A few weeks later,
+ the computer lab was broken into and some of the hardware stolen.
+ But the computers themselves had been left untouched: only the
+ monitors and keyboards were gone. Apparently, the only computers the
+ thieves had known were C64s or Apple II's, where the computer and keyboard
+ are part of the same unit. Imagine the frustration when these guys tried
+ to get the stolen machines to work!
+<p><hr><p>I was one of a group of students who would help other students and
+ teachers at my high school with computer problems. One day I got a call
+ from a teacher saying that her computer was not working at all.  I went
+ to her room to find a perfectly good Mac PowerPC on her desk. With one
+ problem.
+<p><ul>
+<li><b>Me</b>: "Excuse me, ma'am.  Where's the keyboard?"
+<li><b>Teacher</b>: "Oh, it's over there in my travel bag."
+</ul>
+<p><hr><p>A man who owned a small business asked me to program a sales and inventory
+ system for him. He was replacing his old 286 PC and had been running a
+ DOS-based program.
+<p>He wanted all the bells and whistles, wanted it browser-driven, with
+ images of all the products in his inventory. But the most important
+ thing to him was that it all run off of floppies -- his 286's hard drive
+ had crashed in the past and he lost all his records, so now he didn't
+ trust hard drives. Not only did he want the whole thing on floppies,
+ he wanted to be able to do a backup onto <em>one</em> floppy every night.
+<p>The other thing was that he didn't want to use a mouse or any other sort of
+ pointing device.
+<p><hr><p>I was advising a friend on a used PC she was considering buying from a
+ friend. I asked the friend if it was a Pentium PC, and he laughed, "All
+ computers have Pentium processors!"
+<p><hr><p>I was in our University Bookshop the other day looking at software when I
+ overheard a salesman talking to a lady about an iMac.
+<p><ul><li><b>Salesman</b>: "It has a built in color monitor and comes with a
+ mouse and keyboard--"
+<li><b>Customer</b>: "Does this thing come with a battery backup system?"
+<li><b>Salesman</b>: "No, but we have one over there for &pound;99.00.  Do you
+ have problems with power outages?"
+<li><b>Customer</b>: "No, but I don't want to lose all of my Microsoft
+ documents everytime I turn off the computer!"
+<li><b>Salesman</b>: "You don't need a battery backup for that. That's why
+ it has a 4 gigabyte hard drive."
+<li><b>Customer</b>: "A hard what?"
+<li><b>Salesman</b>: "A hard drive. It's like a whole bunch of floppy disks
+ inside your computer that you can store documents on."
+<li><b>Customer</b>: "I want the battery backup."
+<li><b>Salesman</b>: "You don't need it."
+<li><b>Customer</b>: "Why?"
+</ul>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Piecing It Together</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>

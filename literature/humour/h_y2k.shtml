@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Computer">
+<META NAME="keywords" CONTENT="Computer, Humour">
+<title>Midimusic.org.uk Computer Humour, Emergencies: 4.3 Y2K</title>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+</script>
+</HEAD>
+<BODY>
+<!--#include virtual="./hmenu.txt" -->
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Y2K</li>		
+</ol>
+<H2>Midimusic.org.uk Computer Humour, Emergencies</H2>
+<H3>4.3 Y2K</H3>
+<blockquote><h4>
+The media has latched onto the Year 2000 bug. All kinds of
+computer illiterate people paranoid about it.
+</h4></blockquote>
+<p><hr><p>
+The other day I passed by a cashier at a department store whose telephone,
+for some reason, wasn't working.  He was trying to convince a customer that
+the problem wasn't caused by "the Year 2000 virus that's going to ruin all
+our computers."
+<p><hr><p>
+The media has blown the Y2K problem way too far out of proportion.
+A few days ago (February 1999), I took my car to the car wash.  This is a
+manual car wash -- I stand in a glassed area while the workers clean the car.
+The car behind me belonged to an old man who joined me in the glassed area and
+struck up and conversation.<p>
+<ul>
+<li><b>Him</b>: "This car's yours son?"
+<li><b>Me</b>: "Yeah."
+<li><b>Him</b>: "It's got one of them electronic ignitions, right?"
+<li><b>Me</b>: "Yup."
+<li><b>Him</b>: "Think it's gonna start next year?"
+<li><b>Me</b>: "Of course, why wouldn't it?"
+<li><b>Him</b>: "Well they say that all computers and stuff are gonna die next year."
+<li><b>Me</b>: "Well how will my car know that it's the year 2000?"
+<li><b>Him</b>: "...How will what...?"
+<li><b>Me</b>: "If my car is gonna die in the year 2000, how will it
+ <em>know</em> that it's the year 2000? There is nowhere in a car's
+ electronics that you'll find reference to a date. The only thing it
+ needs to know is the time of day to display on the radio."
+<li><b>Him</b>: <em>(pause)</em> "You sure?"
+</ul>
+<p><hr><p>
+I have a friend who is convinced that the Y2K bug is going to kill cars 
+dead in their tracks.  No matter how many times I explain to him that 
+there are no date-related systems running the engine, he remains 
+unconvinced.<p>
+<ul>
+<li><b>Him</b>: "Yeah, but the engine uses timing, and that has a clock
+ in it, and all computer clocks use a date, so it's gonna be
+ affected by the Y2K bug."
+</ul>
+All attempts to let him know that the clock in the engine only measures 
+from one millisecond to the next and isn't concerned about the date have 
+no effect.
+<p><hr><p>
+I was about to move, and I was holding a yard sale to
+get rid of the excess junk I had collected during four
+years in my old apartment.  Among these was an old
+sewing machine. It wasn't a fancy electronic machine,
+but one of those old green ones made in the 70s.
+A lady walked up to me to ask about it.
+With a very stern look, she said, "Is this sewing machine
+Y2K compliant?"
+<p><hr><p>
+Recently we had an order for a bunch cabling work.  The customer
+specified that the cables must be Y2K compliant.
+<p><hr><p>
+I was looking for something on the web once and happened across the web site of
+a major electronics manufacturer.  I noticed a graphic at the bottom of one of
+their product description pages that said that the product was Y2K compliant.
+Exploring further, I discovered that <em>all</em> their product description
+pages had the Y2K compliant graphic, including the pages for bread slicers and
+can openers.  What next?  Y2K compliant salt and pepper shakers?
+<p><hr><p>
+Our organization wanted all users to test for Y2K errors by having the
+systems set to one minute before midnight, Dec 31, 1999, and verify
+that there was a correct roll-over.
+<ul>
+<li><b>User</b>: "Something is not right here.  I have been testing for
+ Y2K roll-over, after 4 hours, I have not had one successful roll-over yet!"
+<li><b>Me</b>: "Are all the systems identical?"
+<li><b>User</b>: "No, that's what puzzles me."
+<li><b>Me</b>: "Ok, let's go through it together." <em>(we step through the
+ test)</em> "Ok, now double click on the hours and change them to 11."
+<li><b>User</b>: "Eleven?? Why eleven? Aren't we supposed to set it to
+ twelve hours, fifty nine minutes?"
+<li><b>Me</b>: "Well...midnight does come just after 11:59...."
+<li><b>User</b>: "Man, no wonder they were all failing!"
+</ul>
+<p><hr><p>
+In the latter part of 1998, one of my friends became interested in the Y2K bug.
+I decided to print out some information to give to him. When I dropped off the
+copies on the way home, my friend's neighbor was also paying a visit. Eyeing
+the stack of papers, he asked what they were about. I quickly launched into
+what I thought was a brief but accurate explanation of the problem. The
+neighbor seemed to understand and even asked a few intelligent
+questions -- but then he gave me a thoughtful/worried expression and asked,
+"But shouldn't they be fixing the '99 bug first?"
+<p><hr><p>
+<ul>
+<li><b>Me</b>: "So what do you think of the Y2K problem?"
+<li><b>My Coach</b>: "The what?"
+<li><b>Me</b>: "The Y-2-K problem.  What do you think about it?"
+<li><b>My Coach</b>: "What is Y2K?"
+<li><b>Me</b>: "Y2K, you know, the year 2000 problem?"
+<li><b>My Coach</b>: "Oh yeah, I know something about that."
+<li><b>Me</b>: "So do you think that this is going to be a big problem?"
+<li><b>My Coach</b>: "Of course not!  If Bill Gates can write Windows 98 all
+ by himself, then he's going to be able to fix the problem on time."
+</ul>
+<p><hr><p>
+<ul>
+<li><b>Customer</b>: "What's going to happen to my computer when the year
+ 2000 hits?  Will it just not work anymore, or what?"
+<li><b>Tech Support</b>:  "Actually, the year 2000 problem is this: it seems
+ most of the computer code up until recently had been written assuming
+ that the first two digits in the year of any date were "19."  So
+ basically, some of these applications, when the year 2000 rolls
+ around, will reflect "1900," rather than "2000."  Of course, there
+ weren't any computers around in the year 1900, and so your computer
+ will simply disappear."
+</ul><p>
+After looking <em>very</em> concerned for a few seconds and saying nothing,
+I reassured him I was joking.
+<p><hr><p>
+The Year 2000 Problem as described by WXIA-TV, Atlanta, July 10, 1998:<p>
+<blockquote>
+"You open your eyes, slowly waking up.  It's Saturday, January 1st, 2000.
+What time is it?  You look at your bedside clock, but it's blank.  Is the
+power off?  You check your digital watch.  It's blank, too.
+The coffee maker, which runs on computer microchips just like your
+wristwatch, doesn't work.  The same for the microwave oven and the stove.
+Your three-year-old computer-controlled car won't start."
+</blockquote><p>
+These were the exact words, transcribed from videotape.
+</p>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Literature</a></li>
+<li><a href="index.html">Tech Support Humour</a></li>
+<li>Y2K</li>		
+</ol>
+<p></p>
+</article>
+<!--#include virtual="./zmenu.txt" -->
+</body></html>
