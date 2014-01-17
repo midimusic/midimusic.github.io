@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Wurlitzer Music Player">
+<META NAME="keywords" CONTENT="wurlitzer, music, player">
+<TITLE>Wurlitzer Music Player</TITLE>
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="../style.css">
+<style>article {font-size:.8em;} #col1, #col2 {width:48%; float:left;} #note {width:96%; float:left;}
+iframe#player {float:left; width:720px; height:200px; border:none; max-width:100%;}</style>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+list0=new Array("w125roll3143/kaiser","Kaiser Frederick","Roll 3143","129","130");
+list1=new Array("w125roll3143/chocolate","Bulgarian March","Oscar Straus","109","130");
+list2=new Array("w125roll3143/royal","Royal Trumpeters","Disc, Royal Trumpeters","114","130");
+list3=new Array("w125roll3143/elcapitan","El Capitan","J.P.Sousa","90","130");
+list4=new Array("w125roll3143/underdouble","Under the Double Eagle","Sheet Music","101","130");
+list5=new Array("w125roll3143/officer","Officer of the Day","QRS Roll 1442","136","130");
+list6=new Array("w125roll3143/ourdirector","Our Director","Sheet Music","101","130");
+list7=new Array("w125roll3151/bluedanube","On The Beautiful Blue Danube","Johann Strauss","110","130");
+list8=new Array("w125roll3151/overthewaves","Over The Waves","Juventino Rosas","105","130");
+list9=new Array("w125roll3151/wedding","Wedding Of The Winds Waltz","Sheet Music","100","130");
+list10=new Array("w125roll3151/estudiantina","Estudiantina Waltz","Sheet Music","101","130");
+list11=new Array("w125roll3151/dream","Dream of Heaven Waltz","Sheet Music","95","130");
+list12=new Array("w125roll3151/faust","Faust Waltz","Charles Gounod","121","130");
+list13=new Array("w125roll3151/skaters","The Skaters Waltz","Record Cover","135","130");
+list14=new Array("w125roll3151/waves","Waves Of The Danube Waltz","Ion Ivanovici","102","130");
+list15=new Array("w125roll3248/clarinet","Clarinet Polka","Sheet Music","87","130");
+list16=new Array("w125roll3248/chicken","Chicken Reel","Sheet Music","101","130");
+list17=new Array("w125roll3248/beerbarrel","Beer Barrel Polka","Sheet Music","100","130");
+list18=new Array("w125roll3248/toofat","She's Too Fat For Me","Sheet Music","92","130");
+list19=new Array("w125roll3248/highschool","The High School Cadets March","J.P.Sousa","90","130");
+list20=new Array("w125roll3248/downline","Down The Line","Joseph J. Casasanta","100","130");
+list21=new Array("w150roll13147/13147-01p","The Charlatan, March","J.P.Sousa","90","130");
+list22=new Array("w150roll13147/13147-02p","Loves Dream, Waltz","Wurlitzer 146a","139","130");
+list23=new Array("w150roll13147/13147-03p","Boots and Saddles, March","Music Cover","101","130");
+list24=new Array("w150roll13147/13147-04p","Dream, Waltz","Music Cover","99","130");
+list25=new Array("w150roll13147/13147-05p","Circus Life, March","Music Cover","98","130");
+list26=new Array("w150roll13147/13147-06p","Dove of Peace, Waltz","Music Cover","94","130");
+list27=new Array("w150roll13147/13147-07p","The Bonnie Briar Bush, March","Music Cover","103","130");
+list28=new Array("w150roll13147/13147-08p","Heart's Haven, Waltz","Wurlitzer 146a","139","130");
+list29=new Array("w150roll13147/13147-09p","The Black Horse Troop, March","J.P.Sousa","90","130");
+list30=new Array("w150roll13147/13147-10p","Charming, Waltz","Music Cover","95","130");
+list31=new Array("w150roll14300/14300-01p","Clarinet Polka","Karol Namyslowski","107","130");
+list32=new Array("w150roll14300/14300-02p","Sophia Polka","Original Music","139","130");
+list33=new Array("w150roll14300/14300-03p","Beer Barrel Polka","Bill","105","130");
+list34=new Array("w150roll14300/14300-04p","Hosio Suisia Polka","Wurlitzer 146a","139","130");
+list35=new Array("w150roll14300/14300-05p","Bride And Groom Polka","Music Cover","93","130");
+list36=new Array("w150roll14300/14300-06p","One More Waltz","Music Cover","104","130");
+list37=new Array("w150roll14300/14300-07p","Metro Polka","Music Cover","93","130");
+list38=new Array("w150roll14300/14300-08p","Let Us Be Gay Polka","Wurlitzer 146a","139","130");
+list39=new Array("w150roll14300/14300-09p","Hop Scotch Polka","Sheet Music","100","130");
+list40=new Array("w150roll14300/14300-10p","Szta Jerek Waltz","Wurlitzer 146a","139","130");
+list41=new Array("w150roll14300/14300-11p","Too Fat Polka","Sheet Music","92","130");
+list42=new Array("w150roll14300/14300-12p","Our Kosciuszko March","Wurlitzer 146a","139","130");
+list43=new Array("caliola1/bwrag","Black And White Rag","Music Cover","102","130");
+list44=new Array("caliola1/lonesomepine","The Trail Of The Lonesome Pine","Music Cover","100","130");
+list45=new Array("caliola1/yalevarsity","Yale Varsity","James Johnston","107","130");
+list46=new Array("caliola1/baltimorecentennial","Baltimore Centennial March","Victor Herbert","88","130");
+list47=new Array("caliola1/kingcotton","King Cotton March","J P Sousa","90","130");
+list48=new Array("caliola1/liebestraum","Liebestraum","Franz Liszt","94","130");
+list49=new Array("caliola1/southernstars","Southern Stars Overture","Music Cover","110","130");
+list50=new Array("caliola1/manhattanbeach","Manhattan Beach March","J P Sousa","90","130");
+list51=new Array("caliola1/silverthreads","Silver Threads Among The Gold","H P Danks","87","130");
+list52=new Array("caliola2/yaletwo","Yale Two-Step","Music Roll","88","130");
+list53=new Array("caliola2/yalecollege","Yale College Life","Music Cover","98","130");
+list54=new Array("caliola2/grizzly","Grizzly Bear Rag","Music Cover","102","130");
+list55=new Array("caliola2/twostep9","Two Step Selections No 9");
+list56=new Array("caliola2/dockstader","Dockstader Rag","Music Cover","97","130");
+list57=new Array("caliola2/traviata","La Traviata Fantasie","G. Verdi","93","130","Sheet Music","97","130");
+mlist=new Array(list0,list1,list2,list3,list4,list5,list6,list7,list8,list9,
+list10,list11,list12,list13,list14,list15,list16,list17,list18,list19,
+list20,list21,list22,list23,list24,list25,list26,list27,list28,list29,
+list30,list31,list32,list33,list34,list35,list36,list37,list38,list39,
+list40,list41,list42,list43,list44,list45,list46,list47,list48,list49,
+list50,list51,list52,list53,list54,list55,list56,list57);
+vlist = new Array();
+nullpage="../selectav.html";
+var amk="amark", vmk="vmark";
+lyriclist=new Array();
+synoplist=new Array();
+</script>
+<script src="../avplay.js"></script>
+</HEAD>
+<BODY>
+<header>
+<h2>MIDIMUSIC.ORG.UK<span> Computer Processed Music</span></h2>
+</header>
+<nav>
+<ul>
+<li><a href="../index.html">Index</a></li>
+<li><a href="../joplin/index.html">Scott Joplin Music</a></li>
+<li><a href="../wurlitzer/index.html">Wurlitzer Music</a></li>
+<li><a href="../tech/index.html">Technical Articles</a></li>
+<li><a href="../literature/index.html">Literature</a></li>
+<li><a href="../browsertest/index.html">Browser Test</a></li>
+<li><a href="../about/index.html">About MidiMusic</a></li>
+</ul>
+</nav>
+<article>
+<ol class="crumb">
+<li><a href="../index.html">Index</a></li>
+<li><a href="index.html">Wurlitzer Music</a></li>
+<li>Wurlitzer Music Player</li>		
+</ol>
+</article>
+<article>
+<H4>This music may NOT be used for commercial purposes.</H4>
+</article>
+<iframe id="player" type="text/html" src="../selectav.html" scrolling="no"></iframe>
+<ul class="control">
+<li><button id="b1" type="BUTTON" value="Shuffle" onclick="doshuffle()">Shuffle</button></li>
+<li><button id="b2" type="BUTTON" value="Loop" onclick="doloop()">Loop</button></li>
+</ul>
+<article>
+<section id="col1">
+<h4>1. Wurlitzer 125 Roll 3143</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(0)"> Kaiser Frederick</a>. March. Carl Friedemann, Aug 16, 1909</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(1)"> Bulgarian March.</a> Oscar Straus, Dec 21, 1909.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(2)"> Royal Trumpeters.</a> March. Frank R. Seltzer, Mar 30, 1905</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(3)"> El Capitan.</a> March. John P. Sousa, May 18, 1896</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(4)"> Under the Double Eagle.</a> March. J. F . Wagner, Jun 10, 1913</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(5)"> Officer of the Day.</a> March, Two Step. R. B. Hall, Jun 20, 1903</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(6)"> Our Director.</a> March, Two Step. F. E. Bigelow, May 7, 1895</LI>
+</ol>
+<h4>2. Wurlitzer 125 Roll 3151</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(7)"> On The Beautiful Blue Danube.</a> Johann Strauss Op. 314, May, 1867</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(8)"> Over The Waves.</a> Sobre Las Olas. Juventino Rosas, Aug, 1888</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(9)"> Wedding Of The Winds Waltz.</a> John T. Hall, Apr 2, 1896</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(10)"> Estudiantina Waltz.</a> Lacome & Waldteufel, Dec 22, 1881</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(11)"> Dream of Heaven Waltz.</a> A. W. Bauer, Jul 24, 1899</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(12)"> Faust Waltz.</a> Charles Francois Gounod, 1859.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(13)"> The Skaters Waltz.</a> Les Patineurs. Emile Waldteufel, Dec, 1882</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(14)"> Waves Of The Danube Waltz.</a> Ion Ivanovici, 1880</LI>
+</ol>
+<h4>3. Wurlitzer 125 Roll 3248</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(15)"> Clarinet Polka.</a> Jagiello, Dec 16, 1913.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(16)"> Chicken Reel.</a> Joseph M. Daly, Jun 25, 1910</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(17)"> Beer Barrel Polka.</a> Brown & Voda, Mar 30, 1939.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(18)"> She's Too Fat For Me.</a> MacLean & Richardson, Aug 25, 1947</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(19)"> The High School Cadets March.</a> John Philip Sousa, 1890</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(20)"> Down The Line.</a> Joseph J. Casasanta,.Nov 20, 1926.</LI>
+</ol>
+<h4>4. Wurlitzer 153 Roll 13147</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(21)"> The Charlatan, March.</a> John Philip Sousa, Sep 6, 1898</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(22)"> Loves Dream, Waltz.</a> Abbie Ford, Oct 16, 1907</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(23)"> Boots and Saddles, March.</a> Milton W. Lusk, Aug 31, 1914</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(24)"> Dream, Waltz.</a> W. C. Powell, Mar 30, 1920</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(25)"> Circus Life, March.</a> Harry J. Lincoln, Nov 24, 1914</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(26)"> Dove of Peace, Waltz.</a> Carl Loveland, Sep 25, 1915</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(27)"> The Bonnie Briar Bush, March.</a> Joseph H. Ellis</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(28)"> Heart's Haven, Waltz.</a> F.H. Losey, Oct 27, 1909</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(29)"> The Black Horse Troop, March.</a> John Philip Sousa, Jul 6, 1925</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(30)"> Charming, Waltz.</a> Archibald Joyce, Nov 2, 1912</LI>
+</ol>
+</section>
+<section id="col2">
+<h4>5. Wurlitzer 153 Roll 14300</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(31)"> Clarinet Polka.</a> Jagiello, Dec 16, 1913.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(32)"> Sophia Polka.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(33)"> Beer Barrel Polka.</a> Brown & Voda, Mar 30, 1939.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(34)"> Hosio Suisia Polka.</a></LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(35)"> Bride And Groom Polka.</a> Roberts & Lee, Jan 12, 1948</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(36)"> One More Waltz.</a> Jimmy McHugh, Jul 11, 1930.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(37)"> Metro Polka.</a> Evans & Vaughn, Feb 20, 1951</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(38)"> Let Us Be Gay Polka.</a> Sam H. Stept, Sep 15, 1934</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(39)"> Hop Scotch Polka.</a> Carl Sigman, Gene Rayburn, William Whitlock,1949</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(40)"> Szta Jerek Waltz.</a> Arranged by A. Omelczuk, May 5, 1925</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(41)"> Too Fat Polka.</a> MacLean & Richardson, Aug 25, 1947</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(42)"> Our Kosciuszko March.</a></LI>
+</ol>
+<h4>6. Wurlitzer Caliola Selection 1</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(43)"> Black And White Rag.</a> Virtuoso Roll 5680, 1910, Music by George Botsford.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(44)"> The Trail Of The Lonesome Pine.</a> US Music Co. Roll 5840, Music by Harry Carroll.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(45)"> Yale Varsity.</a> Universal Roll 8381, Two-Step by Jas D. Johnston.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(46)"> Baltimore Centennial March.</a> Universal Roll 8417, Music by Victor Herbert.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(47)"> King Cotton March.</a> Standard Roll 8549, March by John Philip Sousa.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(48)"> Liebestraum.</a> Aeolian Roll 9038, Dream of Love by Liszt.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(49)"> Southern Stars Overture.</a> Universal Roll 66395, 1910.<br>Turkey in the Straw, Old Black Joe, Dixie, Old Folks at Home, Sailor's Hornpipe, My Old Kentucky Home and Listen to the Mocking Bird. Arranged by Ascher-Mahl.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(50)"> Manhattan Beach March.</a> Standard Roll 75579, March by John Philip Sousa.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(51)"> Silver Threads Among The Gold.</a> Published 1873, Music by Hart Pease Danks.</LI>
+</ol>
+<h4>7. Wurlitzer Caliola Selection 2</h4>
+<ol>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(52)"> Yale Two-Step.</a> Chase & Baker Roll 585, 1906.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(53)"> Yale College Life.</a> Standard Roll 61499.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(54)"> Grizzly Bear Rag.</a> Universal Roll 77815, 1910.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(55)"> Two Step Selections No 9.</a> Electra Roll 80144, 1912, <br>
+Lady Angeline, Daddy, Dancing Dan, Buck Dance Bill, Brass Band Ephraim Jones, That Slippery Slide Trombone, Deebie-Dum-Dee.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(56)"> Dockstader Rag.</a> Aeolian Roll 102114, 1912.</LI>
+<LI><img class="amark" SRC="../marker.gif" ALT=""><a href="#self" onClick="initaudio(57)"> La Traviata Fantasie.</a> Niagara Music Co. Roll 3265.</LI>
+</ol>
+</section>
+<section id="note">
+Note: Information abbreviated, for more information see the appropriate Wurlitzer full page.
+</section>
+</article>
+<footer>
+<p>
+Webmaster: David Back<BR>
+<a href="../index.html">Index</a>&nbsp;&nbsp;
+<a href="../joplin/index.html">Joplin</a>&nbsp;&nbsp;
+<a href="../wurlitzer/index.html">Wurlitzer</a>&nbsp;&nbsp;
+<a href="../tech/index.html">Technical</a>&nbsp;&nbsp;
+<a href="../literature/index.html">Literature</a>&nbsp;&nbsp;
+<a href="../browsertest/index.html">Browser Test</a>&nbsp;&nbsp;
+<a href="../about/index.html">About MidiMusic.org.uk</a>
+</p>
+</footer>
+</BODY>
+</HTML>
