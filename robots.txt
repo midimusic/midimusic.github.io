@@ -1,4 +1,4 @@
 User-agent:*
-Sitemap:http://www.midimusic.org.uk/sitemap.xml
+Sitemap:http://midimusic.github.io/sitemap.xml
 Disallow: /test
 Disallow: /count
