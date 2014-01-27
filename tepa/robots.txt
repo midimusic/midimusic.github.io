@@ -1,2 +1,2 @@
 User-agent:*
-Sitemap:http://www.tepa.org.uk/sitemap.xml
+Sitemap:http://midimusic.github.io/tepa/sitemap.xml
