@@ -1,0 +1,23 @@
+/*body*/
+header, nav, footer, article, section, {display:block;}
+body {font-family:"times new roman", times, serif; color:black; background:white;  width:auto;}
+h1, h2 {text-align:center; color:black}
+h3, h4 {color:black}
+h3 div {color:black}
+
+/*header*/
+header {float:none; color:black; background:white;}
+
+/*nav sidebar*/
+nav {float:none; display:none;}
+
+/*aside*/
+aside {float:none; display:none;}
+
+/*article*/
+article {float:none; width:auto;}
+article h2 {text-align:center; color:black;}
+
+/* footer */
+footer {float:none; display:none;}
+/*end*/
