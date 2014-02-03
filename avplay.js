@@ -88,8 +88,8 @@ var ifr = document.getElementById("player");
 ifr.contentWindow.document.open('text/html', 'replace');
 ifr.contentWindow.document.write(content);
 ifr.contentWindow.document.close();
-if(plist[x][8]){top.frames["libretto"].location.href=plist[x][8]+'.html';}
-if(plist[x][9]){top.frames["synopsis"].location.href=plist[x][9]+'.html';}
+if(plist[x][8]){parent.frames["libretto"].location.href=plist[x][8]+'.html';}
+if(plist[x][9]){parent.frames["synopsis"].location.href=plist[x][9]+'.html';}
 movemarker(amk,mlist.indexOf(plist[x]));
 return false;
 }
@@ -137,6 +137,5 @@ hidemarks(vmk);
 return document.getElementById("player").src = nullpage;}}
 return openvideo(vn);
 }
-//***prevent hijack
 //if(top.location != self.location){top.location.replace(self.location);}
 //end
