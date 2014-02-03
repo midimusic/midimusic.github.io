@@ -138,5 +138,5 @@ return document.getElementById("player").src = nullpage;}}
 return openvideo(vn);
 }
 //***prevent hijack
-if(top.location != self.location){top.location.replace(self.location);}
+//if(top.location != self.location){top.location.replace(self.location);}
 //end
