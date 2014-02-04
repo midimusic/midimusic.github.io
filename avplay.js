@@ -88,8 +88,8 @@ var ifr = document.getElementById("player");
 ifr.contentWindow.document.open('text/html', 'replace');
 ifr.contentWindow.document.write(content);
 ifr.contentWindow.document.close();
-if(plist[x][8]){parent.frames["libretto"].location.href=plist[x][8]+'.html';}
-if(plist[x][9]){parent.frames["synopsis"].location.href=plist[x][9]+'.html';}
+if(plist[x][8]){frames["libretto"].location.href=plist[x][8]+'.html';}
+if(plist[x][9]){frames["synopsis"].location.href=plist[x][9]+'.html';}
 movemarker(amk,mlist.indexOf(plist[x]));
 return false;
 }
