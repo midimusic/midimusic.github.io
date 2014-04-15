@@ -20,9 +20,9 @@ header {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87cee
 header {background: linear-gradient( #87ceeb,  #90ee90); /*the standard*/}
 
 /*NAV*/
-nav {padding-top:4px; padding-left:50px;}
+nav {padding-top:4px; padding-left:5%;}
 nav ul {list-style:none; margin:0; padding:0;}
-nav ul li {font-size:.7em; font-weight:bold; background-color:white; margin:0; width:80px; height:30px; text-align:center; border:medium solid silver; float:left;}
+nav ul li {font-size:.8em; font-weight:bold; background-color:white; margin:0; width:12%; height:35px; text-align:center; border:medium solid silver; float:left;}
 
 nav ul li > a {display:block; text-decoration:none; padding-top:3px; height:30px;}
 nav ul li:hover a {color:black;}
