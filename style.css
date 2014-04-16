@@ -20,9 +20,9 @@ header {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87cee
 header {background: linear-gradient( #87ceeb,  #90ee90); /*the standard*/}
 
 /*NAV*/
-nav {padding-top:4px; padding-left:5%;}
+nav {padding-top:4px; padding-left:3%;}
 nav ul {list-style:none; margin:0; padding:0;}
-nav ul li {font-size:.9em; font-weight:bold; background-color:white; margin:0; width:13%; height:35px; text-align:center; border:medium solid silver; float:left;}
+nav ul li {overflow:hidden; font-weight:bold; background-color:white; margin-left:.2%; width:13%; height:3em; text-align:center; border:medium solid silver; float:left;}
 
 nav ul li > a {display:block; text-decoration:none; padding-top:3px; height:30px;}
 nav ul li:hover a {color:black;}
@@ -30,7 +30,7 @@ nav ul li:hover {background-color:lightblue;}
 
 /*CRUMB NAV*/
 .crumb {margin:0 0 0 50px; padding:0; list-style:none;}
-.crumb li {display:inline; font-size:.75em; font-weight:bold; padding:5px 5px 0 0;}
+.crumb li {display:inline; font-weight:bold; padding:5px 5px 0 0;}
 .crumb li a {color:cornflowerblue; padding-right:3px;}
 .crumb li:after {content:" > ";}
 .crumb li:last-child:after {content:"";}
@@ -94,6 +94,6 @@ video {border:1px solid black;} /**HTML5 video**/
 
 /* FOOTER */
 footer {clear: both; background-color:moccasin; border-top:1px solid black; border-bottom:1px solid black;}
-footer p {text-align:center; font-weight:bold; color:black; font-size:.7em;}
+footer p {text-align:center; font-weight:bold; color:black;}
 
 /*end*/
