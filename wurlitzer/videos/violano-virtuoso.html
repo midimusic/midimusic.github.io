@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Violano Virtuoso Videos">
+<META NAME="keywords" CONTENT="mills, violano, virtuoso, video">
+<TITLE>Violano Virtuoso Videos</TITLE>
+<link rel="shortcut icon" href="../../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../../style.css">
+<style>iframe#player {float:left; width:720px; height:405px; border:none; max-width:100%;}</style>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('section');
+mlist=new Array();
+vlist = new Array("https://www.youtube.com/embed/XgGUdK30VyU?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/8kN8KOutWXg?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/OAdG9qV2ACs?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/y5i1sRc_CSk?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/qK44yJrbJ0Q?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/HZmI9YBTJzU?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/Y50ws6zgUNc?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/ibsLu0zz17U?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/04lqeL42Xpw?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/u9SGD5lZhSE?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/WjdwHnAiJi4?enablejsapi=1&autoplay=1");
+var amk="amark", vmk="vmark";
+nullpage="../../selectav.html";
+</script>
+<script src="../../avplay.js"></script>
+</HEAD>
+<BODY>
+<header>
+<h2>MIDIMUSIC<span> Computer Processed Music</span></h2>
+</header>
+<nav>
+<ul>
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../../joplin/index.html">Scott Joplin Music</a></li>
+<li><a href="../../wurlitzer/index.html">Wurlitzer Music</a></li>
+<li><a href="../../tech/index.html">Technical Articles</a></li>
+<li><a href="../../literature/index.html">Literature</a></li>
+<li><a href="../../browsertest/index.html">Browser Test</a></li>
+<li><a href="../../about/index.html">About MidiMusic</a></li>
+</ul>
+</nav>
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../index.html">Wurlitzer Music</a></li>
+<li>Violano Virtuoso</li>		
+</ol>
+</article>
+<article>
+<H2>Violano Virtuoso, Videos</H2>
+This is a hastily put together page showing some interesting videos of the Violano Virtuoso which is a mechanical musical instrument
+comprising a piano and either one or two violins.<br>
+The music for these was originally supplied on paper rolls, much like the Wurlitzer organs.<br>
+I may add some more information later but for now listen to the music, it varies from OK to dreadful.
+
+<iframe id="player" type="text/html" src="../../selectav.html" scrolling="no"></iframe>
+<script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady()
+{player = new YT.Player('player', {events: {'onReady': onPlayerReady,'onStateChange': onPlayerStateChange}});}
+function onPlayerReady(event){event.target.playVideo();}
+function onPlayerStateChange(event){
+if(event.data==0){newVsrc();}//video finished
+}
+</script>
+<ul class="control">
+<li><button id="b1" type="BUTTON" value="Shuffle" onclick="doshuffle()">Shuffle</button></li>
+<li><button id="b2" type="BUTTON" value="Loop" onclick="doloop()">Loop</button></li>
+</ul>
+</article>
+<article>
+<ol>
+<H3>Various Randomly Chosen Violanos</H3>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(0)"> Mills Double</a> Tenesse Waltz.</LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(1)"> Anyone got a nickel</a></LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(2)"> Mills Double</a> Edelweiss.</LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(3)"> Mills Bow Front</a> Air on the G string.</LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(4)"> At Villa Finale, San Antonio</a></LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(5)"> Mills Double</a> Duelling Banjos</LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(6)"> Renaissance Antiques</a><br></LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(7)"> Kew Mechanical Music Museum</a></LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(8)"> Let me call you Sweetheart</a></LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(9)"> Flight of the Bumblebee</a></li>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(10)"> Indian Love Lyrics</a></li>
+</ol>
+<P></p>
+</article>
+<footer>
+<p>
+Webmaster: David Back<BR>
+<a href="../../index.html">Index</a>&nbsp;&nbsp;
+<a href="../../joplin/index.html">Joplin</a>&nbsp;&nbsp;
+<a href="../../wurlitzer/index.html">Wurlitzer</a>&nbsp;&nbsp;
+<a href="../../tech/index.html">Technical</a>&nbsp;&nbsp;
+<a href="../../literature/index.html">Literature</a>&nbsp;&nbsp;
+<a href="../../browsertest/index.html">Browser Test</a>&nbsp;&nbsp;
+<a href="../../about/index.html">About MidiMusic</a>
+</p>
+</footer>
+</BODY>
+</HTML>
