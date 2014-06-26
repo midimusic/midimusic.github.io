@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <HTML lang="en">
-<HEAD>
+<head>
 <META charset="utf-8">
-<META NAME="description" CONTENT="Violano Virtuoso Videos">
-<META NAME="keywords" CONTENT="mills, violano, virtuoso, video">
-<TITLE>Violano Virtuoso Videos</TITLE>
+<META NAME="description" CONTENT="Violano Virtuoso Audio and Video">
+<META NAME="keywords" CONTENT="mills, violano, virtuoso, audio, video">
+<TITLE>Violano Virtuoso Audio and Video</TITLE>
 <link rel="shortcut icon" href="../../favicon.ico">
-<LINK rel="stylesheet" type="text/css" href="../../style.css">
-<style>iframe#player {float:left; width:720px; height:405px; border:none; max-width:100%;}</style>
+<link rel="stylesheet" type="text/css" href="../../style.css">
+<style> iframe#player {float:left; width:720px; height:405px; border:none; max-width:100%;}
+#col1 {width:50%; float:left;} #col2{width:45%; float:left;}</style>
 <script>
 document.createElement('header');
 document.createElement('nav');
@@ -15,7 +16,6 @@ document.createElement('article');
 document.createElement('aside');
 document.createElement('footer');
 document.createElement('section');
-mlist=new Array();
 vlist = new Array("https://www.youtube.com/embed/XgGUdK30VyU?enablejsapi=1&autoplay=1",
 "https://www.youtube.com/embed/8kN8KOutWXg?enablejsapi=1&autoplay=1",
 "https://www.youtube.com/embed/OAdG9qV2ACs?enablejsapi=1&autoplay=1",
@@ -28,12 +28,18 @@ vlist = new Array("https://www.youtube.com/embed/XgGUdK30VyU?enablejsapi=1&autop
 "https://www.youtube.com/embed/u9SGD5lZhSE?enablejsapi=1&autoplay=1",
 "https://www.youtube.com/embed/WjdwHnAiJi4?enablejsapi=1&autoplay=1",
 "https://www.youtube.com/embed/XNdWfQje4i8?enablejsapi=1&autoplay=1");
+list0=new Array("3107-03","If You Knew Suzie","Music Cover","150","200");
+list1=new Array("3143-04","El Capitan","J.P.Sousa","90","130");
+list2=new Array("3151-05","Dream of Heaven Waltz","Sheet Music","95","130");
+list3=new Array("3151-06","Faust Waltz","Charles Gounod","121","130");
+list4=new Array("dannyp","Danny Boy","Music Cover","150","200");
+mlist=new Array(list0,list1,list2,list3,list4);
 var amk="amark", vmk="vmark";
 nullpage="../../selectav.html";
 </script>
 <script src="../../avplay.js"></script>
-</HEAD>
-<BODY>
+</head>
+<body>
 <header>
 <h2>MIDIMUSIC<span> Computer Processed Music</span></h2>
 </header>
@@ -56,12 +62,18 @@ nullpage="../../selectav.html";
 </ol>
 </article>
 <article>
-<H2>Violano Virtuoso, Videos</H2>
-This is a hastily put together page showing some interesting videos of the Violano Virtuoso which is a mechanical musical instrument
-comprising a piano and either one or two violins.<br>
-The music for these was originally supplied on paper rolls, much like the Wurlitzer organs.<br>
-I may add some more information later but for now listen to the music, it varies from OK to dreadful.
-
+<H2>Violano Virtuoso, Audio and Video</H2>
+<h3>A Selection of Violano Virtuoso Music.</h3>
+A Violano Virtuoso is a mechanical musical instrument comprising a 44 note piano and either one or two violins.<br>
+The music for these was originally supplied on paper rolls, much like the Wurlitzer organs.
+<p>
+The audio section plays a selection of music made from Wurlitzer w125 rolls filtered to simulate
+a Mills Violano Virtuoso.<br>
+Note: Wurlitzer 125 rolls in midi format are free and can be downloaded from the internet. These can be filtered to
+play on a real Mills Violano Virtuoso which has been adapted to play midi files or to play on a standard midi player.
+<p>
+The video section shows videos of real Violanos, most of which have been adapted to play music in midi format.
+<p>
 <iframe id="player" type="text/html" src="../../selectav.html" scrolling="no"></iframe>
 <script>
 var tag = document.createElement('script');
@@ -81,7 +93,23 @@ if(event.data==0){newVsrc();}//video finished
 <li><button id="b2" type="BUTTON" value="Loop" onclick="doloop()">Loop</button></li>
 </ul>
 </article>
+
+
 <article>
+<h3>Violano Virtuoso Selection</h3>
+<section id="col1">
+<H3>Play Audio</H3>
+<ol>
+<h3>These examples were made from Wurlitzer 125 rolls</h3>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(0)"> If You Knew Suzie.</a></LI>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(1)"> El Capitan.</a></LI>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(2)"> Dream of Heaven.</a></LI>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(3)"> Faust Waltz.</a></LI>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(4)"> Danny Boy arr. by G.W.Finger.</a></LI>
+</ol>
+</section>
+<section id="col2">
+<H3>Play Video</H3>
 <ol>
 <H3>Various Randomly Chosen Violanos</H3>
 <LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(0)"> Mills Double</a> Tenesse Waltz.</LI>
@@ -97,8 +125,8 @@ if(event.data==0){newVsrc();}//video finished
 <LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(10)"> Indian Love Lyrics</a></li>
 <LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(11)"> Danny Boy</a></li>
 </ol>
-<P>Note that Wurlitzer w125 rolls, which are freely available for download, can be easily filtered to play on
-a Mills Violano Virtuoso which has been adapted to play midi files.</p>
+</section>
+<P></p>
 </article>
 <footer>
 <p>
