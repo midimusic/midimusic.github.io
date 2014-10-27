@@ -40,7 +40,7 @@ document.createElement('section');
 <H2>How to use midi to Play Wurlitzer Band Organ Music Rolls</H2>
 <H4>Compiled by: David Back June/July 2012.<br>
 Amended and Updated August 2012.<br>
-Rearranged and updated October and November 2013.</H4>
+Rearranged and updated October, November 2013 and October 2014.</H4>
 <P>
 This Document has been compiled to review the musical capability of midi for the purpose of producing
 music from scanned Wurlitzer paper rolls which sounds similar to a real Wurlitzer organ.
@@ -48,26 +48,26 @@ music from scanned Wurlitzer paper rolls which sounds similar to a real Wurlitze
 It is assumed herein that you have a knowledge of music, midi and a good midi editor, such as Cakewalk.
 For basic source of music you can download a good selection of playable wurlitzer midi files from the internet or if you are slightly
 more ambitious use rolls from my <a href="../wurlitzer/archive/index.html">e-roll archive.</a> 
-<H3 id="125">Playing Wurlitzer 125 Style Rolls</H3>
+<H3 id="125">1.0 Playing Wurlitzer 125 Style Rolls</H3>
 <h4>Organ Style 125</h4>
 Choosing the correct instruments from the midi repertoire is not simple.<BR>
 This lineup covers all the necessary midi variables and results in a playable midi file which makes a
 reasonable simulation of a 125 style Wurlitzer Band Organ when played with General Midi (GM bank 0) patches.
 <P>
 <table class="joplin">
-<tr><th>Division</th><th>Rank Name</th><th>Midi<BR>Channel</th><th>Midi<BR>Instrument</th><th>Midi<BR>Patch</th><th>Midi<br>Velocity</th><th>Channel<BR>Volume</th><th>Channel<BR>Pan</th></tr>
-<tr><td>Bass</td><td>Stopped Flute</td><td>1</td><td>Flute</td><td>73</td><td>75</td><td>100</td><td>Center</td></tr>
-<tr><td>Bass</td><td>Open String</td><td>2</td><td>Cello</td><td>42</td><td>75</td><td>100</td><td>Center</td></tr>
-<tr><td>Accompaniment</td><td>Stopped Flute</td><td>3</td><td>Flute</td><td>73</td><td>75</td><td>100</td><td>Center</td></tr>
-<tr><td>Accompaniment</td><td>Open String</td><td>4</td><td>Cello</td><td>42</td><td>75</td><td>100</td><td>Center</td></tr>
-<tr><td>Melody</td><td>Stopped Flute</td><td>5</td><td>Flute</td><td>73</td><td>75</td><td>100</td><td>Center</td></tr>
-<tr><td>Melody</td><td>Open String</td><td>6</td><td>Violin</td><td>40</td><td>75</td><td>100</td><td>Center</td></tr>
-<tr><td>Melody</td><td>Wood Flageolet</td><td>7</td><td>Recorder</td><td>74</td><td>75</td><td>100</td><td>Center</td></tr>
-<tr><td>Melody</td><td>Brass Piccolo</td><td>8</td><td>Piccolo</td><td>72</td><td>75</td><td>100</td><td>Center</td></tr>
-<tr><td>Trumpet</td><td>Brass Trumpet</td><td>9</td><td>Trumpet</td><td>56</td><td>75</td><td>120</td><td>Center</td></tr>
-<tr><td>Percussion</td><td>Bass Drum</td><td>10</td><td>Bass Drum</td><td>B2 or C3</td><td>75</td><td>50</td><td>Center</td></tr>
-<tr><td>Percussion</td><td>Snare Drum</td><td>10</td><td>Snare Drum</td><td>D3</td><td>75</td><td>50</td><td>Center</td></tr>
-<tr><td>Percussion</td><td>Cymbal</td><td>10</td><td>Cymbal</td><td>A4</td><td>75</td><td>50</td><td>Center</td></tr>
+<tr><th>Division</th><th>Rank Name</th><th>Midi<BR>Channel</th><th>Midi<BR>Instrument</th><th>Midi<BR>Patch</th><th>Midi<br>Velocity</th></tr>
+<tr><td>Bass</td><td>Stopped Flute</td><td>1</td><td>Flute</td><td>73</td><td>65</td></tr>
+<tr><td>Bass</td><td>Open String</td><td>2</td><td>Cello</td><td>42</td><td>65</td></tr>
+<tr><td>Accompaniment</td><td>Stopped Flute</td><td>3</td><td>Flute</td><td>73</td><td>65</td></tr>
+<tr><td>Accompaniment</td><td>Open String</td><td>4</td><td>Cello</td><td>42</td><td>65</td></tr>
+<tr><td>Melody</td><td>Stopped Flute</td><td>5</td><td>Flute</td><td>73</td><td>65</td></tr>
+<tr><td>Melody</td><td>Open String</td><td>6</td><td>Violin</td><td>40</td><td>65</td></tr>
+<tr><td>Melody</td><td>Wood Flageolet</td><td>7</td><td>Recorder</td><td>74</td><td>65</td></tr>
+<tr><td>Melody</td><td>Brass Piccolo</td><td>8</td><td>Piccolo</td><td>72</td><td>65</td></tr>
+<tr><td>Trumpet</td><td>Brass Trumpet</td><td>9</td><td>Tenor Sax</td><td>66</td><td>80</td></tr>
+<tr><td>Percussion</td><td>Bass Drum</td><td>10</td><td>Bass Drum</td><td>B2 or C3</td><td>65</td></tr>
+<tr><td>Percussion</td><td>Snare Drum</td><td>10</td><td>Snare Drum</td><td>D3</td><td>40</td></tr>
+<tr><td>Percussion</td><td>Cymbal</td><td>10</td><td>Cymbal</td><td>A4</td><td>65</td></tr>
 </table>
 <P>
 In order to produce a more accurate simulation it may be necessary to play the file using a soundfont
@@ -79,15 +79,12 @@ to work with it. I have trawled the Cakewalk website looking for details of whic
 cards. I did not find anything useful. Thus, knowing that the Brass Trumpet sound was what I needed I auditioned the
 entire General Midi bank 0 to find the most convincing Brass Trumpet sound. The tenor sax won the competition.
 <P>
-While working on this scheme I found that Cakewalk happily accepts and appears to use the midi velocity input but
-does not save the information when the file is saved. This may be because it is arguable that velocity is not
-relevent to any of the instruments used. In fact I found, much later, that Cakewalk DOES save midi velocity for every
-individual note of every instrument. Velocities translate to volume and can be viewed in "List View".
+The midi velocity for every note of every instrument is saved in a midi file. Velocities translate directly to volume.
 <P>
 Finally I have tried to automate this process using the Cakewalk CAL language but have found that in my version
 (which is quite old) it was incapable of doing anything useful.
 
-<H3 id="150">Playing Wurlitzer 150 Style Rolls</H3>
+<H3 id="150">2.0 Playing Wurlitzer 150 Style Rolls</H3>
 <h4>Organ Style 153 (October 2013)</h4>
 The 153 organ has a lot more pipes plus automatically operated stops, shutters and bells. This makes it more challenging
 to simulate than the much simpler organs above. The benefit is that there is more variety in the music which makes it
@@ -175,8 +172,7 @@ controls off. So where there are no controls set up at the beginning of a tune a
 The best way I have found so far to convert midi files to .wav files is to record the wav file whilst playing the midi
 file in real time. I have looped "line out" back to "line in" with a T junction to connect my amplifier and speakers.
 <H3 id="165">Playing Wurlitzer 165 Style Rolls</H3>
-<h4>Organ Style 165/166 (July 2014)</h4>
-<!--Note: this is work in progress and may not be complete or accurate!!<p>-->
+<h4>3.0 Organ Style 165/166 (July 2014)</h4>
 <table class="joplin">
 <tr><th>Division</th><th>Rank Name</th><th>Midi<BR>Channel</th><th>Midi<BR>Instrument</th><th>Midi<BR>Patch</th>
 <th>Stop</th><th>Stop<br>Note<br>Cancel<br>Eb6</th><th>Velocity<br>Shutter<br>Open<br>Bb7</th><th>Velocity<br>Shutter<br>Closed<br>E2 -6db</th><th>Notes</th></tr>
@@ -201,6 +197,10 @@ file in real time. I have looped "line out" back to "line in" with a T junction 
 <tr><td>Percussion</td><td>Triangle</td><td>10</td><td>Open Triangle</td><td></td><td></td><td></td><td>65</td><td>65</td><td>A6</td></tr>
 <tr><td>Percussion</td><td>Castanets</td><td>10</td><td>Castanets</td><td></td><td></td><td></td><td>65</td><td>65</td><td>C#7</td></tr>
 </table>
+<H3 id="165">4.0 Automating The Process, October 2014</H3>
+I have now produced midi filters which convert e-roll.midi files to fully instrumented and activated playable midi files for
+all three organ styles. I am currently working on a midi player which will play e-rolls directly and give a state of the art
+audio output.
 <p>
 </p>
 </article>
