@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://midimusic.github.io/index.html</loc>
-<lastmod>2014-05-18</lastmod>
+<lastmod>2015-06-03</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.9</priority>
 </url>
@@ -11,7 +11,7 @@
 <priority>0.5</priority>
 </url>
 <url>
-<loc>http://midimusic.github.io/browsertest/index.html</loc>
+<loc>http://midimusic.github.io/estey/index.html</loc>
 <priority>0.5</priority>
 </url>
 <url>
@@ -160,6 +160,10 @@
 </url>
 <url>
 <loc>http://midimusic.github.io/wurlitzer/archive</loc>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>http://midimusic.github.io/estey/archive</loc>
 <priority>0.5</priority>
 </url>
 <url>
