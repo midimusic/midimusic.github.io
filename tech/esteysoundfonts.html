@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Playing Estey Music Rolls">
+<META NAME="keywords" CONTENT="estey, organ, music, roll, eplayestey, package">
+<link rel="shortcut icon" href="../favicon.ico">
+<LINK rel="stylesheet" type="text/css" href="../style.css">
+<TITLE>Playing Estey Music Rolls</TITLE>
+</HEAD>
+<BODY>
+<header>
+<h2>MIDIMUSIC<span> Computer Processed Music</span></h2>
+</header>
+<nav>
+<ul>
+<li><a href="../index.html">Index</a></li>
+<li><a href="../joplin/index.html">Scott Joplin Music</a></li>
+<li><a href="../wurlitzer/index.html">Wurlitzer Music</a></li>
+<li><a href="../tech/index.html">Technical</a></li>
+<li><a href="../literature/index.html">Literature</a></li>
+<li><a href="../estey/index.html">Estey Organ Music</a></li>
+<li><a href="../about/index.html">About MidiMusic</a></li>
+</ul>
+</nav>
+<article>
+<ol class="crumb">
+<li><a href="../index.html">Index</a></li>
+<li><a href="index.html">Technical</a></li>
+<li>Playing Estey Music Rolls</li>		
+</ol>
+<H2>How to play Estey Music Rolls</H2>
+<H4>Compiled by: David Back September 2015.</H4>
+<P>
+This Document shows how to produce soundfonts for playing Estey Music Rolls. (It is as yet incomplete).
+<p>
+It is assumed herein that you have a knowledge of music and organs. For a basic source of music you
+can download over 500 playable Estey Music Rolls from my <a href="../estey/archive/index.html">estey e-roll archive.</a>
+You can also download my player eplayestey which can play these rolls. <a href="../tech/index.html">Wurlitzer and Estey e-roll Player.</a>
+
+<h3>1.0 Requirements</h3>
+In order to get an idea of what is required it is necessary first to consider the estey tracker bar
+which is explained in <a href="estey-tracker.html">Estey Player Organ Tracker Bar Data.</a> This
+includes general details of how the organs were instrumented. It is necessary to interpret this instrumentation
+data because no Estey Player Organ ever produced used instruments with these exact names.
+The most reliable information about instruments/pipes actually fitted is in the Estey "Shop Orders",
+some of which are available on line.
+<p>
+You will see that the requirement for playing Estey Music Rolls is divided into Early Music and Stage 1 New Music
+which begins at roll 404. Each type of roll appears to need a different soundfont. I say "appears to" because
+many of the rolls produced after roll 404 do not use the extra capabilities of Stage 1 New Music. It is thus
+debatable which soundfont should be used to play these rolls. I have chosen to continue using the Early
+Music soundfont because most organ owners will not have updated their organs until much later (if ever).
+<p>
+It would make sense to make use of multiple banks in the font, however all my fonts use only Bank 0
+because I was unable to make any other bank work reliably on the iMac. (This bug is probably due to "out
+of order execution" which is sometimes a problem with multiple core processors and very difficult to
+track down.)
+<h3>2.0 Sound Font for Early Music</h3>
+<table class="joplin">
+<tr><th>Selected<br>Combination</th><th>Font<br>Preset</th><th>Solo<br>Midi 36-93</th><th>Font<br>Preset</th><th>Great<br>Midi 36-93</th><th>Font<br>Preset</th><th>Pedal<br>Midi 36-68</th></tr>
+<tr><td>1</td><td>10</td><td>8' Gamba</td><td>70</td><td>8' Flute</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>1+</td><td>11</td><td>8' Gamba</td><td>71</td><td>Harp</td><td>3</td><td>16' p-Subbass</td></tr>
+<tr><td>2</td><td>20</td><td>8' Flute</td><td>80</td><td>8' Gamba</td><td>1</td><td>16' p-Subbass</td></tr>
+<tr><td>2+</td><td>21</td><td>8' Salicional<br>2' Piccolo</td><td>81</td><td>8'Gamba<br>8' Flute</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>3</td><td>30</td><td>8' Vox Humana</td><td>90</td><td>8' Gamba</td><td>1</td><td>16' p-Subbass</td></tr>
+<tr><td>3+</td><td>31</td><td>8' Vox Humana<br>8' Flute</td><td>91</td><td>8' Gamba<br>Harp</td><td>1</td><td>16' p-Subbass</td></tr>
+<tr><td>4</td><td>40</td><td>8' Flute</td><td>100</td><td>8' Gamba</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>4+</td><td>41</td><td>8' Flute<br>16' Tuba</td><td>101</td><td>8' Gamba</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>5</td><td>50</td><td>8' Oboe</td><td>110</td><td>8' Gamba</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>5+</td><td>51</td><td>Chimes</td><td>111</td><td>8' Gamba</td><td>3</td><td>16' p-Subbass</td></tr>
+<tr><td>6</td><td>60</td><td>Plein-Jeu IV</td><td>120</td><td>Plein-Jeu IV</td><td>2</td><td>16' p-Subbass</td></tr>
+<tr><td>6+</td><td>61</td><td>Plein-Jeu V</td><td>121</td><td>Plein-Jeu V</td><td>2</td><td>16' p-Subbass</td></tr>
+</table>
+<h3>3.0 Sound Font for Stage 1 New Music</h3>
+<table class="joplin">
+<tr><th>Selected<br>Combination</th><th>Font<br>Preset</th><th>Solo<br>Midi 36-93</th><th>Font<br>Preset</th><th>Great<br>Midi 36-93</th><th>Font<br>Preset</th><th>Pedal<br>Midi 36-68</th></tr>
+<tr><td>1</td><td>10</td><td>8' Gamba</td><td>70</td><td>8' Flute</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>1+</td><td>11</td><td>Silence</td><td>71</td><td>Harp</td><td>3</td><td>Silence</td></tr>
+<tr><td>1A</td><td>12</td><td>8' Gamba</td><td>72</td><td>8' Gamba</td><td>3</td><td>Silence</td></tr>
+<tr><td>1A+</td><td>13</td><td>Silence</td><td>73</td><td>8' Flute</td><td>3</td><td>Silence</td></tr>
+<tr><td>2</td><td>20</td><td>8' Flute</td><td>80</td><td>8' Gamba</td><td>1</td><td>16' p-Violon</td></tr>
+<tr><td>2+</td><td>21</td><td>8' Salicional<br>2' Piccolo</td><td>81</td><td>8'Gamba<br>8' Flute</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>2A</td><td>22</td><td>4' Flauto Traverso</td><td>82</td><td>8' Gamba</td><td>1</td><td>16' p-Violon</td></tr>
+<tr><td>2A+</td><td>23</td><td>4' Oktave<br>8' Oktave<br>16' Principal</td><td>83</td><td>8' Principal</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>3</td><td>30</td><td>8' Vox Humana</td><td>90</td><td>8' Gamba</td><td>1</td><td>16' p-Violon</td></tr>
+<tr><td>3+</td><td>31</td><td>8' Vox Humana<br>8' Flute</td><td>91</td><td>8' Gamba<br>Harp</td><td>1</td><td>16' p-Violon</td></tr>
+<tr><td>3A</td><td>32</td><td>8' Clarinet</td><td>92</td><td>8' Gamba</td><td>1</td><td>16' p-Violon</td></tr>
+<tr><td>3A+</td><td>33</td><td>8' Clarion</td><td>93</td><td>8' Gamba<br>8' Flute</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>4</td><td>40</td><td>8' Flute</td><td>100</td><td>8' Gamba</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>4+</td><td>41</td><td>8' Flute<br>16' Tuba</td><td>101</td><td>8' Gamba</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>4A</td><td>42</td><td>8' Principal</td><td>102</td><td>8'Gamba<br>8' Flute</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>4A+</td><td>43</td><td>8' Principal<br>8' Oboe</td><td>103</td><td>8' Gamba<br>8' Flute</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>5</td><td>50</td><td>8' Oboe</td><td>110</td><td>8' Gamba</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>5+</td><td>51</td><td>Chimes</td><td>111</td><td>8' Gamba</td><td>3</td><td>Silence</td></tr>
+<tr><td>5A</td><td>52</td><td>8' Saxophone</td><td>112</td><td>8' Flute</td><td>0</td><td>16' p-Subbass</td></tr>
+<tr><td>5A+</td><td>53</td><td>8' Gamba<br>16' Violon</td><td>113</td><td>Silence</td><td>3</td><td>Silence</td></tr>
+<tr><td>6</td><td>60</td><td>Plein-Jeu IV</td><td>120</td><td>Plein-Jeu IV</td><td>2</td><td>16' p-Subbass<br>16' p-Violon</td></tr>
+<tr><td>6+</td><td>61</td><td>Plein-Jeu V</td><td>121</td><td>Plein-Jeu V</td><td>2</td><td>16' p-Subbass<br>16' p-Violon</td></tr>
+<tr><td>6A</td><td>62</td><td>Plein-Jeu VI</td><td>122</td><td>Plein-Jeu VI</td><td>2</td><td>16' p-Subbass<br>16' p-Violon</td></tr>
+<tr><td>6A+</td><td>63</td><td>8' Flute<br>4' Flute</td><td>123</td><td>Silence</td><td>3</td><td>Silence</td></tr>
+</table>
+<h3>4.0 Sound Font for Stage 2 New Music</h3>
+Stage 2 New Music (Rolls 1100 and above) should require some additional Selected Combinations but as there is no known
+information as to what these combinations should be I have chosen to use the Stage 1 Soundfont as above to play them.
+Eplayestey also does not implement the extra pedal notes used by Stage 2 New Music, again no known information available.
+However the soundfonts do contain these notes for future use.
+<h3>5.0 Future Development</h3>
+The Estey Soundfonts I have produced are based upon sound samples from Stefans Cathedral Pipe Organ font plus a few
+from elsewhere. There are other public domain organ soundfonts available but Stefans is the best I have found for
+use as a starting point.
+<p>
+Currently the Estey Soundfonts I have produced suffer from "Out of Tune Harmonics" which make the music tiring to
+listen to for extended periods. I have not yet had time to go through the instruments to check that they are
+all accurately tuned. 
+<p>
+</p>
+</article>
+<footer>
+<p>
+Webmaster: David Back<BR>
+<a href="../index.html">Index</a>&nbsp;&nbsp;
+<a href="../joplin/index.html">Joplin</a>&nbsp;&nbsp;
+<a href="../wurlitzer/index.html">Wurlitzer</a>&nbsp;&nbsp;
+<a href="../tech/index.html">Technical</a>&nbsp;&nbsp;
+<a href="../literature/index.html">Literature</a>&nbsp;&nbsp;
+<a href="../estey/index.html">Estey Music</a>&nbsp;&nbsp;
+<a href="../about/index.html">About MidiMusic</a>
+</p>
+</footer>
+</BODY>
+</HTML>
