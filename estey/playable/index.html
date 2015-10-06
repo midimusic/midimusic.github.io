@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+<META charset="utf-8">
+<META NAME="description" CONTENT="Estey Music and Video">
+<META NAME="keywords" CONTENT="estey, organ, music, video">
+<TITLE>Estey Music and Video</TITLE>
+<link rel="shortcut icon" href="../../favicon.ico">
+<link rel="stylesheet" type="text/css" href="../../style.css">
+<style> iframe#player {float:left; width:720px; height:405px; border:none; max-width:100%;}
+#col1 {width:48%; float:left;} #col2{width:48%; float:left;}</style>
+<script>
+list0=new Array("420e","Dance of the Hours","A. Ponchielli","198","247");
+
+mlist=new Array(list0);
+vlist=new Array("https://www.youtube.com/embed/54QbWWkqbVE?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/_Ta_ER0efAI?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/BEpm1iyK5-g?enablejsapi=1&autoplay=1",
+"https://www.youtube.com/embed/2TABHz7Stak?enablejsapi=1&autoplay=1");
+var amk="amark", vmk="vmark";
+nullpage="../../selectav.html";
+</script>
+<script src="../../avplay.js"></script>
+</head>
+<body>
+<header>
+<h2>MIDIMUSIC<span> Computer Processed Music</span></h2>
+</header>
+<nav>
+<ul>
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../../joplin/index.html">Scott Joplin Music</a></li>
+<li><a href="../../wurlitzer/index.html">Wurlitzer Music</a></li>
+<li><a href="../../tech/index.html">Technical Articles</a></li>
+<li><a href="../../literature/index.html">Literature</a></li>
+<li><a href="../../estey/index.html">Estey Organ Music</a></li>
+<li><a href="../../about/index.html">About MidiMusic</a></li>
+</ul>
+</nav>
+<article>
+<ol class="crumb">
+<li><a href="../../index.html">Index</a></li>
+<li><a href="../../estey/index.html">Estey Organ Music</a></li>
+<li>Playable</li>		
+</ol>
+</article>
+<article>
+<h2>Estey Organ Music</h2>
+<iframe id="player" type="text/html" src="../../selectav.html" scrolling="no"></iframe>
+<script>
+var tag = document.createElement('script');
+tag.src = "https://www.youtube.com/iframe_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+var player;
+function onYouTubeIframeAPIReady()
+{player = new YT.Player('player', {events: {'onReady': onPlayerReady,'onStateChange': onPlayerStateChange}});}
+function onPlayerReady(event){event.target.playVideo();}
+function onPlayerStateChange(event){
+if(event.data==0){newVsrc();}//video finished
+}
+</script>
+<ul class="control">
+<li><button id="b1" type="BUTTON" value="Shuffle" onclick="doshuffle()">Shuffle</button></li>
+<li><button id="b2" type="BUTTON" value="Loop" onclick="doloop()">Loop</button></li>
+</ul>
+</article>
+<article>
+<H3>Estey Music, Audio and Video</H3>
+The audio is played using eplayestey with my purpose designed soundfont.
+<section id="col1">
+<H3>Play Audio</H3>
+<ol>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(0)"> Dance of the Hours.</a> Amilcare Ponchielli, 1876</LI>
+
+</ol>
+</section>
+<section id="col2">
+<H3>Play Video, Estey Organs</H3>
+<ol>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(0)"> Opus 2525</a> Estey Pipe Organ</LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(1)"> Opus 2525</a> The Estey March, Eaton 1898</LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(2)"> Opus 2525</a> March of the Bowmen, Curzon</LI>
+<LI><img class="vmark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initvideo(3)"> Opus 2639</a> Lecture, Christopher Putnam</LI>
+</ol>
+</section>
+</article>
+<footer>
+<p>
+Webmaster: David Back<BR>
+<a href="../../index.html">Index</a>&nbsp;&nbsp;
+<a href="../../joplin/index.html">Joplin</a>&nbsp;&nbsp;
+<a href="../../wurlitzer/index.html">Wurlitzer</a>&nbsp;&nbsp;
+<a href="../../tech/index.html">Technical</a>&nbsp;&nbsp;
+<a href="../../literature/index.html">Literature</a>&nbsp;&nbsp;
+<a href="../../estey/index.html">Estey Music</a>&nbsp;&nbsp;
+<a href="../../about/index.html">About MidiMusic</a>
+</p>
+</footer>
+</BODY>
+</HTML>
+
+
+
+
+
+
