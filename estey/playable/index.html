@@ -10,9 +10,13 @@
 <style> iframe#player {float:left; width:720px; height:405px; border:none; max-width:100%;}
 #col1 {width:48%; float:left;} #col2{width:48%; float:left;}</style>
 <script>
-list0=new Array("420e","Dance of the Hours","A. Ponchielli","198","247");
-
-mlist=new Array(list0);
+list0=new Array("278e","King Cotton March","J.P.Sousa","90","130");
+list1=new Array("351e","Caprice Viennois","Fritz Kreisler","141","200");
+list2=new Array("420e","Dance of the Hours","A. Ponchielli","198","247");
+list3=new Array("961e","Stephanie Gavotte","Music Cover","138","200");
+list4=new Array("1013e","Bells of St. Mary's","Music Cover","82","120");
+list5=new Array("1025e","Barcelona","Tolchard Evans","171","200");
+mlist=new Array(list0,list1,list2,list3,list4,list5);
 vlist=new Array("https://www.youtube.com/embed/54QbWWkqbVE?enablejsapi=1&autoplay=1",
 "https://www.youtube.com/embed/_Ta_ER0efAI?enablejsapi=1&autoplay=1",
 "https://www.youtube.com/embed/BEpm1iyK5-g?enablejsapi=1&autoplay=1",
@@ -69,10 +73,14 @@ if(event.data==0){newVsrc();}//video finished
 <H3>Estey Music, Audio and Video</H3>
 The audio is played using eplayestey with my purpose designed soundfont.
 <section id="col1">
-<H3>Play Audio</H3>
+<H3>Play Audio<span> Selection from the archive</span></H3>
 <ol>
-<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(0)"> Dance of the Hours.</a> Amilcare Ponchielli, 1876</LI>
-
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(0)"> King Cotton March.</a> J.P. Sousa, 1895</LI>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(1)"> Caprice Viennois.</a> Fritz Kreisler, 1910</LI>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(2)"> Dance of the Hours.</a> Amilcare Ponchielli, 1876</LI>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(3)"> Stephanie Gavotte.</a> A. Czibulka, 1880</LI>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(4)"> Bells of St. Mary's.</a> A.Emmett Adams, 1917</LI>
+<LI><img class="amark" SRC="../../marker.gif" ALT=""><a href="#self" onClick="initaudio(5)"> Barcelona.</a> Tolchard Evans, 1926</LI>
 </ol>
 </section>
 <section id="col2">
