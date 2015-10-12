@@ -30,7 +30,7 @@
 <li>Estey Player Organ Tracker</li>		
 </ol>
 <h2>Estey Player Organ Tracker Bar Data</h2>
-<h4>Author: David Back, May 2015.<br>Updated June and September 2015.</h4>
+<h4>Author: David Back, May 2015.<br>Updated June, September and October 2015.</h4>
 This data was collected from various sources including an in depth study of scanned Estey music
 rolls and information from Treasures of Mechanical Music by Reblitz and Bowers.
 <h3>1.0 Roll</h3>
@@ -41,7 +41,8 @@ Later organs: Self Registering  10.25" wide 12 holes per inch in 2 staggered row
 <ol>
 <li>Odd tracker holes = top row (Swell Organ)</li>
 <li>Even tracker holes = bottom row (Great Organ)</li>
-<li>Pedal notes* are lowest octave of Great Organ</li>
+<li> * Pedal notes are lowest octave of Great Organ</li>
+<li> + 20 Chime notes are midi 57 to 76 on the Swell Organ when 5+ is selected. (Ref: Roll 990e.mes)
 <li>Shades operate only on the Solo (Swell) Organ.</li>
 </ol>
 <h4>2.2 Initialisation</h4>
@@ -50,134 +51,134 @@ Later organs: Self Registering  10.25" wide 12 holes per inch in 2 staggered row
 <li>Shades are fully open.</li>
 </ol>
 <pre>
-Tracker	  Midi Note
-Hole	Great	Swell
-	Organ	Organ
-1		Set Combination 1 and 1+
-2	Set Combination 2 and 2+
-3		Set Combination 3 and 3+
-4	Set Combination 4 and 4+
-5		Set Combination 5 and 5+
-6	36*
-7		36
-8	37*
-9		37
-10	38*
-11		38
-12	39*
-13		39
-14	40*
-15		40
-16	41*
-17		41
-18	42*
-19		42
-20	43*
-21		43
-22	44*
-23		44
-24	45*
-25		45
-26	46*
-27		46
-28	47*
-29		47
-30	48
-31		48
-32	49
-33		49
-34	50
-35		50
-36	51
-37		51
-38	52
-39		52
-40	53
-41		53
-42	54
-43		54
-44	55
-45		55
-46	56
-47		56
-48	57
-49		57
-50	58
-51		58
-52	59
-53		59
-54	60
-55		60
-56	61
-57		61
-58	62
-59		62
-60	63
-61		63
-62	64
-63		64
-64	65
-65		65
-66	66
-67		66
-68	67
-69		67
-70	68
-71		68
-72	69
-73		69
-74	70
-75		70
-76	71
-77		71
-78	72
-79		72
-80	73
-81		73
-82	74
-83		74
-84	75
-85		75
-86	76
-87		76
-88	77
-89		77
-90	78
-91		78
-92	79
-93		79
-94	80
-95		80
-96	81
-97		81
-98	82
-99		82
-100	83
-101		83
-102	84
-103		84
-104	85
-105		85
-106	86
-107		86
-108	87****
-109		87
-110	88****
-111		88
-112	89****
-113		89
-114	90****
-115		90
-116	91****
-117		91
-118	92***
-119		92
-120	93***
-121		93**
-122	General Cancel/Rewind
-123		Shades close in 3 steps
-124	Shades open in 3 steps
-125		Set Combination 6 and 6+
+Ref.	Tracker	  Midi Note
+Scale	Hole	Great	Swell
+		Organ	Organ
+C#0	1		Set Combination 1 and 1+
+D0	2	Set Combination 2 and 2+
+D#0	3		Set Combination 3 and 3+
+E0	4	Set Combination 4 and 4+
+F0	5		Set Combination 5 and 5+
+F#0	6	36*
+G0	7		36
+G#0	8	37*
+A0	9		37
+A#0	10	38*
+B0	11		38
+C1	12	39*
+C#1	13		39
+D1	14	40*
+D#1	15		40
+E1	16	41*
+F1	17		41
+F#1	18	42*
+G1	19		42
+G#	20	43*
+A1	21		43
+A#1	22	44*
+B1	23		44
+C2	24	45*
+C#2	25		45
+D2	26	46*
+D#2	27		46
+E2	28	47*
+F2	29		47
+F#2	30	48
+G2	31		48
+G#2	32	49
+A2	33		49
+A#2	34	50
+B2	35		50
+C3	36	51
+C#3	37		51
+D3	38	52
+D#3	39		52
+E3	40	53
+F3	41		53
+F#3	42	54
+G3	43		54
+G#3	44	55
+A3	45		55
+A#3	46	56
+B3	47		56
+C4	48	57
+C#4	49		57+
+D4	50	58
+D#4	51		58+
+E4	52	59
+F4	53		59+
+F#4	54	60
+G4	55		60+
+G#4	56	61
+A4	57		61+
+A#4	58	62
+B4	59		62+
+C5	60	63
+C#5	61		63+
+D5	62	64
+D#5	63		64+
+E5	64	65
+F5	65		65+
+F#5	66	66
+G5	67		66+
+G#5	68	67
+A5	69		67+
+A#5	70	68
+B5	71		68+
+C6	72	69
+C#6	73		69+
+D6	74	70
+D#6	75		70+
+E6	76	71
+F6	77		71+
+F#6	78	72
+G6	79		72+
+G#6	80	73
+A6	81		73+
+A#6	82	74
+B6	83		74+
+C7	84	75
+C#7	85		75+
+D7	86	76
+D#7	87		76+
+E7	88	77
+F7	89		77
+F#7	90	78
+G7	91		78
+G#7	92	79
+A7	93		79
+A#7	94	80
+B7	95		80
+C8	96	81
+C#8	97		81
+D8	98	82
+D#8	99		82
+E8	100	83
+F8	101		83
+F#8	102	84
+G8	103		84
+G#8	104	85
+A8	105		85
+A#8	106	86
+B8	107		86
+C9	108	87****
+C#9	109		87
+D9	110	88****
+D#9	111		88
+E9	112	89****
+F9	113		89
+F#9	114	90****
+G9	115		90
+G#9	116	91****
+A9	117		91
+A#9	118	92***
+B9	119		92
+C10	120	93***
+C#10	121		93**
+D10	122	General Cancel/Rewind
+D#10	123		Shades close in 3 steps
+E10	124	Shades open in 3 steps
+F10	125		Set Combination 6 and 6+
 </pre>
 <h3>3.0 Early Music. Rolls up to 403</h3>
 <ol>
