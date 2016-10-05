@@ -2,6 +2,7 @@ header, nav, footer, article, section, aside {display:block;}
 body {color:black; background:moccasin; font-family:Verdana, Arial, sans-serif; max-width:960px;}
 h1, h2 {text-align:center; color:mediumblue; text-shadow:2px 2px 2px white;}
 h3, h4 {color:mediumblue;}
+h5 {text-align:center; color:mediumblue;}
 h3 span {display:inline; font-size:.8em;}
 blockquote {text-align:center;}
 p.reditalic {color:red; font-weight:bold; font-style:italic;}
