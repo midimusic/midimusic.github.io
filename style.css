@@ -94,6 +94,7 @@ img.organ {display:block; margin-left:auto; margin-right:auto;}
 img.rollscan {display:block; width:350px; height:268px;}
 
 video {border:1px solid black;} /**HTML5 video**/
+canvas {padding: 0; margin: auto; display: block;}
 
 /* FOOTER */
 footer {clear: both; background-color:moccasin; border-top:1px solid black; border-bottom:1px solid black;}
