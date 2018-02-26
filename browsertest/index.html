@@ -237,7 +237,7 @@ to display content in the iframe of above.
 
 <h3><a name="4."/>4. Javascript</h3>
 All capable modern browsers should support javascript. If your browser properly supports javascript the
-clock below will show and display the correct time.
+clock below will show and display the correct time. It currently does not update.
 <p>
 <canvas id="canvas" width="200" height="200" style="background-color:moccasin"></canvas>
 <script>
@@ -256,7 +256,7 @@ function drawClock() {
     drawFace(ctx, radius);
     drawNumbers(ctx, radius);
     drawTime(ctx, radius);
-    setInterval(drawClock, 1000);
+//    setInterval(drawClock, 1000);
 }
 
 function drawFace(ctx, radius) {
