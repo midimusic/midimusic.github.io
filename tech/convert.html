@@ -32,8 +32,8 @@
 <h2>Organ file conversion</h2>
 <h3>By David Back, June 2018</h3>
 <h3>How to convert organ MIDI files to play on another organ</h3>
-An organ midi file will play correctly only on the organ it was recorded on. This article describes a general method
-to convert these files so they will play correctly on a different organ.
+An organ midi file, in general, will play correctly only on the organ it was recorded on. This article describes a
+general method to convert these files so they will play correctly on a different organ.
 <h4>Conversion method<br>Using eplayOrgan and a midi editor</h4>
 1. Use eplayOrgan to play the original file on its correct organ, pause at the beginning after the stops have been
 selected and make a note of every stop selected for each division.
@@ -50,12 +50,12 @@ at the points where the stop selection changes.
 midi channel of each division to that of the target organ. If the target organ has more divisions than the source it
 will probably be better to convert swell to great and great to acc, omitting the target's swell.
 <table class="joplin">
-<tr><th COLSPAN=7>Organ Midi channel examples</th></tr>
-<tr><th>Miditzer 160</th><th>Miditzer 216</th><th>Miditzer 260</th><th>HW St. Annes</th><th>HW Paramount 310</th><th>HW Burea Church</th><th>Viscount Regent</th></tr>
-<tr><td>swell ch2</td><td>swell ch1</td><td>swell ch1</td><td>swell ch3</td><td>swell ch4</td><td>swell ch3</td><td>swell ch3</td></tr>
-<tr><td>great ch1</td><td>great ch2</td><td>great ch4</td><td>great ch2</td><td>great ch3</td><td>great ch2</td><td>great ch2</td></tr>
-<tr><td>&nbsp;</td><td>&nbsp;</td><td>acc ch2</td><td>&nbsp;</td><td>acc ch2</td><td>acc ch4</td><td>acc ch4</td></tr>
-<tr><td>pedal ch3</td><td>pedal ch3</td><td>pedal ch3</td><td>pedal ch1</td><td>pedal ch1</td><td>pedal ch1</td><td>pedal ch1</td></tr>
+<tr><th COLSPAN=9>Organ Midi channel examples</th></tr>
+<tr><th>Miditzer 160</th><th>Miditzer 216</th><th>Miditzer 260</th><th>HW St. Annes</th><th>HW Paramount 310</th><th>HW Burea Church</th><th>Viscount Regent</th><th>Allen, Church</th><th>Allen Theatre</th></tr>
+<tr><td>swell ch2</td><td>swell ch1</td><td>swell ch1</td><td>swell ch3</td><td>swell ch4</td><td>swell ch3</td><td>swell ch3</td><td>swell ch1</td><td>swell ch4</td></tr>
+<tr><td>great ch1</td><td>great ch2</td><td>great ch4</td><td>great ch2</td><td>great ch3</td><td>great ch2</td><td>great ch2</td><td>great ch2</td><td>great ch1</td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td><td>acc ch2</td><td>&nbsp;</td><td>acc ch2</td><td>acc ch4</td><td>acc ch4</td><td>acc ch4</td><td>acc ch2</td></tr>
+<tr><td>pedal ch3</td><td>pedal ch3</td><td>pedal ch3</td><td>pedal ch1</td><td>pedal ch1</td><td>pedal ch1</td><td>pedal ch1</td><td>pedal ch3</td><td>pedal ch3</td></tr>
 </table>
 <p>
 5. As an example, the original stop changes for Miditzers will be on ch 16. The locations of these changes will be all grouped
