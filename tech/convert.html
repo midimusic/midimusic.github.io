@@ -72,6 +72,104 @@ to change the midi channels on the intermediate file before playing it on the ta
 will still be correctly translated when the file is played. A bit of experimentation will quickly find the
 best option for any situation.
 </article>
+<article>
+<h2>APPENDIX</h2>
+<h2>Universal Organ Definition</h2>
+The Universal Organ is intended to be an organ which can be used as an intermediary when translating from
+one organ format to another. This Universal organ will be able to play the translated midi from almost any
+one, two or three manual organ. For example when translating a Paramount 310 organ to a Miditzer 260 organ
+the Paramount is first converted to Universal format and then the Universal is converted to Miditzer 260.
+This enables any organ format to be converted to any other.
+<h3>Midi Channels</h3>
+<pre>
+Swell = Channel 1
+Great = Channel 2
+Pedal = Channel 3
+Accomp. = Channel 4
+Standard Midi Percussion = Channel 10
+</pre>
+<h3>Swell and Volume Pedals</h3>
+<pre>
+Swell Pedal controls the Swell Division volume. Midi Code (right pedal) = 176;7 (0xb0;0x07)
+Volume Pedal controls all other divisions volume. Midi Code (left pedal) = 177;7 (0xb1;0x07)
+</pre>
+<h3>Stops</h3>
+All stops use Universal NRPN's
+<p>
+Following are the Universal NRPN's used in the Universal Organ. They can be used in any channel and are based
+on Allen's Universal NRPN's.
+<p>
+For split manuals use the same number for both ends of the split. Otherwise it is good practice not to use the
+same number more than once for each manual.<br>
+<pre>
+2   =  Contra Violone 32
+9   =  Diaphone 16
+12  =  Tibia Clausa 16
+15  =  Bourdon 16
+17  =  Violone 16
+31  =  Open Diapason 8
+34  =  Cello 8
+35  =  Celeste 8
+37  =  Violin 8
+40  =  Tibia Clausa 8
+41  =  Tibia II 8
+43  =  Flute 8
+53  =  Fifth 5-1/3
+56  =  Octave 4
+59  =  Violin 4
+63  =  Flute 4
+76  =  Twelfth 2-2/3
+80  =  Fifteenth 2
+84  =  Piccolo 2
+91  =  Tierce 1-3/5
+95  =  Larigot 1-1/3
+100  = Mixture lV
+108  = Contra Bombarde 32
+114  = Brass Trumpet 16
+115  = Tuba 16
+116  = Bombarde 16
+118  = Clarinet 16
+121  = Vox Humana 16
+124  = Saxophone 16
+127  = Horn 8
+128  = Tuba 8
+131  = Trumpet 8
+132  = Clarinet 8
+133  = Oboe Horn 8
+139  = Vox Humana 8
+141  = Saxophone 8
+144  = Clarion 4
+154  = Piano 8
+157  = Harp 8
+161  = Cathedral Chimes
+162  = Glockenspiel
+163  = Xylophone
+166  = Chrysoglott
+167  = Bells
+176  = Tremolo
+198 = Standard Midi Percussion (use in pedal channel only)
+202  = Bass Drum 
+203  = Tap Cymbal 
+205  = Snare Drum 
+207  = Tambourine 
+208  = Castanets 
+209  = Tom-Tom 
+210  = Wood Block 
+</pre>
+<h4>Couplers must be defined and used in the pedal channel</h4>
+<pre>
+266  = Swell Octave
+265  = Swell Sub-octave
+271  = Swell Unison Off
+247  = Swell to Great
+268  = Great Octave
+247  = Swell to Accomp
+270  = Accomp Octave
+247  = Swell to Pedal
+248  = Great to Pedal
+250  = Accomp to Pedal
+</pre>
+</article>
 <footer>
 <p>
 Webmaster: David Back<BR>
