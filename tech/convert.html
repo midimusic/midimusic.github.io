@@ -56,6 +56,9 @@ select the midi input port or if not play the Universal midi file recorded above
 eplayOrgan will then translate the incoming midi from the Universal file format to the Current organ's
 file format, play it and allow you to record the resulting midi in the format of the Current organ.
 <p>
+A "Virtual Organist" will select the best alternative stops when the target organ does not have the exact
+stops required. This works well and is very versatile.
+<p>
 If you want to silence one of the organs, tick the mute box. 
 <h3>Possible Problems</h3>
 There is no claim that the translation will be perfect. The Universal organ will be able to play
@@ -63,12 +66,10 @@ the translated midi from almost any one, two or three manual organ. However the 
 selected so that it has at least as many manuals as the source organ and has a similar selection of stops.
 For example, translating a theatre organ file to a church organ file will likely lose all percussion stops.
 <p>
-The next version of eplayOrgan will feature a "Virtual Organist" who can select the best alternative
-stops when the target organ does not have the exact stops required. This works well and is very versatile.
-<p>
 Also when translating a two manual organ to three manuals it is sometimes better to move the swell
-manual to great and the great manual to accomp. This can currently be done only by using a midi editor
-to change the midi channels on the intermediate file before playing it on the target organ. The organ's stops
+manual to great and the great manual to accomp. This could be done automatically but there is no way
+to detect when it is needed so it can currently be done only by using a midi editor to change the
+midi channels on the intermediate file before playing it on the target organ. The organ's stops
 will still be correctly translated when the file is played. A bit of experimentation will quickly find the
 best option for any situation.
 </article>
@@ -102,8 +103,8 @@ on Allen's Universal NRPN's.
 For split manuals use the same number for both ends of the split. Otherwise it is good practice not to use the
 same number more than once for each manual.<br>
 <pre>
-2   =  Contra Violone 32
-9   =  Diaphone 16
+ 2   =  Contra Violone 32
+ 9   =  Diaphone 16
 12  =  Tibia Clausa 16
 15  =  Bourdon 16
 17  =  Violone 16
@@ -147,9 +148,9 @@ same number more than once for each manual.<br>
 166  = Chrysoglott
 167  = Bells
 176  = Tremolo
-198 = Standard Midi Percussion (use in pedal channel only)
+198  = Standard Midi Percussion (use in pedal channel only)
 202  = Bass Drum 
-203  = Tap Cymbal 
+203  = Cymbal 
 205  = Snare Drum 
 207  = Tambourine 
 208  = Castanets 
