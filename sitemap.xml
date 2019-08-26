@@ -1,173 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns = "http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://midimusic.github.io/index.html</loc>
-        <lastmod>2015-06-03</lastmod>
+        <loc>https://midimusic.github.io/index.html</loc>
+        <lastmod>2019-08-26</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/about/index.html</loc>
+        <loc>https://midimusic.github.io/about/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/estey/index.html</loc>
+        <loc>https://midimusic.github.io/estey/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/index.html</loc>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/biography/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/biography/index.html</loc>
         <priority>0.1</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/clips/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/clips/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/jlinks/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/jlinks/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/march1/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/march1/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/rags1/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/rags1/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/rags2/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/rags2/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/rags3/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/rags3/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/rags4/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/rags4/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/rags5/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/rags5/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/rags6/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/rags6/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/rags7/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/rags7/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/waltz1/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/waltz1/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/rolls/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/rolls/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/songs/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/songs/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/joplin/tree/index.html</loc>
+        <loc>https://midimusic.github.io/joplin/tree/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/literature/index.html</loc>
+        <loc>https://midimusic.github.io/literature/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/literature/aesop/index.html</loc>
+        <loc>https://midimusic.github.io/literature/aesop/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/literature/humour/index.html</loc>
+        <loc>https://midimusic.github.io/literature/humour/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/literature/kochel/index.html</loc>
+        <loc>https://midimusic.github.io/literature/kochel/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/tech/index.html</loc>
+        <loc>https://midimusic.github.io/tech/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/tech/android.html</loc>
+        <loc>https://midimusic.github.io/tech/android.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/tech/androidvideo.html</loc>
+        <loc>https://midimusic.github.io/tech/androidvideo.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/literature/index.html</loc>
+        <loc>https://midimusic.github.io/tech/eplayOrgan.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/index.html</loc>
+        <loc>https://midimusic.github.io/tech/convert.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/caliola1</loc>
+        <loc>https://midimusic.github.io/literature/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/caliola2</loc>
+        <loc>https://midimusic.github.io/wurlitzer/index.html</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/videos</loc>
+        <loc>https://midimusic.github.io/wurlitzer/caliola1</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/w125roll3143</loc>
+        <loc>https://midimusic.github.io/wurlitzer/caliola2</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/w125roll3151</loc>
+        <loc>https://midimusic.github.io/wurlitzer/videos</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/w125roll3248</loc>
+        <loc>https://midimusic.github.io/wurlitzer/w125roll3143</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/w150roll3147</loc>
+        <loc>https://midimusic.github.io/wurlitzer/w125roll3151</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/w150roll14300</loc>
+        <loc>https://midimusic.github.io/wurlitzer/w125roll3248</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/w165roll6502</loc>
+        <loc>https://midimusic.github.io/wurlitzer/w150roll3147</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/w165roll6505</loc>
+        <loc>https://midimusic.github.io/wurlitzer/w150roll14300</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/wlinks</loc>
+        <loc>https://midimusic.github.io/wurlitzer/w165roll6502</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/archive</loc>
+        <loc>https://midimusic.github.io/wurlitzer/w165roll6505</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/estey/archive</loc>
+        <loc>https://midimusic.github.io/wurlitzer/archive</loc>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://midimusic.github.io/wurlitzer/recognize</loc>
+        <loc>https://midimusic.github.io/estey/archive</loc>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://midimusic.github.io/estey/playable</loc>
         <priority>0.5</priority>
     </url>
 </urlset>
