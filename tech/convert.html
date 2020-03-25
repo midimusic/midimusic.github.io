@@ -3,7 +3,7 @@
 <HEAD>
 <META charset="utf-8">
 <META NAME="description" CONTENT="How to translate organ MIDI files to play on another organ">
-<META NAME="keywords" CONTENT="midi, organ, file, translate, convert, conversion">
+<META NAME="keywords" CONTENT="eplayOrgan, grandorgue, midi, organ, file, translate, convert, conversion">
 <TITLE>Organ file conversion</TITLE>
 <link rel="shortcut icon" href="../favicon.ico">
 <LINK rel="stylesheet" type="text/css" href="../style.css">
@@ -30,7 +30,7 @@
 <li>Organ midi file translation</li>
 </ol>
 <h2>Organ midi file translation</h2>
-<h3>By David Back, January 2019, updated May and July 2019</h3>
+<h3>By David Back, January 2019, updated May and July 2019 and March 2020</h3>
 <h3>How to translate organ MIDI files to play on another organ</h3>
 Nearly all organs have their own unique midi format. There is no standardisation for midi channels,
 stops or expression controls. Thus an organ midi file will seldom if ever play properly on another
@@ -38,6 +38,8 @@ organ and there is never any chance of it playing properly on any normal midi pl
 <p>
 Version 3 and later of eplayOrgan has solved this problem by enabling you to automatically and in real
 time translate and play an organ midi file on another organ. No other organ can do this.
+<p>
+See below to translate midi files to play on GrandOrgue.
 <p>
 Translation is a two stage process, first the file is translated to an intermediate, Universal organ
 format and then translated again to play on the target organ. You can either record the intermediate
@@ -100,6 +102,39 @@ Typical final midi file: <a href="march_of_the_bowmen_salisbury.mid"> march_of_t
 <p>
 If you set up a string of two eplayOrgans followed by the "Real" organ then the whole translation
 and playing process can be done simultaneoulsy in real time.
+
+<h2>Translating Midi Files to play on GrandOrgue</h2>
+GrandOrgue is a special case. Although GrandOrgue and Hauptwerk share the same original source code ("MyOrgan"),
+behave very similarly and can both produce equally good sound quality their midi file formats are incompatible.
+The Hauptwerk midi file format is fully documented and (using eplayOrgan) can be easily translated, as above, to
+play on another organ. The GrandOrgue midi file format uses undefined sysex events to set the stops and these files
+can be made only by a GrandOrgue organ and played only on the same organ.
+<p>
+GrandOrgue and a selection of samplesets (organs) can be downloaded from Sourceforge.
+Many other samplesets (organs) are available from other websites. GrandOrgue is free and so are most of the
+samplesets (organs). It will play on Windows, Mac and many Linux systems.
+<p>
+GrandOrgue samplesets do not have any default settings so in order to play or work with midi files on a GrandOrgue organ the
+organ must be set up to "look like" an organ which eplayOrgan can play. This can be done automatically by importing settings
+from an appropriate .cmb file which has been previously exported from GrandOrgue.
+
+<h3>Making a GrandOrgue settings file.</h3>
+Taking the Barton 3-7 as an example, set it up to look like a Miditzer 216.
+<ol>
+<li>Start up Barton 3-7 and eplayOrgan, on eplayOrgan select Miditzer 216.</li>
+<li>Connect the midi output of eplayOrgan to GrandOrgue "Audio/Midi-Midi & Audio Settings-MIDI Devices-MIDI input device" using
+a virtual or real midi cable.</li>
+<li>If you need to save your existing Barton settings then save them using "File-Export Settings/Combinations" to a file
+you can later reload to recover your existing settings.</li>
+<li>Using eplayOrgan as a midi source, set up the Barton's manuals and stops so that it can be played from eplayOrgan.</li>
+<li>Export and save the settings file from GrandOrgue so that it will be immediately available for next time you need it.</li>
+<li>Set eplayOrgan to mute and use it to play a Miditzer 216 midi file. The Barton will play the file and it should
+sound correct.</li>
+<li>If you want to record midi files for later playing on the Barton then use the Barton to record a midi file while it is playing.</li>
+</ol>
+A settings file can be made for any GrandOrgue organ in the above manner and the organ can be made to look like
+any appropriate organ that eplayOrgan can play. If you set up GrandOrgue as a Universal organ then it will be
+able to play midi files in real time from almost any organ, using eplayOrgan to translate them.
 </article>
 <article>
 <h2>APPENDIX</h2>
