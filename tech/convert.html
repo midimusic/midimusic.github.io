@@ -107,16 +107,13 @@ and playing process can be done simultaneoulsy in real time.
 GrandOrgue is a special case. Although GrandOrgue and Hauptwerk share the same original source code ("MyOrgan"),
 behave very similarly and can both produce equally good sound quality their midi file formats are incompatible.
 The Hauptwerk midi file format is fully documented and (using eplayOrgan) can be easily translated, as above, to
-play on another organ. The GrandOrgue midi file format uses undefined sysex events to set the stops and these files
-can be made only by a GrandOrgue organ and played only on the same organ.
+play on another organ. The GrandOrgue midi file format normally uses undefined sysex events to set up the organ
+for playing midi. eplayOrgan can now read, write and play GO midi files but to play these files using the GO midi
+player you must now use a settings file to set up the organ for playing midi.
 <p>
 GrandOrgue and a selection of samplesets (organs) can be downloaded from Sourceforge.
 Many other samplesets (organs) are available from other websites. GrandOrgue is free and so are most of the
 samplesets (organs). It will play on Windows, Mac and many Linux systems.
-<p>
-GrandOrgue samplesets do not have any default settings so in order to play or work with midi files on a GrandOrgue organ the
-organ must be set up to "look like" an organ which eplayOrgan can play. This can be done automatically by importing settings
-from an appropriate .cmb file which has been previously exported from GrandOrgue.
 
 <h3>Making a GrandOrgue settings file.</h3>
 Taking the Barton 3-7 as an example, set it up to look like a Miditzer 216.
