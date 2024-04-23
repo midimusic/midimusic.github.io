@@ -46,7 +46,7 @@ Hole	Note
 1				Vanish, very slow bow
 2				Bow Action, very fast bow
 3				Staccato, bow leaves strings
-4				Rolls < 1750 Tremolo. Later rolls: rosin relay off
+4				Rolls < 1750 Tremolo. Later rolls: activates rosin relay
 5				Loud, bow fast
 6	74	12	D	Next Lowest
 7	69	7
@@ -86,7 +86,7 @@ Hole	Note
 41	96	20
 42	91	15
 43	93	17
-44				Piano Hammer Rail Up, soft
+44				Piano soft bypass resistor active
 45	55	Open	G	Lowest
 46	62	7		2 Wire
 47	57	2
@@ -100,7 +100,7 @@ Hole	Note
 55	65	10
 56	60	5
 57	67	12
-58				Piano Hammer Rail Down, loud
+58				Piano loud relay active
 59	81	12	A	Next Highest
 60	76	7		2 Wire
 61	71	2
@@ -162,7 +162,7 @@ Hole	Note
 117	82
 118	83
 119	84
-120				Piano Acc
+120				Old rolls only, Piano Accent
 121				Sustain pedal on, Damper lifted
 122				Piano mute
 123				Damper On 
@@ -172,16 +172,23 @@ Hole	Note
 <b>1.</b>  Staccato: This is a very brief signal to terminate the current playing violin notes from the start of this signal
 and for the duration of this signal. (While applied it lifts the bow wheels from the strings).
 <p>
-<b>2.</b>  Tremolo: This has to be turned on in short bursts as otherwise it will weaken the paper roll. The latest rolls
+<b>2.</b>  Tremolo: This has to be turned on in short bursts as otherwise it will weaken the paper roll. Many of the later rolls
 do not use it at all. Usually it is permanently engaged by users.
 <p>
 <b>3.</b> Violin bowing default: There are 5 levels of bowing pressure 1..5. The default pressure is level 3.
 <p>
-<b>4.</b>  Piano Acc and Piano mute: Believed to be brief signals to turn the piano accompanyment on an off. Early
-Violano's either did not have a piano or it was a seperate attachment. (Still under investigation).
+<b>4.</b> Rosin relay: Early Violanos automatically applied rosin on rewind.
+For later models , rosin was applied while playing when signalled by the rosin relay.
 <p>
-<b>5.</b> Rosin rel: Early Violanos automatically applied rosin on rewind.
-For later models , rosin was applied only when signalled. (Still under investigation).
+<b>5.</b>  Piano Accent and Piano Mute: Early violanos only. Piano accent is active on and off all the time an early roll is playing
+and is believed to be the early implementation of the systain pedal. Piano Mute is just a brief signal which is assumed turns the
+piano off.(Still under investigation).
+<p>
+<b>6.</b> Piano Loud and Piano Soft: Piano loud activates a relay which applies maximum current to the piano note magnets.
+Piano soft bypassed some of the magnet current and produced a softer note. When neither is activated a medium current is
+applied (the default).<br>
+Having looked at many of the rolls the loud and soft are rarely applied and then only briefly - so it is doubtful if this
+was ever successfully applied.
 <P></p>
 </article>
 <footer>
