@@ -4,7 +4,7 @@
 <META charset="utf-8">
 <META NAME="description" CONTENT="Mozart, Kochel Catalog 1-100">
 <META NAME="keywords" CONTENT="mozart, kochel, catalog, music">
-<title>Midimusic.org.uk, Mozart K&ouml;chel Catalog 1-100</title>
+<title>Mozart K&ouml;chel Catalog 1-100</title>
 <link rel="shortcut icon" href="../../favicon.ico">
 <LINK rel="stylesheet" type="text/css" href="../../style.css">
 <script>
@@ -25,7 +25,7 @@ document.createElement('section');
 <li><a href="index.shtml">Kochel Catalog</a></li>
 <li>Kochel Catalog 1-100</li>		
 </ol>
-<H2>Midimusic.org.uk, Mozart K&ouml;chel Catalog 1-100</H2>
+<H2>Mozart K&ouml;chel Catalog 1-100</H2>
 <TABLE class="joplin">
 <TR><TH>K&ouml;chel</TH><TH>Date</TH><TH>Location</TH><TH>Work</TH><TH>Key</TH></TR>
 <TR><TD><B>1a</B></TD><TD>1761</TD><TD>Salzburg</TD><TD>Andante for Harpsichord "Nannerl's Music Book"</TD><TD>C Major</TD></TR>
