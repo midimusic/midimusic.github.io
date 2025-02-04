@@ -29,7 +29,11 @@
 <li>SA File Format</li>		
 </ol>
 <h2>Book Music SA File Format</h2>
-This is a midi file archive format devised by Craig Williams which encompasses the functions and features of all organs which use Book Music. It is a format which can be directly played by a suitable ePlayOrgan.
+This is a midi file archive format devised by Craig Williams which encompasses the functions and features of all organs which use Book Music. It is a format which can be directly played by a suitable ePlayOrgan and also translated back to the tracker bar format of the original organ.
+<p>
+Important Notes:<br>
+1. In the Midi Specification note 60 = C4. Herein note 60 = C5 etc.<br>
+2. Stops are midi control changes 0xBn,0xcv where n=channel, c=0x51 (open) or 0x50 (close), v=stop number.
 <p>
 <table>
  <tr>
@@ -39,9 +43,8 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td><b>Organ</b></td>
   <td><b>Note</b></td>
   <td><b>Stop No.</b></td>
-  <td><b>Perc Chn.</b></td>
-  <td><b>Lock &amp; C Chn.</b></td>
-  <td><b>Tr or L&amp;C Note</b></td>
+  <td><b>L&amp;C Chn.</b></td>
+  <td><b>L&amp;C Note</b></td>
  </tr>
  <tr>
   <td>1</td>
@@ -50,7 +53,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed Bass pipes on</td>
   <td></td>
   <td>1</td>
-  <td>&nbsp;</td>
   <td>7</td>
   <td>1</td>
  </tr>
@@ -61,7 +63,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed 16' Gedackt</td>
   <td></td>
   <td>2</td>
-  <td>&nbsp;</td>
   <td>7</td>
   <td>2</td>
  </tr>
@@ -72,7 +73,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed 8' Gedackt</td>
   <td></td>
   <td>3</td>
-  <td></td>
   <td>7</td>
   <td>3</td>
  </tr>
@@ -83,7 +83,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed Cello</td>
   <td></td>
   <td>4</td>
-  <td></td>
   <td>7</td>
   <td>4</td>
  </tr>
@@ -94,7 +93,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed Prestant</td>
   <td></td>
   <td>5</td>
-  <td></td>
   <td>7</td>
   <td>5</td>
  </tr>
@@ -105,7 +103,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>8' Trombone</td>
   <td></td>
   <td>6</td>
-  <td></td>
   <td>7</td>
   <td>6</td>
  </tr>
@@ -116,7 +113,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>G3</td>
   <td>43</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>1</td>
@@ -124,7 +120,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>G#3</td>
   <td>44</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -134,7 +129,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>A3</td>
   <td>45</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>1</td>
@@ -142,7 +136,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>A#3</td>
   <td>46</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -152,7 +145,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>B3</td>
   <td>47</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>1</td>
@@ -160,7 +152,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>C4</td>
   <td>48</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -170,7 +161,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>C#4</td>
   <td>49</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>1</td>
@@ -178,7 +168,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>D4</td>
   <td>50</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -188,7 +177,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>D#4</td>
   <td>51</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>1</td>
@@ -196,7 +184,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>E4</td>
   <td>52</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -206,7 +193,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>F4</td>
   <td>53</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>1</td>
@@ -214,7 +200,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>F#4</td>
   <td>54</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -224,7 +209,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed Acc pipes on</td>
   <td></td>
   <td>7</td>
-  <td></td>
   <td>7</td>
   <td>7</td>
  </tr>
@@ -235,7 +219,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed 8' String</td>
   <td></td>
   <td>8</td>
-  <td></td>
   <td>7</td>
   <td>8</td>
  </tr>
@@ -246,7 +229,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed 8' Gedackt</td>
   <td></td>
   <td>9</td>
-  <td></td>
   <td>7</td>
   <td>9</td>
  </tr>
@@ -257,7 +239,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed 4 String</td>
   <td></td>
   <td>10</td>
-  <td></td>
   <td>7</td>
   <td>10</td>
  </tr>
@@ -268,7 +249,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Acc Forte</td>
   <td></td>
   <td>50</td>
-  <td></td>
   <td>7</td>
   <td>50</td>
  </tr>
@@ -279,7 +259,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>G4</td>
   <td>55</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>2</td>
@@ -287,7 +266,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>G#4</td>
   <td>56</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -297,7 +275,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>A4</td>
   <td>57</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>2</td>
@@ -305,7 +282,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>A#4</td>
   <td>58</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -315,7 +291,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>B4</td>
   <td>59</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>2</td>
@@ -323,7 +298,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>C5</td>
   <td>60</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -333,7 +307,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>C#5</td>
   <td>61</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>2</td>
@@ -341,7 +314,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>D5</td>
   <td>62</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -351,7 +323,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>D#5</td>
   <td>63</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>2</td>
@@ -359,7 +330,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>E5</td>
   <td>64</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -369,7 +339,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>F5</td>
   <td>65</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>2</td>
@@ -377,7 +346,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>F#5</td>
   <td>66</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -387,7 +355,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>16' Saxophone</td>
   <td></td>
   <td>11</td>
-  <td></td>
   <td>7</td>
   <td>11</td>
  </tr>
@@ -398,7 +365,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>32' Cello Grave</td>
   <td></td>
   <td>12</td>
-  <td></td>
   <td>7</td>
   <td>12</td>
  </tr>
@@ -409,7 +375,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Flute 8'</td>
   <td></td>
   <td>13</td>
-  <td></td>
   <td>7</td>
   <td>13</td>
  </tr>
@@ -420,7 +385,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Bassoon</td>
   <td></td>
   <td>14</td>
-  <td></td>
   <td>7</td>
   <td>14</td>
  </tr>
@@ -431,7 +395,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Piffaro</td>
   <td></td>
   <td>15</td>
-  <td></td>
   <td>7</td>
   <td>15</td>
  </tr>
@@ -442,7 +405,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>16' Cello Grave</td>
   <td></td>
   <td>16</td>
-  <td></td>
   <td>7</td>
   <td>16</td>
  </tr>
@@ -453,7 +415,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>CM Jazz Tremolo</td>
   <td></td>
   <td>17</td>
-  <td></td>
   <td>7</td>
   <td>17</td>
  </tr>
@@ -464,7 +425,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Trumpet</td>
   <td></td>
   <td>18</td>
-  <td></td>
   <td>7</td>
   <td>18</td>
  </tr>
@@ -475,7 +435,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>16' Vibratone</td>
   <td></td>
   <td>19</td>
-  <td></td>
   <td>7</td>
   <td>19</td>
  </tr>
@@ -486,7 +445,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Register -C-mel</td>
   <td></td>
   <td>20</td>
-  <td></td>
   <td>7</td>
   <td>20</td>
  </tr>
@@ -497,7 +455,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Accordion</td>
   <td></td>
   <td>21</td>
-  <td></td>
   <td>7</td>
   <td>21</td>
  </tr>
@@ -508,7 +465,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Baritone</td>
   <td></td>
   <td>22</td>
-  <td></td>
   <td>7</td>
   <td>22</td>
  </tr>
@@ -519,7 +475,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Krumhorn</td>
   <td></td>
   <td>23</td>
-  <td></td>
   <td>7</td>
   <td>23</td>
  </tr>
@@ -530,7 +485,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Tubular Bells</td>
   <td></td>
   <td>24</td>
-  <td></td>
   <td>7</td>
   <td>24</td>
  </tr>
@@ -541,7 +495,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Tremolo</td>
   <td></td>
   <td>25</td>
-  <td></td>
   <td>7</td>
   <td>25</td>
  </tr>
@@ -552,7 +505,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Voix Cel</td>
   <td></td>
   <td>26</td>
-  <td></td>
   <td>7</td>
   <td>26</td>
  </tr>
@@ -563,7 +515,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>8 Cello-Prestant</td>
   <td></td>
   <td>27</td>
-  <td></td>
   <td>7</td>
   <td>27</td>
  </tr>
@@ -574,7 +525,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>CMel pipes on</td>
   <td></td>
   <td>57</td>
-  <td></td>
   <td>7</td>
   <td>57</td>
  </tr>
@@ -585,7 +535,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>C5</td>
   <td>60</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -593,7 +542,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>C#5</td>
   <td>61</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -603,7 +551,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>D5</td>
   <td>62</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -611,7 +558,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>D#5</td>
   <td>63</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -621,7 +567,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>E5</td>
   <td>64</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -629,7 +574,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>F5</td>
   <td>65</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -639,7 +583,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>F#5</td>
   <td>66</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -647,7 +590,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>G5</td>
   <td>67</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -657,7 +599,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>G#5</td>
   <td>68</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -665,7 +606,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>A5</td>
   <td>69</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -675,7 +615,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>A#5</td>
   <td>70</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -683,7 +622,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>B5</td>
   <td>71</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -693,7 +631,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>C6</td>
   <td>72</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -701,7 +638,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>C#6</td>
   <td>73</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -711,7 +647,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>D6</td>
   <td>74</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -719,7 +654,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>D#6</td>
   <td>75</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -729,7 +663,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>E6</td>
   <td>76</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -737,7 +670,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>F6</td>
   <td>77</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -747,7 +679,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>F#6</td>
   <td>78</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -755,7 +686,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>G6</td>
   <td>79</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -765,7 +695,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>G#6</td>
   <td>80</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -773,7 +702,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>A6</td>
   <td>81</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -783,7 +711,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>A#6</td>
   <td>82</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>3</td>
@@ -791,7 +718,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>B6</td>
   <td>83</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -801,7 +727,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>C7</td>
   <td>84</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>4</td>
@@ -810,7 +735,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Glockenspiel</td>
   <td></td>
   <td>28</td>
-  <td></td>
   <td>7</td>
   <td>28</td>
  </tr>
@@ -821,7 +745,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Clarinet</td>
   <td></td>
   <td>29</td>
-  <td></td>
   <td>7</td>
   <td>29</td>
  </tr>
@@ -832,7 +755,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>*Fixed Mel pipes on</td>
   <td></td>
   <td>30</td>
-  <td></td>
   <td>7</td>
   <td>30</td>
  </tr>
@@ -843,7 +765,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Jazz Flute</td>
   <td></td>
   <td>31</td>
-  <td></td>
   <td>7</td>
   <td>31</td>
  </tr>
@@ -854,7 +775,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>16' Vibratone</td>
   <td></td>
   <td>32</td>
-  <td></td>
   <td>7</td>
   <td>32</td>
  </tr>
@@ -865,7 +785,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Loud Violin</td>
   <td></td>
   <td>33</td>
-  <td></td>
   <td>7</td>
   <td>33</td>
  </tr>
@@ -876,7 +795,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Soft Violin</td>
   <td></td>
   <td>34</td>
-  <td></td>
   <td>7</td>
   <td>34</td>
  </tr>
@@ -887,7 +805,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>16' Trumpet</td>
   <td></td>
   <td>35</td>
-  <td></td>
   <td>7</td>
   <td>35</td>
  </tr>
@@ -898,7 +815,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Xylophone</td>
   <td></td>
   <td>36</td>
-  <td></td>
   <td>7</td>
   <td>36</td>
  </tr>
@@ -909,7 +825,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Baxophone</td>
   <td></td>
   <td>37</td>
-  <td></td>
   <td>7</td>
   <td>37</td>
  </tr>
@@ -920,7 +835,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Accordion 1</td>
   <td></td>
   <td>38</td>
-  <td></td>
   <td>7</td>
   <td>38</td>
  </tr>
@@ -931,7 +845,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>16' Unda Maris</td>
   <td></td>
   <td>39</td>
-  <td></td>
   <td>7</td>
   <td>39</td>
  </tr>
@@ -942,7 +855,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Carillon</td>
   <td></td>
   <td>40</td>
-  <td></td>
   <td>7</td>
   <td>40</td>
  </tr>
@@ -953,7 +865,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Harm Fl</td>
   <td></td>
   <td>41</td>
-  <td></td>
   <td>7</td>
   <td>41</td>
  </tr>
@@ -964,7 +875,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Bourdon</td>
   <td></td>
   <td>42</td>
-  <td></td>
   <td>7</td>
   <td>42</td>
  </tr>
@@ -975,7 +885,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Cornet</td>
   <td></td>
   <td>44</td>
-  <td></td>
   <td>7</td>
   <td>44</td>
  </tr>
@@ -986,7 +895,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Accordion 2</td>
   <td></td>
   <td>45</td>
-  <td></td>
   <td>7</td>
   <td>45</td>
  </tr>
@@ -997,7 +905,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Oboe</td>
   <td></td>
   <td>46</td>
-  <td></td>
   <td>7</td>
   <td>46</td>
  </tr>
@@ -1008,7 +915,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Piston (Reed Trump)</td>
   <td></td>
   <td>47</td>
-  <td></td>
   <td>7</td>
   <td>47</td>
  </tr>
@@ -1019,7 +925,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Tremolo</td>
   <td></td>
   <td>48</td>
-  <td></td>
   <td>7</td>
   <td>48</td>
  </tr>
@@ -1030,7 +935,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>M Jazz Tremolo</td>
   <td></td>
   <td>49</td>
-  <td></td>
   <td>7</td>
   <td>49</td>
  </tr>
@@ -1041,242 +945,26 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Piccolo/Flageolet</td>
   <td></td>
   <td>63</td>
-  <td></td>
   <td>7</td>
   <td>63</td>
  </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>G5</td>
-  <td>67</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>G#5</td>
-  <td>68</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>A5</td>
-  <td>69</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>A#5</td>
-  <td>70</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>B5</td>
-  <td>71</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>C6</td>
-  <td>72</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>C#6</td>
-  <td>73</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>D6</td>
-  <td>74</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>D#6</td>
-  <td>75</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>E6</td>
-  <td>76</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>F6</td>
-  <td>77</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>F#6</td>
-  <td>78</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>G6</td>
-  <td>79</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>G#6</td>
-  <td>80</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>A6</td>
-  <td>81</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>A#6</td>
-  <td>82</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>B6</td>
-  <td>83</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>C7</td>
-  <td>84</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>C#7</td>
-  <td>85</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>D7</td>
-  <td>86</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>D#7</td>
-  <td>87</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>E7</td>
-  <td>88</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>F7</td>
-  <td>89</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>F#7</td>
-  <td>90</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>4</td>
-  <td>M</td>
-  <td>Note</td>
-  <td>G7</td>
-  <td>91</td>
-  <td></td>
-  <td></td>
- </tr>
+
+
+
+
+
+
+
+
+
+
+
  <tr>
   <td>4</td>
   <td>M</td>
   <td>Note</td>
   <td>C5</td>
   <td>60</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1286,7 +974,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>C#5</td>
   <td>61</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>4</td>
@@ -1294,7 +981,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>D5</td>
   <td>62</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1304,7 +990,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>D#5</td>
   <td>63</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>4</td>
@@ -1312,7 +997,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>E5</td>
   <td>64</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1322,7 +1006,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>F5</td>
   <td>65</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>4</td>
@@ -1331,6 +1014,205 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>F#5</td>
   <td>66</td>
   <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>G5</td>
+  <td>67</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>G#5</td>
+  <td>68</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>A5</td>
+  <td>69</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>A#5</td>
+  <td>70</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>B5</td>
+  <td>71</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>C6</td>
+  <td>72</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>C#6</td>
+  <td>73</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>D6</td>
+  <td>74</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>D#6</td>
+  <td>75</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>E6</td>
+  <td>76</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>F6</td>
+  <td>77</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>F#6</td>
+  <td>78</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>G6</td>
+  <td>79</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>G#6</td>
+  <td>80</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>A6</td>
+  <td>81</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>A#6</td>
+  <td>82</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>B6</td>
+  <td>83</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>C7</td>
+  <td>84</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>C#7</td>
+  <td>85</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>D7</td>
+  <td>86</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>D#7</td>
+  <td>87</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>E7</td>
+  <td>88</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>F7</td>
+  <td>89</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>F#7</td>
+  <td>90</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>G7</td>
+  <td>91</td>
   <td></td>
  </tr>
  <tr>
@@ -1340,7 +1222,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Flute 8'</td>
   <td></td>
   <td>51</td>
-  <td></td>
   <td>7</td>
   <td>51</td>
  </tr>
@@ -1351,7 +1232,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Tubular Bells</td>
   <td></td>
   <td>52</td>
-  <td></td>
   <td>7</td>
   <td>52</td>
  </tr>
@@ -1362,7 +1242,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Bells</td>
   <td></td>
   <td>53</td>
-  <td></td>
   <td>7</td>
   <td>53</td>
  </tr>
@@ -1373,7 +1252,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Saxophone</td>
   <td></td>
   <td>54</td>
-  <td></td>
   <td>7</td>
   <td>54</td>
  </tr>
@@ -1384,7 +1262,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Tremolo</td>
   <td></td>
   <td>55</td>
-  <td></td>
   <td>7</td>
   <td>55</td>
  </tr>
@@ -1395,7 +1272,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Trumpet</td>
   <td></td>
   <td>56</td>
-  <td></td>
   <td>7</td>
   <td>56</td>
  </tr>
@@ -1406,7 +1282,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>C5</td>
   <td>60</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1414,7 +1289,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>C#5</td>
   <td>61</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1424,7 +1298,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>D5</td>
   <td>62</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1432,7 +1305,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>D#5</td>
   <td>63</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1442,7 +1314,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>E5</td>
   <td>64</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1450,7 +1321,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>F5</td>
   <td>65</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1460,7 +1330,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>F#5</td>
   <td>66</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1468,7 +1337,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>G5</td>
   <td>67</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1478,7 +1346,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>G#5</td>
   <td>68</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1486,7 +1353,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>A5</td>
   <td>69</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1496,7 +1362,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>A#5</td>
   <td>70</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1504,7 +1369,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>B5</td>
   <td>71</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1514,7 +1378,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>C6</td>
   <td>72</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1522,7 +1385,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>C#6</td>
   <td>73</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1532,7 +1394,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>D6</td>
   <td>74</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1540,7 +1401,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>D#6</td>
   <td>75</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1550,7 +1410,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>E6</td>
   <td>76</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1558,7 +1417,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>F6</td>
   <td>77</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1568,7 +1426,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>F#6</td>
   <td>78</td>
   <td></td>
-  <td></td>
  </tr>
  <tr>
   <td>5</td>
@@ -1576,7 +1433,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Note</td>
   <td>G6</td>
   <td>79</td>
-  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1586,6 +1442,65 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>G#6</td>
   <td>80</td>
   <td></td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>Sp</td>
+  <td>Spec</td>
+  <td>161,G#</td>
+  <td>32</td>
+  <td>66</td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>Sp</td>
+  <td>Spec</td>
+  <td>162,A</td>
+  <td>33</td>
+  <td>67</td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>Sp</td>
+  <td>Spec</td>
+  <td>163,A#</td>
+  <td>34</td>
+  <td>68</td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>Sp</td>
+  <td>Spec</td>
+  <td>164,B</td>
+  <td>35</td>
+  <td>69</td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>Sp</td>
+  <td>Spec</td>
+  <td>165,C</td>
+  <td>36</td>
+  <td>70</td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>Sp</td>
+  <td>Spec</td>
+  <td>166,C#</td>
+  <td>37</td>
+  <td>71</td>
+  <td></td>
   <td></td>
  </tr>
  <tr>
@@ -1593,7 +1508,7 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Sp</td>
   <td>Spec</td>
   <td>Cast Bell - D</td>
-  <td></td>
+  <td>38</td>
   <td>72</td>
   <td></td>
   <td></td>
@@ -1603,7 +1518,7 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Sp</td>
   <td>Spec</td>
   <td>Cast Bell - D#</td>
-  <td></td>
+  <td>39</td>
   <td>73</td>
   <td></td>
   <td></td>
@@ -1612,88 +1527,8 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>6</td>
   <td>Sp</td>
   <td>Spec</td>
-  <td>Cast Bell - F</td>
-  <td></td>
-  <td>75</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>6</td>
-  <td>Sp</td>
-  <td>Spec</td>
-  <td>Cast Bell - A#</td>
-  <td></td>
-  <td>80</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>6</td>
-  <td>Sp</td>
-  <td>Spec</td>
-  <td>161</td>
-  <td></td>
-  <td>66</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>6</td>
-  <td>Sp</td>
-  <td>Spec</td>
-  <td>162</td>
-  <td></td>
-  <td>67</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>6</td>
-  <td>Sp</td>
-  <td>Spec</td>
-  <td>163</td>
-  <td></td>
-  <td>68</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>6</td>
-  <td>Sp</td>
-  <td>Spec</td>
-  <td>164</td>
-  <td></td>
-  <td>69</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>6</td>
-  <td>Sp</td>
-  <td>Spec</td>
-  <td>165</td>
-  <td></td>
-  <td>70</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>6</td>
-  <td>Sp</td>
-  <td>Spec</td>
-  <td>166</td>
-  <td></td>
-  <td>71</td>
-  <td></td>
-  <td></td>
- </tr>
- <tr>
-  <td>6</td>
-  <td>Sp</td>
-  <td>Spec</td>
-  <td>169</td>
-  <td></td>
+  <td>169,E</td>
+  <td>40</td>
   <td>74</td>
   <td></td>
   <td></td>
@@ -1702,8 +1537,18 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>6</td>
   <td>Sp</td>
   <td>Spec</td>
-  <td>171</td>
+  <td>Cast Bell - F</td>
+  <td>41</td>
+  <td>75</td>
   <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>Sp</td>
+  <td>Spec</td>
+  <td>171,F#</td>
+  <td>42</td>
   <td>76</td>
   <td></td>
   <td></td>
@@ -1712,8 +1557,8 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>6</td>
   <td>Sp</td>
   <td>Spec</td>
-  <td>172</td>
-  <td></td>
+  <td>172,G</td>
+  <td>43</td>
   <td>77</td>
   <td></td>
   <td></td>
@@ -1722,8 +1567,8 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>6</td>
   <td>Sp</td>
   <td>Spec</td>
-  <td>173</td>
-  <td></td>
+  <td>173,G#</td>
+  <td>44</td>
   <td>78</td>
   <td></td>
   <td></td>
@@ -1732,8 +1577,8 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>6</td>
   <td>Sp</td>
   <td>Spec</td>
-  <td>174</td>
-  <td></td>
+  <td>174,A</td>
+  <td>45</td>
   <td>79</td>
   <td></td>
   <td></td>
@@ -1742,8 +1587,18 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>6</td>
   <td>Sp</td>
   <td>Spec</td>
-  <td>176</td>
+  <td>Cast Bell - A#</td>
+  <td>46</td>
+  <td>80</td>
   <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>6</td>
+  <td>Sp</td>
+  <td>Spec</td>
+  <td>176,B</td>
+  <td>47</td>
   <td>81</td>
   <td></td>
   <td></td>
@@ -1752,8 +1607,8 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>6</td>
   <td>Sp</td>
   <td>Spec</td>
-  <td>177</td>
-  <td></td>
+  <td>177,C</td>
+  <td>48</td>
   <td>82</td>
   <td></td>
   <td></td>
@@ -1762,8 +1617,8 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>6</td>
   <td>Sp</td>
   <td>Spec</td>
-  <td>178</td>
-  <td></td>
+  <td>178,C#</td>
+  <td>49</td>
   <td>83</td>
   <td></td>
   <td></td>
@@ -1772,8 +1627,8 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>6</td>
   <td>Sp</td>
   <td>Spec</td>
-  <td>179</td>
-  <td></td>
+  <td>179,D</td>
+  <td>86?</td>
   <td>84</td>
   <td></td>
   <td></td>
@@ -1785,7 +1640,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Swell Shutters</td>
   <td></td>
   <td>59</td>
-  <td></td>
   <td>7</td>
   <td>59</td>
  </tr>
@@ -1796,7 +1650,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Organ Loud</td>
   <td></td>
   <td>60</td>
-  <td></td>
   <td>7</td>
   <td>60</td>
  </tr>
@@ -1807,7 +1660,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Concert Organ</td>
   <td></td>
   <td>61</td>
-  <td></td>
   <td>7</td>
   <td>61</td>
  </tr>
@@ -1818,7 +1670,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Dance Organ</td>
   <td></td>
   <td>62</td>
-  <td></td>
   <td>7</td>
   <td>62</td>
  </tr>
@@ -1829,7 +1680,6 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Stop Cancel</td>
   <td></td>
   <td>64</td>
-  <td></td>
   <td>7</td>
   <td>64</td>
  </tr>
@@ -1840,262 +1690,192 @@ This is a midi file archive format devised by Craig Williams which encompasses t
   <td>Organ Shut Off (EOB)</td>
   <td></td>
   <td></td>
-  <td></td>
   <td>7</td>
   <td>65</td>
  </tr>
  <tr>
-  <td></td>
+  <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
   <td>Bass Drum 1</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>71</td>
+  <td></td>
  </tr>
  <tr>
-  <td></td>
+  <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
   <td>Bass Drum 2</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>72</td>
+  <td></td>
  </tr>
  <tr>
-  <td></td>
+  <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
   <td>Snare / Tom Tom</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>73</td>
+  <td></td>
  </tr>
  <tr>
-  <td></td>
+  <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
   <td>Beater Right</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>74</td>
+  <td></td>
  </tr>
  <tr>
-  <td></td>
+  <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
   <td>Beater Left</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>75</td>
+  <td></td>
  </tr>
  <tr>
-  <td></td>
+  <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
   <td>Beater Reiterate</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>76</td>
+  <td></td>
  </tr>
  <tr>
-  <td></td>
+  <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
   <td>Tom Tom 1</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>80</td>
+  <td></td>
  </tr>
  <tr>
-  <td></td>
+  <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
   <td>Tom Tom 2</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>81</td>
+  <td></td>
  </tr>
  <tr>
-  <td></td>
+  <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
   <td>High Hat Cymbal</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>82</td>
+  <td></td>
  </tr>
  <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Cymbal 1</td>
-  <td></td>
-  <td></td>
   <td>9</td>
-  <td></td>
-  <td>84</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Cymbal 2</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>85</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Maracca</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>88</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Wood Block 1</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>90</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Wood Block 2</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>91</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Temple Block 1</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>92</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Temple Block 2</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>93</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Temple Block 3</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>94</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Temple Block 4</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>95</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Triangle</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>96</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Castanets</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>97</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Rumba Shaker</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>102</td>
- </tr>
- <tr>
-  <td></td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Beater Shifter</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
-  <td>120</td>
- </tr>
- <tr>
-  <td></td>
   <td>Pr</td>
   <td>Perc</td>
   <td>Crash Cymbal</td>
-  <td></td>
-  <td></td>
-  <td>9</td>
-  <td></td>
   <td>83</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Cymbal 1</td>
+  <td>84</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Cymbal 2</td>
+  <td>85</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Maracca</td>
+  <td>88</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Wood Block 1</td>
+  <td>90</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Wood Block 2</td>
+  <td>91</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Temple Block 1</td>
+  <td>92</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Temple Block 2</td>
+  <td>93</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Temple Block 3</td>
+  <td>94</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Temple Block 4</td>
+  <td>95</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Triangle</td>
+  <td>96</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Castanets</td>
+  <td>97</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Rumba Shaker</td>
+  <td>102</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Beater Shifter</td>
+  <td>120</td>
+  <td></td>
  </tr>
 </table>
 <footer>
