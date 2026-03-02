@@ -28,14 +28,15 @@
 <li><a href="index.html">Technical</a></li>	
 <li>SA File Format</li>		
 </ol>
-<h2>Book Music SA (Special Archive) File Format, Updated September 2025</h2>
+<h2>Book Music SA (Special Archive) File Format, Updated February 2026</h2>
 This is a midi file archive format devised by Craig Williams which encompasses the functions and
 features of all organs which use Book Music. It is a format which can be directly played by a suitable
 ePlayOrgan and also translated back to the tracker bar format of the original organ.
 <p>
 Important Notes:<br>
 1. Middle C, midi note 60 = C5 etc.<br>
-2. Stops are midi control changes 0xBn,0xcv where n=channel, c=0x51 (open) or 0x50 (close), v=stop number.
+2. Stops are midi control changes 0xBn,0xcv where n=channel, c=0x51 (open) or 0x50 (close), v=stop number.<br>
+3. As of Feb. 2026, now includes Wurlitzer Band organs
 <p>
 <table>
  <tr>
@@ -117,6 +118,62 @@ Important Notes:<br>
   <td>66</td>
   <td>7</td>
   <td>66</td>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>B</td>
+  <td>Note</td>
+  <td>C3</td>
+  <td>36</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>B</td>
+  <td>Note</td>
+  <td>C#3</td>
+  <td>37</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>B</td>
+  <td>Note</td>
+  <td>D3</td>
+  <td>38</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>B</td>
+  <td>Note</td>
+  <td>D#33</td>
+  <td>39</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>B</td>
+  <td>Note</td>
+  <td>E3</td>
+  <td>40</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>B</td>
+  <td>Note</td>
+  <td>F3</td>
+  <td>41</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>1</td>
+  <td>B</td>
+  <td>Note</td>
+  <td>F#3</td>
+  <td>42</td>
+  <td></td>
  </tr>
  <tr>
   <td>1</td>
@@ -577,6 +634,36 @@ Important Notes:<br>
  <tr>
   <td>3</td>
   <td>CM</td>
+  <td>Stop</td>
+  <td>Bells</td>
+  <td></td>
+  <td>86</td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>CM</td>
+  <td>Stop</td>
+  <td>F Violin</td>
+  <td></td>
+  <td>87</td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>CM</td>
+  <td>Stop</td>
+  <td>P Violin</td>
+  <td></td>
+  <td>88</td>
+  <td></td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>CM</td>
   <td>Note</td>
   <td>G4</td>
   <td>55</td>
@@ -815,6 +902,46 @@ Important Notes:<br>
   <td></td>
  </tr>
  <tr>
+  <td>3</td>
+  <td>CM</td>
+  <td>Note</td>
+  <td>C#7</td>
+  <td>85</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>CM</td>
+  <td>Note</td>
+  <td>D7</td>
+  <td>86</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>CM</td>
+  <td>Note</td>
+  <td>D#7</td>
+  <td>87</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>CM</td>
+  <td>Note</td>
+  <td>E7</td>
+  <td>88</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>3</td>
+  <td>CM</td>
+  <td>Note</td>
+  <td>F7</td>
+  <td>89</td>
+  <td></td>
+ </tr>
+ <tr>
   <td>4</td>
   <td>M</td>
   <td>Stop</td>
@@ -1044,6 +1171,67 @@ Important Notes:<br>
   <td>7</td>
   <td>67</td>
  </tr>
+
+
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>F4</td>
+  <td>53</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>F#4</td>
+  <td>54</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>G4</td>
+  <td>55</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>G#4</td>
+  <td>56</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>A4</td>
+  <td>57</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>A#4</td>
+  <td>58</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>4</td>
+  <td>M</td>
+  <td>Note</td>
+  <td>B4</td>
+  <td>59</td>
+  <td></td>
+ </tr>
+
+
+
  <tr>
   <td>4</td>
   <td>M</td>
@@ -1302,7 +1490,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Stop</td>
   <td>Flute 8'</td>
   <td></td>
@@ -1312,7 +1500,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Stop</td>
   <td>Tubular Bells</td>
   <td></td>
@@ -1322,7 +1510,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Stop</td>
   <td>Bells</td>
   <td></td>
@@ -1332,7 +1520,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Stop</td>
   <td>Saxophone</td>
   <td></td>
@@ -1342,7 +1530,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Cont</td>
   <td>Tremolo</td>
   <td></td>
@@ -1352,7 +1540,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Stop</td>
   <td>Trumpet</td>
   <td></td>
@@ -1362,7 +1550,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Stop</td>
   <td>*Fixed M2 pipes on</td>
   <td></td>
@@ -1372,7 +1560,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>C5</td>
   <td>60</td>
@@ -1380,7 +1568,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>C#5</td>
   <td>61</td>
@@ -1388,7 +1576,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>D5</td>
   <td>62</td>
@@ -1396,7 +1584,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>D#5</td>
   <td>63</td>
@@ -1404,7 +1592,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>E5</td>
   <td>64</td>
@@ -1412,7 +1600,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>F5</td>
   <td>65</td>
@@ -1420,7 +1608,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>F#5</td>
   <td>66</td>
@@ -1428,7 +1616,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>G5</td>
   <td>67</td>
@@ -1436,7 +1624,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>G#5</td>
   <td>68</td>
@@ -1444,7 +1632,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>A5</td>
   <td>69</td>
@@ -1452,7 +1640,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>A#5</td>
   <td>70</td>
@@ -1460,7 +1648,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>B5</td>
   <td>71</td>
@@ -1468,7 +1656,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>C6</td>
   <td>72</td>
@@ -1476,7 +1664,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>C#6</td>
   <td>73</td>
@@ -1484,7 +1672,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>D6</td>
   <td>74</td>
@@ -1492,7 +1680,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>D#6</td>
   <td>75</td>
@@ -1500,7 +1688,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>E6</td>
   <td>76</td>
@@ -1508,7 +1696,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>F6</td>
   <td>77</td>
@@ -1516,7 +1704,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>F#6</td>
   <td>78</td>
@@ -1524,7 +1712,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>G6</td>
   <td>79</td>
@@ -1532,7 +1720,7 @@ Important Notes:<br>
  </tr>
  <tr>
   <td>5</td>
-  <td>M2</td>
+  <td>CM2</td>
   <td>Note</td>
   <td>G#6</td>
   <td>80</td>
@@ -1850,6 +2038,30 @@ Important Notes:<br>
   <td>9</td>
   <td>Pc</td>
   <td>Perc</td>
+  <td>Acoustic Snare</td>
+  <td>77</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td></td>
+  <td>78</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Kettle Drum</td>
+  <td>79</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
   <td>Tom Tom 1</td>
   <td>80</td>
   <td></td>
@@ -1892,6 +2104,14 @@ Important Notes:<br>
   <td>Perc</td>
   <td>Cymbal 2</td>
   <td>85</td>
+  <td></td>
+ </tr>
+ <tr>
+  <td>9</td>
+  <td>Pc</td>
+  <td>Perc</td>
+  <td>Castanets</td>
+  <td>87</td>
   <td></td>
  </tr>
  <tr>
@@ -1956,30 +2176,6 @@ Important Notes:<br>
   <td>Perc</td>
   <td>Triangle</td>
   <td>96</td>
-  <td></td>
- </tr>
- <tr>
-  <td>9</td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Castanets</td>
-  <td>97</td>
-  <td></td>
- </tr>
- <tr>
-  <td>9</td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Rumba Shaker</td>
-  <td>102</td>
-  <td></td>
- </tr>
- <tr>
-  <td>9</td>
-  <td>Pc</td>
-  <td>Perc</td>
-  <td>Beater Shifter</td>
-  <td>120</td>
   <td></td>
  </tr>
 </table>
